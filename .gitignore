@@ -30,6 +30,8 @@ playground.xcworkspace
 
 Pods/
 
+full_speed.sh
+
 Carthage/Build/
 
 Dependencies/
