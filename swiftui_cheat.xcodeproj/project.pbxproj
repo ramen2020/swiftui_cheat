@@ -72,6 +72,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66A4A51D270846E600B8760A /* Templete */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Templete;
+			sourceTree = "<group>";
+		};
 		751F2DEA2707EF1F009A6ECB = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +102,7 @@
 		751F2DF52707EF1F009A6ECB /* swiftui_cheat */ = {
 			isa = PBXGroup;
 			children = (
+				66A4A51D270846E600B8760A /* Templete */,
 				751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */,
 				751F2DF82707EF1F009A6ECB /* ContentView.swift */,
 				751F2DFA2707EF21009A6ECB /* Assets.xcassets */,
