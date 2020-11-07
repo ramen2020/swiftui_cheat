@@ -13,7 +13,7 @@ struct AlerView: View {
             Alert(
                 title: Text("タイトル"),
                 message: Text("メッセージ"),
-                primaryButton: .cancel(),
+                primaryButton: .destructive(Text("NG")),
                 secondaryButton: .default(Text("OK"))
             )
         }
