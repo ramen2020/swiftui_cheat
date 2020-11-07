@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct AlerView: View {
-
+    
     @State var isShowAlert = false
     
     var body: some View {
@@ -9,6 +9,14 @@ struct AlerView: View {
             isShowAlert = true
         }) {
             Text("Button")
+        }.alert(isPresented: $isShowAlert) {
+            Alert(
+                title: Text("タイトル"),
+                message: Text("メッセージ"),
+                primaryButton: .cancel(),
+                secondaryButton: .default(Text("OK")
+                )
+            )
         }
     }
 }
