@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct Alert: View {
+struct AlerView: View {
 
     @State var isShowAlert = false
     
@@ -15,6 +15,6 @@ struct Alert: View {
 
 struct Alert_Previews: PreviewProvider {
     static var previews: some View {
-        Alert()
+        AlerView()
     }
 }
