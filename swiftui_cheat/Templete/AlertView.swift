@@ -14,7 +14,9 @@ struct AlerView: View {
                 title: Text("タイトル"),
                 message: Text("メッセージ"),
                 primaryButton: .destructive(Text("NG")),
-                secondaryButton: .default(Text("OK"))
+                secondaryButton: .default(Text("OK"), action: {
+                    print("ログを表示: ここで何らかの処理ができる。")
+                })
             )
         }
     }
