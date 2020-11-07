@@ -6,7 +6,7 @@ struct AlerView: View {
     
     var body: some View {
         Button(action: {
-            isShowAlert = true
+            isShowAlert.toggle()
         }) {
             Text("Button")
         }.alert(isPresented: $isShowAlert) {
@@ -14,8 +14,7 @@ struct AlerView: View {
                 title: Text("タイトル"),
                 message: Text("メッセージ"),
                 primaryButton: .cancel(),
-                secondaryButton: .default(Text("OK")
-                )
+                secondaryButton: .default(Text("OK"))
             )
         }
     }
