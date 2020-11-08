@@ -13,12 +13,22 @@ struct AlerView: View {
             Alert(
                 title: Text("タイトル"),
                 message: Text("メッセージ"),
-                primaryButton: .destructive(Text("NG")),
+                primaryButton: .destructive(Text("NG"), action: {
+                    clickNgButton()
+                }),
                 secondaryButton: .default(Text("OK"), action: {
-                    print("ログを表示: ここで何らかの処理ができる。")
+                    clickOkButton()
                 })
             )
         }
+    }
+    
+    func clickOkButton() {
+        print("OKをタップ")
+    }
+    
+    func clickNgButton() {
+        print("NGをタップ")
     }
 }
 
