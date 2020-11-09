@@ -8,9 +8,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             TabView(selection: $selection) {
-                NavigationLink(destination: AlerView()) {
-                    Text("page1")
-                }
+                Page1View()
                     .tabItem {
                         Image(systemName: "person.crop.circle.fill")
                         Text("First")
