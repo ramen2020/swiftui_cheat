@@ -9,8 +9,17 @@ import SwiftUI
 
 struct Page1View: View {
     var body: some View {
-        NavigationLink(destination: AlerView()) {
-            Text("Alert")
+        
+        VStack{
+            NavigationLink(destination: AlerView()) {
+                Text("Alert")
+            }
+            
+            Spacer().frame(height: 30)
+            
+            NavigationLink(destination: CardView()) {
+                Text("Card")
+            }
         }
     }
 }
