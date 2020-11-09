@@ -17,7 +17,7 @@ struct ContentView: View {
                 
                 Text("page2")
                     .tabItem {
-                        Image(systemName: "bolt.square.fill")
+                        Image(systemName: "arrowshape.turn.up.backward.circle.fill")
                         Text("Second")
                     }
                     .tag(2)
