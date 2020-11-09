@@ -84,6 +84,14 @@
 			path = Templete;
 			sourceTree = "<group>";
 		};
+		66A4A522270850DE00B8760A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66A4A51D270846E600B8760A /* Templete */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		751F2DEA2707EF1F009A6ECB = {
 			isa = PBXGroup;
 			children = (
@@ -107,7 +115,7 @@
 		751F2DF52707EF1F009A6ECB /* swiftui_cheat */ = {
 			isa = PBXGroup;
 			children = (
-				66A4A51D270846E600B8760A /* Templete */,
+				66A4A522270850DE00B8760A /* View */,
 				751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */,
 				751F2DF82707EF1F009A6ECB /* ContentView.swift */,
 				751F2DFA2707EF21009A6ECB /* Assets.xcassets */,
