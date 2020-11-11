@@ -20,6 +20,12 @@ struct Page1View: View {
             NavigationLink(destination: CardView()) {
                 Text("Card")
             }
+
+            Spacer().frame(height: 30)
+            
+            NavigationLink(destination: ListView()) {
+                Text("List")
+            }
         }
     }
 }
