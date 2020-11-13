@@ -1,10 +1,3 @@
-//
-//  CardView.swift
-//  swiftui_cheat
-//
-//  Created by 宮本光直 on 2021/10/02.
-//
-
 import SwiftUI
 
 struct DailyScrum {
