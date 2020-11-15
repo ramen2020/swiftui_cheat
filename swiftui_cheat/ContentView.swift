@@ -36,6 +36,8 @@ struct ContentView: View {
                     }
                     .tag(4)
             }
+            .navigationBarTitle("Swiftui_cheat")
+
         }
     }
 }
