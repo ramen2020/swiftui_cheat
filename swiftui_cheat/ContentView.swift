@@ -37,7 +37,22 @@ struct ContentView: View {
                     .tag(4)
             }
             .navigationBarTitle("Swiftui_cheat")
-
+            .navigationBarItems(leading: Button(action: {
+                print("左のボタンが押されました。")
+            }, label: {
+                Image(systemName: "32.circle.fill")
+            }), trailing: HStack {
+                Button(action: {
+                    print("右のボタン１が押されました。")
+                }, label: {
+                    Image(systemName: "play.circle.fill")
+                })
+                Button(action: {
+                    print("右のボタン２が押されました。")
+                }, label: {
+                    Image(systemName: "r.circle.fill")
+                })
+            })
         }
     }
 }
