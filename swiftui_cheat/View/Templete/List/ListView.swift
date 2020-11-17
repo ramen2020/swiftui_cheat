@@ -18,12 +18,18 @@ struct ListView: View {
             
             Spacer()
             
-            // 動的に
+            // 動的に part1
             List {
                  ForEach(0 ..< items.count) { index in
                      Text(items[index])
                  }
              }
+            
+            // 動的にpart2
+            List(items, id: \.self) { item in
+                Text(item)
+            }
+
         }
         .navigationBarTitle("List")
     }
