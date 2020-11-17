@@ -1,8 +1,12 @@
 import SwiftUI
 
 struct ListView: View {
+    
+    let items = ["ごりら", "らっぱ", "ぱん"]
+
     var body: some View {
         VStack{
+            // 静的に
             List {
                 Text("item 1")
                 Text("item 2")
@@ -11,6 +15,15 @@ struct ListView: View {
                 Text("item 5")
                 Text("item 6")
             }
+            
+            Spacer()
+            
+            // 動的に
+            List {
+                 ForEach(0 ..< items.count) { index in
+                     Text(items[index])
+                 }
+             }
         }
         .navigationBarTitle("List")
     }
