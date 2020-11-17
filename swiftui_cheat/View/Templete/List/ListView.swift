@@ -5,7 +5,8 @@ struct ListView: View {
     let items = ["ごりら", "らっぱ", "ぱん"]
 
     var body: some View {
-        VStack{
+
+        VStack {
             // 静的に
             List {
                 Text("item 1")
@@ -28,6 +29,22 @@ struct ListView: View {
             // 動的にpart2
             List(items, id: \.self) { item in
                 Text(item)
+            }
+            
+            
+            // sectionに分ける
+            List {
+                Section(header: Text("static　items")) {
+                    Text("item 1")
+                    Text("item 2")
+                    Text("item 3")
+                    Text("item 4")
+                }
+                Section(header: Text("dynamic items")) {
+                    ForEach(0..<items.count) { index in
+                        Text(items[index])
+                    }
+                }
             }
 
         }
