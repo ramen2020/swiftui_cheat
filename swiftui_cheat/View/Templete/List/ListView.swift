@@ -12,6 +12,7 @@ struct ListView: View {
                 Text("item 6")
             }
         }
+        .navigationBarTitle("List")
     }
 }
 
