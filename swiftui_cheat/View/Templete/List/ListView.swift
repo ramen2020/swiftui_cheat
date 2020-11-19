@@ -3,9 +3,9 @@ import SwiftUI
 struct ListView: View {
     
     let items = ["ごりら", "らっぱ", "ぱん"]
-
+    
     var body: some View {
-
+        
         VStack {
             // 静的に
             List {
@@ -17,20 +17,17 @@ struct ListView: View {
                 Text("item 6")
             }
             
-            Spacer()
-            
             // 動的に part1
             List {
-                 ForEach(0 ..< items.count) { index in
-                     Text(items[index])
-                 }
-             }
+                ForEach(0 ..< items.count) { index in
+                    Text(items[index])
+                }
+            }
             
             // 動的にpart2
             List(items, id: \.self) { item in
                 Text(item)
             }
-            
             
             // sectionに分ける
             List {
@@ -54,7 +51,7 @@ struct ListView: View {
                     Text("item 3")
                 }
             }.listStyle(GroupedListStyle()) // スタイルつける
-
+            
         }
         .navigationBarTitle("List")
     }
