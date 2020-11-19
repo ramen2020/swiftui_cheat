@@ -46,6 +46,14 @@ struct ListView: View {
                     }
                 }
             }
+            
+            List {
+                Section(header: Text("items"), footer: Text("Footer")) {
+                    Text("item 1")
+                    Text("item 2")
+                    Text("item 3")
+                }
+            }.listStyle(GroupedListStyle()) // スタイルつける
 
         }
         .navigationBarTitle("List")
