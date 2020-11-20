@@ -53,7 +53,7 @@ struct ListView: View {
             }.listStyle(GroupedListStyle()) // スタイルつける
             
         }
-        .navigationBarTitle("List")
+        .navigationBarTitle("List", displayMode:.large)
     }
 }
 

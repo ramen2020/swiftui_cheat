@@ -36,7 +36,7 @@ struct ContentView: View {
                     }
                     .tag(4)
             }
-            .navigationBarTitle("Swiftui_cheat")
+            .navigationBarTitle("Swiftui_cheat", displayMode: .inline)
             .navigationBarItems(leading: Button(action: {
                 print("左のボタンが押されました。")
             }, label: {
