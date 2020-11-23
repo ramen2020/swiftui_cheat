@@ -15,10 +15,10 @@ struct ContentView: View {
                     }
                     .tag(1)
                 
-                Text("page2")
+                LibrariesView()
                     .tabItem {
                         Image(systemName: "arrowshape.turn.up.backward.circle.fill")
-                        Text("Second")
+                        Text("Libraries")
                     }
                     .tag(2)
                 
