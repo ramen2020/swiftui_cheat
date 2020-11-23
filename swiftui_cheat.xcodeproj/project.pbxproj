@@ -91,9 +91,9 @@
 		66A4A51D270846E600B8760A /* Templete */ = {
 			isa = PBXGroup;
 			children = (
+				66E5DC7F270ABA7000215585 /* Alert */,
+				66E5DC80270ABA7600215585 /* Card */,
 				66A4A5292708590600B8760A /* List */,
-				66A4A52027084BF500B8760A /* AlertView.swift */,
-				66A4A525270852D500B8760A /* CardView.swift */,
 			);
 			path = Templete;
 			sourceTree = "<group>";
@@ -115,6 +115,22 @@
 				66A4A52A2708595200B8760A /* ListCardView.swift */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		66E5DC7F270ABA7000215585 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				66A4A52027084BF500B8760A /* AlertView.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		66E5DC80270ABA7600215585 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				66A4A525270852D500B8760A /* CardView.swift */,
+			);
+			path = Card;
 			sourceTree = "<group>";
 		};
 		751F2DEA2707EF1F009A6ECB = {
