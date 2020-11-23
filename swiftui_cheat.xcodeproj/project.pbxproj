@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		66A4A526270852D500B8760A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A525270852D500B8760A /* CardView.swift */; };
 		66A4A5282708582300B8760A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A5272708582300B8760A /* ListView.swift */; };
 		66A4A52B2708595200B8760A /* ListCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A52A2708595200B8760A /* ListCardView.swift */; };
+		66E5DC7C270AB98700215585 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 66E5DC7B270AB98700215585 /* PopupView */; };
 		751F2DF72707EF1F009A6ECB /* swiftui_cheatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */; };
 		751F2DF92707EF1F009A6ECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF82707EF1F009A6ECB /* ContentView.swift */; };
 		751F2DFB2707EF21009A6ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F2DFA2707EF21009A6ECB /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66E5DC7C270AB98700215585 /* PopupView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +190,9 @@
 			dependencies = (
 			);
 			name = swiftui_cheat;
+			packageProductDependencies = (
+				66E5DC7B270AB98700215585 /* PopupView */,
+			);
 			productName = swiftui_cheat;
 			productReference = 751F2DF32707EF1F009A6ECB /* swiftui_cheat.app */;
 			productType = "com.apple.product-type.application";
@@ -259,6 +264,9 @@
 				Base,
 			);
 			mainGroup = 751F2DEA2707EF1F009A6ECB;
+			packageReferences = (
+				66E5DC7A270AB98700215585 /* XCRemoteSwiftPackageReference "PopupView" */,
+			);
 			productRefGroup = 751F2DF42707EF1F009A6ECB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -628,6 +636,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		66E5DC7A270AB98700215585 /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66E5DC7B270AB98700215585 /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66E5DC7A270AB98700215585 /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 751F2DEB2707EF1F009A6ECB /* Project object */;
 }
