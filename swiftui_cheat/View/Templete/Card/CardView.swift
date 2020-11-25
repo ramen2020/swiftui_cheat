@@ -18,25 +18,28 @@ extension DailyScrum {
 struct CardView: View {
     let scrum = DailyScrum.data[0]
     var body: some View {
-        VStack(alignment: .leading) {
-            Text(scrum.title)
-                .font(.headline)
-            Spacer()
-            HStack {
-                Label("\(scrum.attendees.count)", systemImage: "person.3")
-                    .accessibilityElement(children: .ignore)
-                    .accessibilityLabel(Text("Attendees"))
-                    .accessibilityValue(Text("\(scrum.attendees.count)"))
+        VStack{
+            VStack(alignment: .leading) {
+                Text(scrum.title)
+                    .font(.headline)
                 Spacer()
-                Label("\(scrum.lengthInMinutes)", systemImage: "clock")
-                    .padding(.trailing, 20)
+                HStack {
+                    Label("\(scrum.attendees.count)", systemImage: "person.3")
+                        .accessibilityElement(children: .ignore)
+                        .accessibilityLabel(Text("Attendees"))
+                        .accessibilityValue(Text("\(scrum.attendees.count)"))
+                    Spacer()
+                    Label("\(scrum.lengthInMinutes)", systemImage: "clock")
+                        .padding(.trailing, 20)
+                }
+                .font(.caption)
             }
-            .font(.caption)
+            .frame(width: 200, height: 100)
+            .padding()
+            .foregroundColor(scrum.color)
+            .background(Color.black)
         }
-        .frame(width: 200, height: 100)
-        .padding()
-        .foregroundColor(scrum.color)
-        .background(Color.black)
+        .navigationBarTitle("Card", displayMode:.large)
     }
 }
 
