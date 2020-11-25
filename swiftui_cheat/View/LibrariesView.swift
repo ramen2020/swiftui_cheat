@@ -7,7 +7,23 @@ import SwiftUI
 
 struct LibrariesView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            NavigationLink(destination: PopUpView()) {
+                Text("PopUpView")
+            }
+            
+            Spacer().frame(height: 30)
+//
+//            NavigationLink(destination: CardView()) {
+//                Text("Card")
+//            }
+//
+//            Spacer().frame(height: 30)
+//
+//            NavigationLink(destination: ListView()) {
+//                Text("List")
+//            }
+        }
     }
 }
 
