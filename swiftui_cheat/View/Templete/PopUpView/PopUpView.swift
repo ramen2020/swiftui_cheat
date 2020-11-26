@@ -19,7 +19,7 @@ struct PopUpView: View {
             }
         }
         .edgesIgnoringSafeArea(.all)
-        .popup(isPresented: $isShowPopup, type: .default, closeOnTap: false) {
+        .popup(isPresented: $isShowPopup, type: .default, closeOnTap: false, closeOnTapOutside: true) {
             createPopup()
         }
         .navigationBarTitle("PopUpView", displayMode:.large)
