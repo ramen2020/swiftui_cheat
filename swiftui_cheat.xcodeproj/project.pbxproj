@@ -16,6 +16,7 @@
 		66E5DC7C270AB98700215585 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 66E5DC7B270AB98700215585 /* PopupView */; };
 		66E5DC7E270AB9EB00215585 /* LibrariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC7D270AB9EB00215585 /* LibrariesView.swift */; };
 		66E5DC85270ABB4500215585 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC84270ABB4500215585 /* PopUpView.swift */; };
+		66E5DC88270ADB6300215585 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC87270ADB6300215585 /* UIColor+Extension.swift */; };
 		751F2DF72707EF1F009A6ECB /* swiftui_cheatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */; };
 		751F2DF92707EF1F009A6ECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF82707EF1F009A6ECB /* ContentView.swift */; };
 		751F2DFB2707EF21009A6ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F2DFA2707EF21009A6ECB /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		66A4A52A2708595200B8760A /* ListCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCardView.swift; sourceTree = "<group>"; };
 		66E5DC7D270AB9EB00215585 /* LibrariesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesView.swift; sourceTree = "<group>"; };
 		66E5DC84270ABB4500215585 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		66E5DC87270ADB6300215585 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		751F2DF32707EF1F009A6ECB /* swiftui_cheat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_cheat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_cheatApp.swift; sourceTree = "<group>"; };
 		751F2DF82707EF1F009A6ECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -144,6 +146,14 @@
 			path = PopUpView;
 			sourceTree = "<group>";
 		};
+		66E5DC86270ADB2100215585 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				66E5DC87270ADB6300215585 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		751F2DEA2707EF1F009A6ECB = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +177,7 @@
 		751F2DF52707EF1F009A6ECB /* swiftui_cheat */ = {
 			isa = PBXGroup;
 			children = (
+				66E5DC86270ADB2100215585 /* Extension */,
 				66A4A522270850DE00B8760A /* View */,
 				751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */,
 				751F2DF82707EF1F009A6ECB /* ContentView.swift */,
@@ -349,6 +360,7 @@
 				66A4A5242708512100B8760A /* Page1View.swift in Sources */,
 				66E5DC7E270AB9EB00215585 /* LibrariesView.swift in Sources */,
 				66A4A526270852D500B8760A /* CardView.swift in Sources */,
+				66E5DC88270ADB6300215585 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
