@@ -56,7 +56,7 @@ struct PopUpView: View {
         }
         .padding(EdgeInsets(top: 70, leading: 20, bottom: 40, trailing: 20))
         .frame(width: 300, height: 400)
-        .background(Color.red)
+        .background(Color.materialColor(colorCode: .lightGreen))
         .cornerRadius(10.0)
         .shadow(color: Color(.sRGBLinear, white: 0, opacity: 0.13), radius: 10.0)
     }
