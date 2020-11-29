@@ -26,19 +26,19 @@ struct PopUpView: View {
     }
     
     func createPopup() -> some View {
-        VStack(spacing: 10) {
+        VStack(spacing: 13) {
             Image(systemName: "32.circle.fill")
                 .resizable()
                 .aspectRatio(contentMode: ContentMode.fit)
-                .frame(width: 100, height: 100)
+                .frame(width: 100, height: 150)
 
-            Text("Tutorial")
+            Text("Coffee")
                 .foregroundColor(.white)
                 .fontWeight(.bold)
 
-            Text("In this example floats are set to disappear after 2 seconds. Tap the toasts to dismiss or just open some other popup - previous one will be dismissed. This popup will only be closed if you tap the button.")
+            Text("offee is good. If you drink it before going to bed at night, you won't be able to wake up in the morning!")
                 .font(.system(size: 12))
-                .foregroundColor(Color(red: 0.9, green: 0.9, blue: 0.9))
+                .fixedSize(horizontal: false, vertical: true)
 
             Spacer()
 
@@ -47,18 +47,16 @@ struct PopUpView: View {
             }) {
                 Text("Got it")
                     .font(.system(size: 14))
-                    .foregroundColor(.black)
                     .fontWeight(.bold)
             }
             .frame(width: 100, height: 40)
             .background(Color.white)
-            .cornerRadius(20.0)
+            .cornerRadius(15)
         }
-        .padding(EdgeInsets(top: 70, leading: 20, bottom: 40, trailing: 20))
+        .padding(40)
         .frame(width: 300, height: 400)
         .background(Color.materialColor(colorCode: .lightGreen))
-        .cornerRadius(10.0)
-        .shadow(color: Color(.sRGBLinear, white: 0, opacity: 0.13), radius: 10.0)
+        .cornerRadius(10)
     }
 }
 
