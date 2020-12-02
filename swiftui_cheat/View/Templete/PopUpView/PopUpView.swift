@@ -38,6 +38,7 @@ struct PopUpView: View {
         }
     }
     
+    // popup
     func createPopup() -> some View {
         VStack(spacing: 13) {
             Image(systemName: "32.circle.fill")
@@ -72,6 +73,7 @@ struct PopUpView: View {
         .cornerRadius(10)
     }
     
+    // 上からトースト
     func createTopToast() -> some View {
         VStack {
             Spacer(minLength: 20)
