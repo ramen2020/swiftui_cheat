@@ -22,6 +22,8 @@ struct PopUpView: View {
                 Text("Popup")
             }
             
+            Spacer().frame(height: 30)
+
             // 上からトースト
             Button(action: {
                 isShowTopToast.toggle()
@@ -29,14 +31,17 @@ struct PopUpView: View {
                 Text("TopToast")
             }
             
+            Spacer().frame(height: 30)
+
             // 下からトースト
             Button(action: {
                 isShowBottomToast.toggle()
             }) {
                 Text("BottomToast")
             }
+            
+            Spacer().frame(height: 30)
         }
-        .edgesIgnoringSafeArea(.all)
         .navigationBarTitle("PopUpView", displayMode:.large)
         .popup(isPresented: $isShowPopup, type: .default, closeOnTap: false,
                closeOnTapOutside: true, backgroundColor: Color.black.opacity(0.5)) {
