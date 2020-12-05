@@ -11,20 +11,19 @@ struct PopUpView: View {
     @State var isShowPopup = false
     @State var isShowTopToast = false
     @State var isShowBottomToast = false
-
+    
     var body: some View {
         VStack{
-            
             // popup
             PopUpViewButton(showing: $isShowPopup, buttonName: "Popup")
             
             Spacer().frame(height: 30)
-
+            
             // 上からトースト
             PopUpViewButton(showing: $isShowTopToast, buttonName: "TopToast")
             
             Spacer().frame(height: 30)
-
+            
             // 下からトースト
             PopUpViewButton(showing: $isShowBottomToast, buttonName: "BottomToast")
             
@@ -52,17 +51,17 @@ struct PopUpView: View {
                 .resizable()
                 .aspectRatio(contentMode: ContentMode.fit)
                 .frame(width: 100, height: 150)
-
+            
             Text("Coffee")
                 .foregroundColor(.white)
                 .fontWeight(.bold)
-
+            
             Text("offee is good. If you drink it before going to bed at night, you won't be able to wake up in the morning!")
                 .font(.system(size: 12))
                 .fixedSize(horizontal: false, vertical: true)
-
+            
             Spacer()
-
+            
             Button(action: {
                 self.isShowPopup = false
             }) {
@@ -94,7 +93,7 @@ struct PopUpView: View {
                         .font(.system(size: 12))
                         .foregroundColor(.white)
                 }
-
+                
                 Text("今日もお仕事を頑張りました。ので、ご褒美として、美味しいお肉が食べたいです。焼肉がいいです。ついでにレモンサワーもいただければ飛び跳ねます。")
                     .lineLimit(2)
                     .font(.system(size: 14))
@@ -121,7 +120,7 @@ struct PopUpView: View {
                         .font(.system(size: 12))
                         .foregroundColor(.white)
                 }
-
+                
                 Text("今日もお仕事を頑張りました。ので、ご褒美として、美味しいお肉が食べたいです。焼肉がいいです。ついでにレモンサワーもいただければ飛び跳ねます。")
                     .lineLimit(2)
                     .font(.system(size: 14))
