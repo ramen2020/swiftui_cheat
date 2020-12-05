@@ -16,29 +16,17 @@ struct PopUpView: View {
         VStack{
             
             // popup
-            Button(action: {
-                isShowPopup.toggle()
-            }) {
-                Text("Popup")
-            }
+            PopUpViewButton(showing: $isShowPopup, buttonName: "Popup")
             
             Spacer().frame(height: 30)
 
             // 上からトースト
-            Button(action: {
-                isShowTopToast.toggle()
-            }) {
-                Text("TopToast")
-            }
+            PopUpViewButton(showing: $isShowTopToast, buttonName: "TopToast")
             
             Spacer().frame(height: 30)
 
             // 下からトースト
-            Button(action: {
-                isShowBottomToast.toggle()
-            }) {
-                Text("BottomToast")
-            }
+            PopUpViewButton(showing: $isShowBottomToast, buttonName: "BottomToast")
             
             Spacer().frame(height: 30)
         }
