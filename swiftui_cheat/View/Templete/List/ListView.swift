@@ -3,6 +3,7 @@ import SwiftUI
 struct ListView: View {
     
     let items = ["ごりら", "らっぱ", "ぱん"]
+    @State var listItems = ["Item 1", "Item 2", "Item 3"]
     
     var body: some View {
         
@@ -52,8 +53,17 @@ struct ListView: View {
                 }
             }.listStyle(GroupedListStyle()) // スタイルつける
             
+            List {
+                ForEach(listItems, id: \.self) { (item) in
+                    Text(item)
+                }.onMove { (indexSet, index) in
+                    self.listItems.move(fromOffsets: indexSet, toOffset: index)
+                }
+            }
         }
         .navigationBarTitle("List", displayMode:.large)
+        .navigationBarItems(trailing: EditButton())
+
     }
 }
 
