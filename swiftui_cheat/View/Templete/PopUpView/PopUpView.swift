@@ -11,6 +11,7 @@ struct PopUpView: View {
     @State var isShowPopup = false
     @State var isShowTopToast = false
     @State var isShowBottomToast = false
+    @State var isShowTopFloater = false
     
     var body: some View {
         VStack{
@@ -28,6 +29,11 @@ struct PopUpView: View {
             PopUpViewButton(showing: $isShowBottomToast, buttonName: "BottomToast")
             
             Spacer().frame(height: 30)
+            
+            
+            PopUpViewButton(showing: $isShowTopFloater, buttonName: "TopFloater")
+            
+            Spacer().frame(height: 30)
         }
         .navigationBarTitle("PopUpView", displayMode:.large)
         .popup(isPresented: $isShowPopup, type: .default, closeOnTap: false,
@@ -41,6 +47,9 @@ struct PopUpView: View {
         .popup(isPresented: $isShowBottomToast, type: .toast, position: .bottom, closeOnTap: false,
                closeOnTapOutside: true, backgroundColor: Color.black.opacity(0.5)) {
             createBottomToast()
+        }
+        .popup(isPresented: $isShowTopFloater, type: .floater(), position: .top, animation: .spring(), autohideIn: 2) {
+            createTopFloater()
         }
     }
     
@@ -132,6 +141,31 @@ struct PopUpView: View {
         .frame(height: 110)
         .background(Color.materialColor(colorCode: .deepPurple))
         .cornerRadius(30)
+    }
+    
+    
+    func createTopFloater() -> some View {
+        HStack(spacing: 10) {
+            Image("transaction_coffee")
+                .resizable()
+                .aspectRatio(contentMode: ContentMode.fill)
+                .frame(width: 20, height: 20)
+            VStack(spacing: 8) {
+                Text("Coffee temperature")
+                    .font(.system(size: 12))
+                    .foregroundColor(.white)
+
+                HStack(spacing: 0) {
+                    Color(red: 1, green: 112/255, blue: 59/255)
+                        .frame(width: 30, height: 5)
+                    Color(red: 1, green: 1, blue: 1)
+                        .frame(width: 70, height: 5)
+                }.cornerRadius(2.5)
+            }
+        }
+        .frame(width: 200, height: 60)
+        .background(Color.materialColor(colorCode: .lightGreen))
+        .cornerRadius(30.0)
     }
 }
 
