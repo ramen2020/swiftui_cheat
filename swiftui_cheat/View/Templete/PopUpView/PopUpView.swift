@@ -35,6 +35,9 @@ struct PopUpView: View {
             
             Spacer().frame(height: 30)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .foregroundColor(Color.materialColor(colorCode: .red))
+        .background(Color.materialColor(colorCode: .yellow))
         .navigationBarTitle("PopUpView", displayMode:.large)
         .popup(isPresented: $isShowPopup, type: .default, closeOnTap: false,
                closeOnTapOutside: true, backgroundColor: Color.black.opacity(0.5)) {
