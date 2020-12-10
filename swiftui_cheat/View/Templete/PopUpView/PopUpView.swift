@@ -14,26 +14,15 @@ struct PopUpView: View {
     @State var isShowTopFloater = false
     
     var body: some View {
-        VStack{
+        VStack(spacing: 30) {
             // popup
             PopUpViewButton(showing: $isShowPopup, buttonName: "Popup")
-            
-            Spacer().frame(height: 30)
-            
             // 上からトースト
             PopUpViewButton(showing: $isShowTopToast, buttonName: "TopToast")
-            
-            Spacer().frame(height: 30)
-            
             // 下からトースト
             PopUpViewButton(showing: $isShowBottomToast, buttonName: "BottomToast")
-            
-            Spacer().frame(height: 30)
-            
-            
+            // 実用的な上からトースト
             PopUpViewButton(showing: $isShowTopFloater, buttonName: "TopFloater")
-            
-            Spacer().frame(height: 30)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .foregroundColor(Color.materialColor(colorCode: .red))
