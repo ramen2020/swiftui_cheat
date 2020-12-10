@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66801C43270E9256001594F7 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66801C42270E9256001594F7 /* CheckBox.swift */; };
 		66A4A51F27084AFB00B8760A /* TodoList.md in Resources */ = {isa = PBXBuildFile; fileRef = 66A4A51E27084AFB00B8760A /* TodoList.md */; };
 		66A4A52127084BF500B8760A /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A52027084BF500B8760A /* AlertView.swift */; };
 		66A4A5242708512100B8760A /* Page1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A5232708512100B8760A /* Page1View.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66801C42270E9256001594F7 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		66A4A51E27084AFB00B8760A /* TodoList.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TodoList.md; sourceTree = "<group>"; };
 		66A4A52027084BF500B8760A /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		66A4A5232708512100B8760A /* Page1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1View.swift; sourceTree = "<group>"; };
@@ -96,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66801C41270E9238001594F7 /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				66801C42270E9256001594F7 /* CheckBox.swift */,
+			);
+			path = CheckBox;
+			sourceTree = "<group>";
+		};
 		66A4A51D270846E600B8760A /* Templete */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 				66E5DC80270ABA7600215585 /* Card */,
 				66A4A5292708590600B8760A /* List */,
 				66E5DC81270ABAAF00215585 /* PopUpView */,
+				66801C41270E9238001594F7 /* CheckBox */,
 			);
 			path = Templete;
 			sourceTree = "<group>";
@@ -366,6 +377,7 @@
 				751F2DF72707EF1F009A6ECB /* swiftui_cheatApp.swift in Sources */,
 				66A4A5242708512100B8760A /* Page1View.swift in Sources */,
 				66E5DC7E270AB9EB00215585 /* LibrariesView.swift in Sources */,
+				66801C43270E9256001594F7 /* CheckBox.swift in Sources */,
 				66A4A526270852D500B8760A /* CardView.swift in Sources */,
 				66E5DC8E270B02FA00215585 /* PopUpViewButton.swift in Sources */,
 				66E5DC88270ADB6300215585 /* UIColor+Extension.swift in Sources */,
