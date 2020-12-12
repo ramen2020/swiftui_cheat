@@ -20,6 +20,10 @@ struct Page1View: View {
             NavigationLink(destination: ListView()) {
                 Text("List")
             }
+            
+            NavigationLink(destination: CheckBoxView()) {
+                Text("Check box")
+            }
         }
     }
 }
