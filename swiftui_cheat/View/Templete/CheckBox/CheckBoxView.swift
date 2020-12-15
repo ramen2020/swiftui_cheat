@@ -6,25 +6,13 @@
 import SwiftUI
 
 struct CheckBoxView: View {
-    
-    @State private var checked = false
        
     var body: some View {
-        HStack {
-            CheckBox(checked: $checked, onTapped: {
-                self.checked ? print("check！") : print("uncheck")
-            })
-            .padding(.vertical, 12)
-            
-            Text("チェックボックスです。")
-                .font(.system(size: 14, weight: .semibold))
-                .padding(8)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .padding(.horizontal, 16)
-        .background(Color(.red))
-        .onTapGesture {
-            checked.toggle() // チェックボックスは小さくて押しにくいから、cellを押した時も反応するようにしている。
+        VStack(spacing: 0) {
+            CheckBoxCell().background(Color.materialColor(colorCode: .red))
+            CheckBoxCell().background(Color.materialColor(colorCode: .yellow))
+            CheckBoxCell().background(Color.materialColor(colorCode: .lightBlue))
+            CheckBoxCell().background(Color.materialColor(colorCode: .lightGreen))
         }
     }
 }
