@@ -22,7 +22,8 @@ struct CheckBox: View {
                 RoundedRectangle(cornerRadius: 4)
                     .stroke(Color.gray, lineWidth: 1)
                     .frame(width: 20, height: 20)
-                    .background(Color.red)
+                    .background(Color.white)
+                    .cornerRadius(4)
             } else {
                 Image(systemName: "checkmark.square.fill")
                     .resizable()
