@@ -13,11 +13,13 @@ struct RadioButtonView: View {
 
     var body: some View {
         VStack {
-            Text("朝食は何を食べますか？")
+            Text("・ 朝食は何を食べますか？")
+                .frame(maxWidth: .infinity, alignment: .leading)
             RadioButton(selectedIndex: $selectedIndex, axis: .horizontal, texts: breakfastTexts)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .padding(.leading, 1)
         }
+        .padding(.horizontal, 10)
+
     }
 }
 
