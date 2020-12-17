@@ -11,6 +11,7 @@
 		66801C46270E9290001594F7 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66801C45270E9290001594F7 /* RadioButton.swift */; };
 		66802BCD270FCC4F0087B30A /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66802BCC270FCC4F0087B30A /* CheckBoxView.swift */; };
 		66802BCF270FD28D0087B30A /* CheckBoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66802BCE270FD28D0087B30A /* CheckBoxCell.swift */; };
+		66802BD1270FD5620087B30A /* RadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66802BD0270FD5620087B30A /* RadioButtonView.swift */; };
 		66A4A51F27084AFB00B8760A /* TodoList.md in Resources */ = {isa = PBXBuildFile; fileRef = 66A4A51E27084AFB00B8760A /* TodoList.md */; };
 		66A4A52127084BF500B8760A /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A52027084BF500B8760A /* AlertView.swift */; };
 		66A4A5242708512100B8760A /* Page1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A5232708512100B8760A /* Page1View.swift */; };
@@ -53,6 +54,7 @@
 		66801C45270E9290001594F7 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		66802BCC270FCC4F0087B30A /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 		66802BCE270FD28D0087B30A /* CheckBoxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxCell.swift; sourceTree = "<group>"; };
+		66802BD0270FD5620087B30A /* RadioButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonView.swift; sourceTree = "<group>"; };
 		66A4A51E27084AFB00B8760A /* TodoList.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TodoList.md; sourceTree = "<group>"; };
 		66A4A52027084BF500B8760A /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		66A4A5232708512100B8760A /* Page1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1View.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				66801C45270E9290001594F7 /* RadioButton.swift */,
+				66802BD0270FD5620087B30A /* RadioButtonView.swift */,
 			);
 			path = RadioButton;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				66A4A52B2708595200B8760A /* ListCardView.swift in Sources */,
 				66E5DC85270ABB4500215585 /* PopUpView.swift in Sources */,
 				66A4A5282708582300B8760A /* ListView.swift in Sources */,
+				66802BD1270FD5620087B30A /* RadioButtonView.swift in Sources */,
 				751F2DF72707EF1F009A6ECB /* swiftui_cheatApp.swift in Sources */,
 				66A4A5242708512100B8760A /* Page1View.swift in Sources */,
 				66802BCD270FCC4F0087B30A /* CheckBoxView.swift in Sources */,
