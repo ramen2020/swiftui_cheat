@@ -18,7 +18,11 @@ struct Page1View: View {
             }
             
             NavigationLink(destination: CheckBoxView()) {
-                Text("Check box")
+                Text("Check Box")
+            }
+
+            NavigationLink(destination: RadioButtonView()) {
+                Text("Radio Button")
             }
         }
     }
