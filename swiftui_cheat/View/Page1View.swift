@@ -24,6 +24,10 @@ struct Page1View: View {
             NavigationLink(destination: RadioButtonView()) {
                 Text("Radio Button")
             }
+            
+            NavigationLink(destination: NavigationLinkView()) {
+                Text("Navigation Link")
+            }
         }
     }
 }

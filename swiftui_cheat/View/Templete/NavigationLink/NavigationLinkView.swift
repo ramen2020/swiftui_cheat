@@ -13,7 +13,6 @@ struct NavigationLinkView: View {
             NavigationLinkCell(title: "test2", destination: NavigationLink2View())
             NavigationLinkCell(title: "test3", destination: NavigationLink3View())
         }
-        .frame(maxHeight: .infinity)
     }
 }
 
