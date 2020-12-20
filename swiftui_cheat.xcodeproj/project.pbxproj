@@ -18,6 +18,7 @@
 		66A4A526270852D500B8760A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A525270852D500B8760A /* CardView.swift */; };
 		66A4A5282708582300B8760A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A5272708582300B8760A /* ListView.swift */; };
 		66A4A52B2708595200B8760A /* ListCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A52A2708595200B8760A /* ListCardView.swift */; };
+		66B8C386271074D7006A9EBC /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8C385271074D7006A9EBC /* NavigationLinkView.swift */; };
 		66BB5540270BEE5D00F4AE6D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 66BB553F270BEE5D00F4AE6D /* Lottie */; };
 		66E5DC7C270AB98700215585 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 66E5DC7B270AB98700215585 /* PopupView */; };
 		66E5DC7E270AB9EB00215585 /* LibrariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC7D270AB9EB00215585 /* LibrariesView.swift */; };
@@ -61,6 +62,7 @@
 		66A4A525270852D500B8760A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		66A4A5272708582300B8760A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		66A4A52A2708595200B8760A /* ListCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCardView.swift; sourceTree = "<group>"; };
+		66B8C385271074D7006A9EBC /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
 		66E5DC7D270AB9EB00215585 /* LibrariesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesView.swift; sourceTree = "<group>"; };
 		66E5DC84270ABB4500215585 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		66E5DC87270ADB6300215585 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				66E5DC81270ABAAF00215585 /* PopUpView */,
 				66801C41270E9238001594F7 /* CheckBox */,
 				66801C44270E9272001594F7 /* RadioButton */,
+				66B8C384271074B6006A9EBC /* NavigationLink */,
 			);
 			path = Templete;
 			sourceTree = "<group>";
@@ -155,6 +158,14 @@
 				66A4A52A2708595200B8760A /* ListCardView.swift */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		66B8C384271074B6006A9EBC /* NavigationLink */ = {
+			isa = PBXGroup;
+			children = (
+				66B8C385271074D7006A9EBC /* NavigationLinkView.swift */,
+			);
+			path = NavigationLink;
 			sourceTree = "<group>";
 		};
 		66E5DC7F270ABA7000215585 /* Alert */ = {
@@ -396,6 +407,7 @@
 				66E5DC85270ABB4500215585 /* PopUpView.swift in Sources */,
 				66A4A5282708582300B8760A /* ListView.swift in Sources */,
 				66802BD1270FD5620087B30A /* RadioButtonView.swift in Sources */,
+				66B8C386271074D7006A9EBC /* NavigationLinkView.swift in Sources */,
 				751F2DF72707EF1F009A6ECB /* swiftui_cheatApp.swift in Sources */,
 				66A4A5242708512100B8760A /* Page1View.swift in Sources */,
 				66802BCD270FCC4F0087B30A /* CheckBoxView.swift in Sources */,
