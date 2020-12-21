@@ -7,6 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		661D44A227107DC80099F69E /* CheckBoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66802BCE270FD28D0087B30A /* CheckBoxCell.swift */; };
+		661D44A327107DC80099F69E /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A52027084BF500B8760A /* AlertView.swift */; };
+		661D44A427107DC80099F69E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF82707EF1F009A6ECB /* ContentView.swift */; };
+		661D44A527107DC80099F69E /* ListCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A52A2708595200B8760A /* ListCardView.swift */; };
+		661D44A627107DC80099F69E /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC84270ABB4500215585 /* PopUpView.swift */; };
+		661D44A727107DC80099F69E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A5272708582300B8760A /* ListView.swift */; };
+		661D44A827107DC80099F69E /* RadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66802BD0270FD5620087B30A /* RadioButtonView.swift */; };
+		661D44A927107DC80099F69E /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8C385271074D7006A9EBC /* NavigationLinkView.swift */; };
+		661D44AA27107DC80099F69E /* swiftui_cheatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */; };
+		661D44AB27107DC80099F69E /* Page1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A5232708512100B8760A /* Page1View.swift */; };
+		661D44AC27107DC80099F69E /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66802BCC270FCC4F0087B30A /* CheckBoxView.swift */; };
+		661D44AD27107DC80099F69E /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66801C45270E9290001594F7 /* RadioButton.swift */; };
+		661D44AE27107DC80099F69E /* LibrariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC7D270AB9EB00215585 /* LibrariesView.swift */; };
+		661D44AF27107DC80099F69E /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66801C42270E9256001594F7 /* CheckBox.swift */; };
+		661D44B027107DC80099F69E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A525270852D500B8760A /* CardView.swift */; };
+		661D44B127107DC80099F69E /* PopUpViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC8D270B02FA00215585 /* PopUpViewButton.swift */; };
+		661D44B227107DC80099F69E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC87270ADB6300215585 /* UIColor+Extension.swift */; };
+		661D44B427107DC80099F69E /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 661D449D27107DC80099F69E /* PopupView */; };
+		661D44B527107DC80099F69E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 661D449F27107DC80099F69E /* Lottie */; };
+		661D44B727107DC80099F69E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F2DFD2707EF21009A6ECB /* Preview Assets.xcassets */; };
+		661D44B827107DC80099F69E /* TodoList.md in Resources */ = {isa = PBXBuildFile; fileRef = 66A4A51E27084AFB00B8760A /* TodoList.md */; };
+		661D44B927107DC80099F69E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F2DFA2707EF21009A6ECB /* Assets.xcassets */; };
+		661D44C527107DCB0099F69E /* CheckBoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66802BCE270FD28D0087B30A /* CheckBoxCell.swift */; };
+		661D44C627107DCB0099F69E /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A52027084BF500B8760A /* AlertView.swift */; };
+		661D44C727107DCB0099F69E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF82707EF1F009A6ECB /* ContentView.swift */; };
+		661D44C827107DCB0099F69E /* ListCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A52A2708595200B8760A /* ListCardView.swift */; };
+		661D44C927107DCB0099F69E /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC84270ABB4500215585 /* PopUpView.swift */; };
+		661D44CA27107DCB0099F69E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A5272708582300B8760A /* ListView.swift */; };
+		661D44CB27107DCB0099F69E /* RadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66802BD0270FD5620087B30A /* RadioButtonView.swift */; };
+		661D44CC27107DCB0099F69E /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8C385271074D7006A9EBC /* NavigationLinkView.swift */; };
+		661D44CD27107DCB0099F69E /* swiftui_cheatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */; };
+		661D44CE27107DCB0099F69E /* Page1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A5232708512100B8760A /* Page1View.swift */; };
+		661D44CF27107DCB0099F69E /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66802BCC270FCC4F0087B30A /* CheckBoxView.swift */; };
+		661D44D027107DCB0099F69E /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66801C45270E9290001594F7 /* RadioButton.swift */; };
+		661D44D127107DCB0099F69E /* LibrariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC7D270AB9EB00215585 /* LibrariesView.swift */; };
+		661D44D227107DCB0099F69E /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66801C42270E9256001594F7 /* CheckBox.swift */; };
+		661D44D327107DCB0099F69E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A525270852D500B8760A /* CardView.swift */; };
+		661D44D427107DCB0099F69E /* PopUpViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC8D270B02FA00215585 /* PopUpViewButton.swift */; };
+		661D44D527107DCB0099F69E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC87270ADB6300215585 /* UIColor+Extension.swift */; };
+		661D44D727107DCB0099F69E /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 661D44C027107DCB0099F69E /* PopupView */; };
+		661D44D827107DCB0099F69E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 661D44C227107DCB0099F69E /* Lottie */; };
+		661D44DA27107DCB0099F69E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F2DFD2707EF21009A6ECB /* Preview Assets.xcassets */; };
+		661D44DB27107DCB0099F69E /* TodoList.md in Resources */ = {isa = PBXBuildFile; fileRef = 66A4A51E27084AFB00B8760A /* TodoList.md */; };
+		661D44DC27107DCB0099F69E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F2DFA2707EF21009A6ECB /* Assets.xcassets */; };
+		661D44E427107E710099F69E /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 661D44E327107E710099F69E /* QGrid */; };
+		661D44E727107EC70099F69E /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 661D44E627107EC70099F69E /* QGrid */; };
+		661D44E927107ECF0099F69E /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 661D44E827107ECF0099F69E /* QGrid */; };
 		66801C43270E9256001594F7 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66801C42270E9256001594F7 /* CheckBox.swift */; };
 		66801C46270E9290001594F7 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66801C45270E9290001594F7 /* RadioButton.swift */; };
 		66802BCD270FCC4F0087B30A /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66802BCC270FCC4F0087B30A /* CheckBoxView.swift */; };
@@ -20,6 +67,12 @@
 		66A4A52B2708595200B8760A /* ListCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A52A2708595200B8760A /* ListCardView.swift */; };
 		66B8C386271074D7006A9EBC /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8C385271074D7006A9EBC /* NavigationLinkView.swift */; };
 		66BB5540270BEE5D00F4AE6D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 66BB553F270BEE5D00F4AE6D /* Lottie */; };
+		66D865FB27114E1E00023CE4 /* info_dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D865FA27114E1E00023CE4 /* info_dev.plist */; };
+		66D865FC27114E1E00023CE4 /* info_dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D865FA27114E1E00023CE4 /* info_dev.plist */; };
+		66D865FD27114E1E00023CE4 /* info_dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D865FA27114E1E00023CE4 /* info_dev.plist */; };
+		66D865FF27114E3E00023CE4 /* info_stg.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D865FE27114E3E00023CE4 /* info_stg.plist */; };
+		66D8660027114E3E00023CE4 /* info_stg.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D865FE27114E3E00023CE4 /* info_stg.plist */; };
+		66D8660127114E3E00023CE4 /* info_stg.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D865FE27114E3E00023CE4 /* info_stg.plist */; };
 		66E5DC7C270AB98700215585 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 66E5DC7B270AB98700215585 /* PopupView */; };
 		66E5DC7E270AB9EB00215585 /* LibrariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC7D270AB9EB00215585 /* LibrariesView.swift */; };
 		66E5DC85270ABB4500215585 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC84270ABB4500215585 /* PopUpView.swift */; };
@@ -51,6 +104,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		661D44BD27107DC80099F69E /* swiftui_cheat Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui_cheat Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		661D44E027107DCB0099F69E /* swiftui_cheat Stg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui_cheat Stg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66801C42270E9256001594F7 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		66801C45270E9290001594F7 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		66802BCC270FCC4F0087B30A /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
@@ -63,6 +118,8 @@
 		66A4A5272708582300B8760A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		66A4A52A2708595200B8760A /* ListCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCardView.swift; sourceTree = "<group>"; };
 		66B8C385271074D7006A9EBC /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
+		66D865FA27114E1E00023CE4 /* info_dev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info_dev.plist; sourceTree = "<group>"; };
+		66D865FE27114E3E00023CE4 /* info_stg.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info_stg.plist; sourceTree = "<group>"; };
 		66E5DC7D270AB9EB00215585 /* LibrariesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesView.swift; sourceTree = "<group>"; };
 		66E5DC84270ABB4500215585 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		66E5DC87270ADB6300215585 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
@@ -82,10 +139,31 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		661D44B327107DC80099F69E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661D44E727107EC70099F69E /* QGrid in Frameworks */,
+				661D44B427107DC80099F69E /* PopupView in Frameworks */,
+				661D44B527107DC80099F69E /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661D44D627107DCB0099F69E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661D44E927107ECF0099F69E /* QGrid in Frameworks */,
+				661D44D727107DCB0099F69E /* PopupView in Frameworks */,
+				661D44D827107DCB0099F69E /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		751F2DF02707EF1F009A6ECB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661D44E427107E710099F69E /* QGrid in Frameworks */,
 				66E5DC7C270AB98700215585 /* PopupView in Frameworks */,
 				66BB5540270BEE5D00F4AE6D /* Lottie in Frameworks */,
 			);
@@ -108,6 +186,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		661D44E527107EC70099F69E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		66801C41270E9238001594F7 /* CheckBox */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +293,7 @@
 				751F2E072707EF21009A6ECB /* swiftui_cheatTests */,
 				751F2E122707EF21009A6ECB /* swiftui_cheatUITests */,
 				751F2DF42707EF1F009A6ECB /* Products */,
+				661D44E527107EC70099F69E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -217,6 +303,8 @@
 				751F2DF32707EF1F009A6ECB /* swiftui_cheat.app */,
 				751F2E042707EF21009A6ECB /* swiftui_cheatTests.xctest */,
 				751F2E0F2707EF21009A6ECB /* swiftui_cheatUITests.xctest */,
+				661D44BD27107DC80099F69E /* swiftui_cheat Dev.app */,
+				661D44E027107DCB0099F69E /* swiftui_cheat Stg.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,6 +318,8 @@
 				751F2DF82707EF1F009A6ECB /* ContentView.swift */,
 				751F2DFA2707EF21009A6ECB /* Assets.xcassets */,
 				751F2DFF2707EF21009A6ECB /* Info.plist */,
+				66D865FE27114E3E00023CE4 /* info_stg.plist */,
+				66D865FA27114E1E00023CE4 /* info_dev.plist */,
 				66A4A51E27084AFB00B8760A /* TodoList.md */,
 				751F2DFC2707EF21009A6ECB /* Preview Content */,
 			);
@@ -265,6 +355,50 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		661D449C27107DC80099F69E /* swiftui_cheat Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661D44BA27107DC80099F69E /* Build configuration list for PBXNativeTarget "swiftui_cheat Dev" */;
+			buildPhases = (
+				661D44A127107DC80099F69E /* Sources */,
+				661D44B327107DC80099F69E /* Frameworks */,
+				661D44B627107DC80099F69E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui_cheat Dev";
+			packageProductDependencies = (
+				661D449D27107DC80099F69E /* PopupView */,
+				661D449F27107DC80099F69E /* Lottie */,
+				661D44E627107EC70099F69E /* QGrid */,
+			);
+			productName = swiftui_cheat;
+			productReference = 661D44BD27107DC80099F69E /* swiftui_cheat Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		661D44BF27107DCB0099F69E /* swiftui_cheat Stg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661D44DD27107DCB0099F69E /* Build configuration list for PBXNativeTarget "swiftui_cheat Stg" */;
+			buildPhases = (
+				661D44C427107DCB0099F69E /* Sources */,
+				661D44D627107DCB0099F69E /* Frameworks */,
+				661D44D927107DCB0099F69E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui_cheat Stg";
+			packageProductDependencies = (
+				661D44C027107DCB0099F69E /* PopupView */,
+				661D44C227107DCB0099F69E /* Lottie */,
+				661D44E827107ECF0099F69E /* QGrid */,
+			);
+			productName = swiftui_cheat;
+			productReference = 661D44E027107DCB0099F69E /* swiftui_cheat Stg.app */;
+			productType = "com.apple.product-type.application";
+		};
 		751F2DF22707EF1F009A6ECB /* swiftui_cheat */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 751F2E182707EF21009A6ECB /* Build configuration list for PBXNativeTarget "swiftui_cheat" */;
@@ -281,6 +415,7 @@
 			packageProductDependencies = (
 				66E5DC7B270AB98700215585 /* PopupView */,
 				66BB553F270BEE5D00F4AE6D /* Lottie */,
+				661D44E327107E710099F69E /* QGrid */,
 			);
 			productName = swiftui_cheat;
 			productReference = 751F2DF32707EF1F009A6ECB /* swiftui_cheat.app */;
@@ -356,6 +491,7 @@
 			packageReferences = (
 				66E5DC7A270AB98700215585 /* XCRemoteSwiftPackageReference "PopupView" */,
 				66BB553E270BEE5D00F4AE6D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				661D44E227107E710099F69E /* XCRemoteSwiftPackageReference "QGrid" */,
 			);
 			productRefGroup = 751F2DF42707EF1F009A6ECB /* Products */;
 			projectDirPath = "";
@@ -364,17 +500,45 @@
 				751F2DF22707EF1F009A6ECB /* swiftui_cheat */,
 				751F2E032707EF21009A6ECB /* swiftui_cheatTests */,
 				751F2E0E2707EF21009A6ECB /* swiftui_cheatUITests */,
+				661D449C27107DC80099F69E /* swiftui_cheat Dev */,
+				661D44BF27107DCB0099F69E /* swiftui_cheat Stg */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		661D44B627107DC80099F69E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661D44B727107DC80099F69E /* Preview Assets.xcassets in Resources */,
+				661D44B827107DC80099F69E /* TodoList.md in Resources */,
+				66D8660027114E3E00023CE4 /* info_stg.plist in Resources */,
+				66D865FC27114E1E00023CE4 /* info_dev.plist in Resources */,
+				661D44B927107DC80099F69E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661D44D927107DCB0099F69E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661D44DA27107DCB0099F69E /* Preview Assets.xcassets in Resources */,
+				661D44DB27107DCB0099F69E /* TodoList.md in Resources */,
+				66D8660127114E3E00023CE4 /* info_stg.plist in Resources */,
+				66D865FD27114E1E00023CE4 /* info_dev.plist in Resources */,
+				661D44DC27107DCB0099F69E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		751F2DF12707EF1F009A6ECB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				751F2DFE2707EF21009A6ECB /* Preview Assets.xcassets in Resources */,
 				66A4A51F27084AFB00B8760A /* TodoList.md in Resources */,
+				66D865FF27114E3E00023CE4 /* info_stg.plist in Resources */,
+				66D865FB27114E1E00023CE4 /* info_dev.plist in Resources */,
 				751F2DFB2707EF21009A6ECB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +560,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		661D44A127107DC80099F69E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661D44A227107DC80099F69E /* CheckBoxCell.swift in Sources */,
+				661D44A327107DC80099F69E /* AlertView.swift in Sources */,
+				661D44A427107DC80099F69E /* ContentView.swift in Sources */,
+				661D44A527107DC80099F69E /* ListCardView.swift in Sources */,
+				661D44A627107DC80099F69E /* PopUpView.swift in Sources */,
+				661D44A727107DC80099F69E /* ListView.swift in Sources */,
+				661D44A827107DC80099F69E /* RadioButtonView.swift in Sources */,
+				661D44A927107DC80099F69E /* NavigationLinkView.swift in Sources */,
+				661D44AA27107DC80099F69E /* swiftui_cheatApp.swift in Sources */,
+				661D44AB27107DC80099F69E /* Page1View.swift in Sources */,
+				661D44AC27107DC80099F69E /* CheckBoxView.swift in Sources */,
+				661D44AD27107DC80099F69E /* RadioButton.swift in Sources */,
+				661D44AE27107DC80099F69E /* LibrariesView.swift in Sources */,
+				661D44AF27107DC80099F69E /* CheckBox.swift in Sources */,
+				661D44B027107DC80099F69E /* CardView.swift in Sources */,
+				661D44B127107DC80099F69E /* PopUpViewButton.swift in Sources */,
+				661D44B227107DC80099F69E /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661D44C427107DCB0099F69E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661D44C527107DCB0099F69E /* CheckBoxCell.swift in Sources */,
+				661D44C627107DCB0099F69E /* AlertView.swift in Sources */,
+				661D44C727107DCB0099F69E /* ContentView.swift in Sources */,
+				661D44C827107DCB0099F69E /* ListCardView.swift in Sources */,
+				661D44C927107DCB0099F69E /* PopUpView.swift in Sources */,
+				661D44CA27107DCB0099F69E /* ListView.swift in Sources */,
+				661D44CB27107DCB0099F69E /* RadioButtonView.swift in Sources */,
+				661D44CC27107DCB0099F69E /* NavigationLinkView.swift in Sources */,
+				661D44CD27107DCB0099F69E /* swiftui_cheatApp.swift in Sources */,
+				661D44CE27107DCB0099F69E /* Page1View.swift in Sources */,
+				661D44CF27107DCB0099F69E /* CheckBoxView.swift in Sources */,
+				661D44D027107DCB0099F69E /* RadioButton.swift in Sources */,
+				661D44D127107DCB0099F69E /* LibrariesView.swift in Sources */,
+				661D44D227107DCB0099F69E /* CheckBox.swift in Sources */,
+				661D44D327107DCB0099F69E /* CardView.swift in Sources */,
+				661D44D427107DCB0099F69E /* PopUpViewButton.swift in Sources */,
+				661D44D527107DCB0099F69E /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		751F2DEF2707EF1F009A6ECB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -452,6 +664,94 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		661D44BB27107DC80099F69E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui_cheat/Preview Content\"";
+				DEVELOPMENT_TEAM = 84Y6X6PKWV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = swiftui_cheat/Info_dev.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igguihlgifghkhfif.swiftui-cheat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		661D44BC27107DC80099F69E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui_cheat/Preview Content\"";
+				DEVELOPMENT_TEAM = 84Y6X6PKWV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = swiftui_cheat/Info_dev.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igguihlgifghkhfif.swiftui-cheat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		661D44DE27107DCB0099F69E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui_cheat/Preview Content\"";
+				DEVELOPMENT_TEAM = 84Y6X6PKWV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = swiftui_cheat/info_stg.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igguihlgifghkhfif.swiftui-cheat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		661D44DF27107DCB0099F69E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui_cheat/Preview Content\"";
+				DEVELOPMENT_TEAM = 84Y6X6PKWV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = swiftui_cheat/info_stg.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igguihlgifghkhfif.swiftui-cheat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		751F2E162707EF21009A6ECB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -699,6 +999,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		661D44BA27107DC80099F69E /* Build configuration list for PBXNativeTarget "swiftui_cheat Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661D44BB27107DC80099F69E /* Debug */,
+				661D44BC27107DC80099F69E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661D44DD27107DCB0099F69E /* Build configuration list for PBXNativeTarget "swiftui_cheat Stg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661D44DE27107DCB0099F69E /* Debug */,
+				661D44DF27107DCB0099F69E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		751F2DEE2707EF1F009A6ECB /* Build configuration list for PBXProject "swiftui_cheat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -738,6 +1056,46 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		661D449E27107DC80099F69E /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		661D44A027107DC80099F69E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.3;
+			};
+		};
+		661D44C127107DCB0099F69E /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		661D44C327107DCB0099F69E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.3;
+			};
+		};
+		661D44E227107E710099F69E /* XCRemoteSwiftPackageReference "QGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Q-Mobile/QGrid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
 		66BB553E270BEE5D00F4AE6D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios";
@@ -757,6 +1115,41 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		661D449D27107DC80099F69E /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 661D449E27107DC80099F69E /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
+		661D449F27107DC80099F69E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 661D44A027107DC80099F69E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		661D44C027107DCB0099F69E /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 661D44C127107DCB0099F69E /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
+		661D44C227107DCB0099F69E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 661D44C327107DCB0099F69E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		661D44E327107E710099F69E /* QGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 661D44E227107E710099F69E /* XCRemoteSwiftPackageReference "QGrid" */;
+			productName = QGrid;
+		};
+		661D44E627107EC70099F69E /* QGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 661D44E227107E710099F69E /* XCRemoteSwiftPackageReference "QGrid" */;
+			productName = QGrid;
+		};
+		661D44E827107ECF0099F69E /* QGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 661D44E227107E710099F69E /* XCRemoteSwiftPackageReference "QGrid" */;
+			productName = QGrid;
+		};
 		66BB553F270BEE5D00F4AE6D /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 66BB553E270BEE5D00F4AE6D /* XCRemoteSwiftPackageReference "lottie-ios" */;
