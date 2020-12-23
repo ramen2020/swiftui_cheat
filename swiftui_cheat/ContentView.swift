@@ -48,7 +48,8 @@ struct ContentView: View {
                     }
                     .tag(4)
             }.accentColor(Color.materialColor(colorCode: .amber))
-            .navigationBarTitle("Swiftui_cheat", displayMode: .inline)
+            .navigationTitle("Swiftui_cheat")
+            .navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(leading: Button(action: {
                 print("左のボタンが押されました。")
             }, label: {
