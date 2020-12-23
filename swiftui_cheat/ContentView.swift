@@ -10,6 +10,9 @@ struct ContentView: View {
         UINavigationBar.appearance().barTintColor = UIColor(Color.materialColor(colorCode: .teal))
         // TabViewの背景色の設定
         UITabBar.appearance().barTintColor = UIColor(Color.materialColor(colorCode: .teal))
+        
+        // 選択されていないアイテムの色
+        UITabBar.appearance().unselectedItemTintColor = UIColor(Color.materialColor(colorCode: .brown))
     }
     
     
