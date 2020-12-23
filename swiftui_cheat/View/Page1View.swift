@@ -29,6 +29,9 @@ struct Page1View: View {
                 Text("Navigation Link")
             }
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .foregroundColor(Color.materialColor(colorCode: .amber))
+        .background(Color.materialColor(colorCode: .teal))
     }
 }
 
