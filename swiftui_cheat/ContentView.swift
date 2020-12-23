@@ -5,6 +5,14 @@ struct ContentView: View {
     
     @State private var selection = 0
     
+    init(){
+        // NavigationBarの背景色の設定
+        UINavigationBar.appearance().barTintColor = UIColor(Color.materialColor(colorCode: .teal))
+        // TabViewの背景色の設定
+        UITabBar.appearance().barTintColor = UIColor(Color.materialColor(colorCode: .teal))
+    }
+    
+    
     var body: some View {
         NavigationView {
             TabView(selection: $selection) {
@@ -19,6 +27,7 @@ struct ContentView: View {
                     .tabItem {
                         Image(systemName: "arrowshape.turn.up.backward.circle.fill")
                         Text("Libraries")
+
                     }
                     .tag(2)
                 
@@ -35,7 +44,7 @@ struct ContentView: View {
                         Text("Forth")
                     }
                     .tag(4)
-            }
+            }.accentColor(Color.materialColor(colorCode: .amber))
             .navigationBarTitle("Swiftui_cheat", displayMode: .inline)
             .navigationBarItems(leading: Button(action: {
                 print("左のボタンが押されました。")
