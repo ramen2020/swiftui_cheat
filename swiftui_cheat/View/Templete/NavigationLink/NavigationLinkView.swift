@@ -9,32 +9,14 @@ struct NavigationLinkView: View {
     
     var body: some View {
         VStack(spacing: 30) {
-            NavigationLinkCell(title: "test1", destination: NavigationLink1View())
-            NavigationLinkCell(title: "test2", destination: NavigationLink2View())
-            NavigationLinkCell(title: "test3", destination: NavigationLink3View())
+            NavigationLinkCell(title: "home", destination: HomeView())
+            NavigationLinkCell(title: "favorite", destination: FavoriteView())
+            NavigationLinkCell(title: "test", destination: TestView())
         }
     }
 }
 
-struct NavigationLink1View: View {
-    var body: some View {
-        Text("NavigationLink1View")
-    }
-}
-
-struct NavigationLink2View: View {
-    var body: some View {
-        Text("NavigationLink2View")
-    }
-}
-
-struct NavigationLink3View: View {
-    var body: some View {
-        Text("NavigationLink3View")
-    }
-}
-
-struct NavigationLinkCell<Destination : View>: View {
+struct NavigationLinkCell<Destination : View>: View{
 
     let title: String
     let destination: Destination
@@ -45,6 +27,27 @@ struct NavigationLinkCell<Destination : View>: View {
         }
     }
 }
+
+struct HomeView: View {
+    var body: some View {
+        Text("HomeView")
+    }
+}
+
+struct FavoriteView: View {
+    var body: some View {
+        Text("FavoriteView")
+    }
+}
+
+struct TestView: View {
+    var body: some View {
+        Text("TestView")
+    }
+}
+
+
+
 
 struct NavigationLinkView_Previews: PreviewProvider {
     static var previews: some View {
