@@ -7,15 +7,18 @@ struct ContentView: View {
     
     init(){
         // NavigationBarの背景色の設定
-        UINavigationBar.appearance().barTintColor = UIColor(Color.materialColor(colorCode: .teal))
+        UINavigationBar.appearance().barTintColor = UIColor(Color.materialColor(colorCode: .brown))
+        
+        // NavigationBaritemの色の設定
+        UINavigationBar.appearance().tintColor = UIColor(Color.materialColor(colorCode: .amber))
+
         // TabViewの背景色の設定
-        UITabBar.appearance().barTintColor = UIColor(Color.materialColor(colorCode: .teal))
+        UITabBar.appearance().barTintColor = UIColor(Color.materialColor(colorCode: .brown))
         
         // 選択されていないアイテムの色
-        UITabBar.appearance().unselectedItemTintColor = UIColor(Color.materialColor(colorCode: .brown))
+        UITabBar.appearance().unselectedItemTintColor = UIColor(Color.materialColor(colorCode: .teal))
     }
-    
-    
+
     var body: some View {
         NavigationView {
             TabView(selection: $selection) {
@@ -47,7 +50,8 @@ struct ContentView: View {
                         Text("Forth")
                     }
                     .tag(4)
-            }.accentColor(Color.materialColor(colorCode: .amber))
+            }
+            .accentColor(Color.materialColor(colorCode: .amber))
             .navigationTitle("Swiftui_cheat")
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(leading: Button(action: {
