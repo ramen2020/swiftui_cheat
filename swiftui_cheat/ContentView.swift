@@ -8,13 +8,12 @@ struct ContentView: View {
     init(){
         // NavigationBarの背景色の設定
         UINavigationBar.appearance().barTintColor = UIColor(Color.materialColor(colorCode: .brown))
-        
-        // NavigationBaritemの色の設定
+        // itemの色
         UINavigationBar.appearance().tintColor = UIColor(Color.materialColor(colorCode: .amber))
-
+        // titleの色
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor(Color.materialColor(colorCode: .amber))]
         // TabViewの背景色の設定
         UITabBar.appearance().barTintColor = UIColor(Color.materialColor(colorCode: .brown))
-        
         // 選択されていないアイテムの色
         UITabBar.appearance().unselectedItemTintColor = UIColor(Color.materialColor(colorCode: .teal))
     }
@@ -78,4 +77,18 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+}
+
+struct NavigationConfigurator: UIViewControllerRepresentable {
+    var configure: (UINavigationController) -> Void = { _ in }
+
+    func makeUIViewController(context: UIViewControllerRepresentableContext<NavigationConfigurator>) -> UIViewController {
+        UIViewController()
+    }
+    func updateUIViewController(_ uiViewController: UIViewController, context: UIViewControllerRepresentableContext<NavigationConfigurator>) {
+        if let nc = uiViewController.navigationController {
+            self.configure(nc)
+        }
+    }
+
 }

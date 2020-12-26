@@ -19,6 +19,7 @@ struct Page1View: View {
             
             NavigationLink(destination: CheckBoxView()) {
                 Text("Check Box")
+                
             }
 
             NavigationLink(destination: RadioButtonView()) {
@@ -29,6 +30,7 @@ struct Page1View: View {
                 Text("Navigation Link")
             }
         }
+        .font(.system(size: 18, weight: .bold))
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .foregroundColor(Color.materialColor(colorCode: .amber))
         .background(Color.materialColor(colorCode: .teal))
