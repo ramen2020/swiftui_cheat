@@ -77,6 +77,8 @@
 		66D86604271153B100023CE4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D86602271153B100023CE4 /* Launch Screen.storyboard */; };
 		66D86605271153B100023CE4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D86602271153B100023CE4 /* Launch Screen.storyboard */; };
 		66D866082711819800023CE4 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 66D866072711819800023CE4 /* SwiftUIX */; };
+		66D8660A2711823900023CE4 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 66D866092711823900023CE4 /* SwiftUIX */; };
+		66D8660C2711823E00023CE4 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 66D8660B2711823E00023CE4 /* SwiftUIX */; };
 		66E5DC7C270AB98700215585 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 66E5DC7B270AB98700215585 /* PopupView */; };
 		66E5DC7E270AB9EB00215585 /* LibrariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC7D270AB9EB00215585 /* LibrariesView.swift */; };
 		66E5DC85270ABB4500215585 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC84270ABB4500215585 /* PopUpView.swift */; };
@@ -151,6 +153,7 @@
 				661D44E727107EC70099F69E /* QGrid in Frameworks */,
 				661D44B427107DC80099F69E /* PopupView in Frameworks */,
 				661D44B527107DC80099F69E /* Lottie in Frameworks */,
+				66D8660A2711823900023CE4 /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +164,7 @@
 				661D44E927107ECF0099F69E /* QGrid in Frameworks */,
 				661D44D727107DCB0099F69E /* PopupView in Frameworks */,
 				661D44D827107DCB0099F69E /* Lottie in Frameworks */,
+				66D8660C2711823E00023CE4 /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +383,7 @@
 				661D449D27107DC80099F69E /* PopupView */,
 				661D449F27107DC80099F69E /* Lottie */,
 				661D44E627107EC70099F69E /* QGrid */,
+				66D866092711823900023CE4 /* SwiftUIX */,
 			);
 			productName = swiftui_cheat;
 			productReference = 661D44BD27107DC80099F69E /* swiftui_cheat Dev.app */;
@@ -401,6 +406,7 @@
 				661D44C027107DCB0099F69E /* PopupView */,
 				661D44C227107DCB0099F69E /* Lottie */,
 				661D44E827107ECF0099F69E /* QGrid */,
+				66D8660B2711823E00023CE4 /* SwiftUIX */,
 			);
 			productName = swiftui_cheat;
 			productReference = 661D44E027107DCB0099F69E /* swiftui_cheat Stg.app */;
@@ -1178,6 +1184,16 @@
 			productName = Lottie;
 		};
 		66D866072711819800023CE4 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66D866062711819800023CE4 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+		66D866092711823900023CE4 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66D866062711819800023CE4 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+		66D8660B2711823E00023CE4 /* SwiftUIX */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 66D866062711819800023CE4 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
 			productName = SwiftUIX;
