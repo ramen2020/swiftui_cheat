@@ -76,6 +76,7 @@
 		66D86603271153B100023CE4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D86602271153B100023CE4 /* Launch Screen.storyboard */; };
 		66D86604271153B100023CE4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D86602271153B100023CE4 /* Launch Screen.storyboard */; };
 		66D86605271153B100023CE4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D86602271153B100023CE4 /* Launch Screen.storyboard */; };
+		66D866082711819800023CE4 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 66D866072711819800023CE4 /* SwiftUIX */; };
 		66E5DC7C270AB98700215585 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 66E5DC7B270AB98700215585 /* PopupView */; };
 		66E5DC7E270AB9EB00215585 /* LibrariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC7D270AB9EB00215585 /* LibrariesView.swift */; };
 		66E5DC85270ABB4500215585 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC84270ABB4500215585 /* PopUpView.swift */; };
@@ -170,6 +171,7 @@
 				661D44E427107E710099F69E /* QGrid in Frameworks */,
 				66E5DC7C270AB98700215585 /* PopupView in Frameworks */,
 				66BB5540270BEE5D00F4AE6D /* Lottie in Frameworks */,
+				66D866082711819800023CE4 /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +423,7 @@
 				66E5DC7B270AB98700215585 /* PopupView */,
 				66BB553F270BEE5D00F4AE6D /* Lottie */,
 				661D44E327107E710099F69E /* QGrid */,
+				66D866072711819800023CE4 /* SwiftUIX */,
 			);
 			productName = swiftui_cheat;
 			productReference = 751F2DF32707EF1F009A6ECB /* swiftui_cheat.app */;
@@ -497,6 +500,7 @@
 				66E5DC7A270AB98700215585 /* XCRemoteSwiftPackageReference "PopupView" */,
 				66BB553E270BEE5D00F4AE6D /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				661D44E227107E710099F69E /* XCRemoteSwiftPackageReference "QGrid" */,
+				66D866062711819800023CE4 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
 			);
 			productRefGroup = 751F2DF42707EF1F009A6ECB /* Products */;
 			projectDirPath = "";
@@ -1114,6 +1118,14 @@
 				minimumVersion = 3.2.3;
 			};
 		};
+		66D866062711819800023CE4 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
 		66E5DC7A270AB98700215585 /* XCRemoteSwiftPackageReference "PopupView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/exyte/PopupView";
@@ -1164,6 +1176,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 66BB553E270BEE5D00F4AE6D /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		66D866072711819800023CE4 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66D866062711819800023CE4 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
 		};
 		66E5DC7B270AB98700215585 /* PopupView */ = {
 			isa = XCSwiftPackageProductDependency;
