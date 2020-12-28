@@ -13,6 +13,10 @@ struct LibrariesView: View {
             }
             
             Spacer().frame(height: 30)
+            
+            NavigationLink(destination: SwiftUIXView()) {
+                Text("SwiftUIXView")
+            }
 //
 //            NavigationLink(destination: CardView()) {
 //                Text("Card")
