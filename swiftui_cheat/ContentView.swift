@@ -36,6 +36,8 @@ struct ContentView: View {
                     }
                     .tag(2)
                 
+                Spacer()
+                
                 Text("page3")
                     .tabItem {
                         Image(systemName: "link.circle.fill")
@@ -51,6 +53,19 @@ struct ContentView: View {
                     .tag(4)
             }
             .accentColor(Color.materialColor(colorCode: .amber))
+            .overlay(
+                Button {
+
+                } label: {
+                    Image(systemName: "envelope.circle.fill")
+                        .resizable()
+                        .foregroundColor(.black)
+                        .frame(width: 72, height: 72)
+                        .background(Color.materialColor(colorCode: .yellow))
+                        .cornerRadius(36)
+                        .border(Color.materialColor(colorCode: .yellow), width: 1, cornerRadius: 36)
+                }, alignment: .bottom
+            )
             .navigationTitle("Swiftui_cheat")
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(leading: Button(action: {
