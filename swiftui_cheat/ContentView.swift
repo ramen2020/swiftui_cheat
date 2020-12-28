@@ -7,13 +7,13 @@ struct ContentView: View {
     
     init(){
         // NavigationBarの背景色の設定
-        UINavigationBar.appearance().barTintColor = UIColor(Color.materialColor(colorCode: .brown))
+        UINavigationBar.appearance().barTintColor = UIColor(Color.black)
         // itemの色
         UINavigationBar.appearance().tintColor = UIColor(Color.materialColor(colorCode: .amber))
         // titleの色
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor(Color.materialColor(colorCode: .amber))]
         // TabViewの背景色の設定
-        UITabBar.appearance().barTintColor = UIColor(Color.materialColor(colorCode: .brown))
+        UITabBar.appearance().barTintColor = UIColor(Color.black)
         // 選択されていないアイテムの色
         UITabBar.appearance().unselectedItemTintColor = UIColor(Color.materialColor(colorCode: .teal))
     }

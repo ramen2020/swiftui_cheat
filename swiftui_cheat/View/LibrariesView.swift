@@ -7,7 +7,7 @@ import SwiftUI
 
 struct LibrariesView: View {
     var body: some View {
-        VStack(spacing: 0) {
+        VStack(spacing: 30) {
             NavigationLink(destination: PopUpView()) {
                 Text("PopUpView")
             }
@@ -24,6 +24,10 @@ struct LibrariesView: View {
 //                Text("List")
 //            }
         }
+        .font(.system(size: 18, weight: .bold))
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .foregroundColor(Color.materialColor(colorCode: .amber))
+        .background(Color.materialColor(colorCode: .blue))
     }
 }
 
