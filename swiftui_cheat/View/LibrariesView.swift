@@ -7,12 +7,10 @@ import SwiftUI
 
 struct LibrariesView: View {
     var body: some View {
-        VStack{
+        VStack(spacing: 0) {
             NavigationLink(destination: PopUpView()) {
                 Text("PopUpView")
             }
-            
-            Spacer().frame(height: 30)
             
             NavigationLink(destination: SwiftUIXView()) {
                 Text("SwiftUIXView")
@@ -21,9 +19,7 @@ struct LibrariesView: View {
 //            NavigationLink(destination: CardView()) {
 //                Text("Card")
 //            }
-//
-//            Spacer().frame(height: 30)
-//
+
 //            NavigationLink(destination: ListView()) {
 //                Text("List")
 //            }
