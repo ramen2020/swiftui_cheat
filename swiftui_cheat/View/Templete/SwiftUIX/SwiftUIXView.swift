@@ -12,6 +12,7 @@ struct SwiftUIXView: View {
     
     var body: some View {
         ScrollView {
+            Spacer().frame(height: 50)
             VStack(spacing: 30) {
                 ActivityIndicator()
                     .frame(width: 50, height: 50)
@@ -29,10 +30,23 @@ struct SwiftUIXView: View {
                 
                 SearchBar("検索してください", text: $inputText)
                     .background(Color.materialColor(colorCode: .orange))
+                
+                LinkPresentationView(url: URL(string: "https://github.com/SwiftUIX/SwiftUIX")!)
+                    .frame(height: 100)
+                
+                
+                
+                
+                
+                
+                Spacer().frame(height: 500)
+//                CocoaList()
+//                CocoaScrollView()
+//                CollectionView()
+//                TextView()
 
             }
         }
-        .padding(.vertical, 50)
         .font(.system(size: 18, weight: .bold))
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .foregroundColor(Color.materialColor(colorCode: .deepOrange))
