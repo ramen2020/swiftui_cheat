@@ -13,7 +13,7 @@ struct SwiftUIXView: View {
     var body: some View {
         ScrollView {
             Spacer().frame(height: 50)
-            VStack(spacing: 30) {
+            VStack(spacing: 50) {
                 ActivityIndicator()
                     .frame(width: 50, height: 50)
                     .background(Color.materialColor(colorCode: .orange))
@@ -34,10 +34,16 @@ struct SwiftUIXView: View {
                 LinkPresentationView(url: URL(string: "https://github.com/SwiftUIX/SwiftUIX")!)
                     .frame(height: 100)
                 
+                  
+                CircularProgressBar(0.5)
+                    .lineWidth(5)
+                    .foregroundColor(Color.materialColor(colorCode: .deepOrange))
+                    .frame(height: 100)
                 
-                
-                
-                
+                LinearProgressBar(0.3)
+                    .foregroundColor(Color.materialColor(colorCode: .deepOrange))
+                    .frame(height: 15)
+                    .padding(.horizontal, 50)
                 
                 Spacer().frame(height: 500)
 //                CocoaList()
