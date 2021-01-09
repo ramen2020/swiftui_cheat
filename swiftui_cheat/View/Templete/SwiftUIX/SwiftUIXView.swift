@@ -2,6 +2,8 @@
 //  SwiftUIXView
 //  swiftui_cheat
 //
+//  既存のSwiftにはあるが、SwiftUIはないviewを補ってくれるライブラリ。
+//
 
 import SwiftUI
 import SwiftUIX
