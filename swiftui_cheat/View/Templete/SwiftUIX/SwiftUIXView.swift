@@ -11,6 +11,7 @@ import SwiftUIX
 struct SwiftUIXView: View {
     
     @State var inputText: String?
+    @State var text: String?
     
     var body: some View {
         ScrollView {
@@ -46,6 +47,15 @@ struct SwiftUIXView: View {
                     .foregroundColor(Color.materialColor(colorCode: .deepOrange))
                     .frame(height: 15)
                     .padding(.horizontal, 50)
+                
+                VStack{
+                    TextView("placeholder text", text: $text, onEditingChanged: { editing in
+                        print(editing)
+                    })
+                }
+                .frame(height: 200)
+                .background(.white)
+
                 
                 Spacer().frame(height: 500)
 //                CocoaList()
