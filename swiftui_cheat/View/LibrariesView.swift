@@ -15,6 +15,10 @@ struct LibrariesView: View {
             NavigationLink(destination: SwiftUIXView()) {
                 Text("SwiftUIXView")
             }
+            
+            NavigationLink(destination: QGridView()) {
+                Text("QGridView")
+            }
 //
 //            NavigationLink(destination: CardView()) {
 //                Text("Card")
