@@ -10,10 +10,10 @@ struct QGridView: View {
     
     // 画面で持たない方がいい？？？
     let stubDatas: [QGridStruct] = [
-        QGridStruct(id: 1, title: "お知らせ", subTitle: "誕生日です。", imageName: "home_infomation"),
-        QGridStruct(id: 2, title: "イベント情報", subTitle: "半額セール！", imageName: "home_event"),
-        QGridStruct(id: 3, title: "キャンペーン", subTitle: "友達割引！！", imageName: "home_campaign"),
-        QGridStruct(id: 4, title: "お知らせ", subTitle: "バーゲン！", imageName: "home_infomation")
+        QGridStruct(id: 1, title: "お知らせ", subTitle: "誕生日です。", imageName: "animal_arupaka"),
+        QGridStruct(id: 2, title: "イベント情報", subTitle: "半額セール！", imageName: "animal_buta"),
+        QGridStruct(id: 3, title: "キャンペーン", subTitle: "友達割引！！", imageName: "animal_neko"),
+        QGridStruct(id: 4, title: "お知らせ", subTitle: "バーゲン！", imageName: "animal_penguin")
     ]
 
     var body: some View {
@@ -49,8 +49,8 @@ struct QGridCell: View {
     }
 }
 
-struct QGeidView_Previews: PreviewProvider {
+struct QGridView_Previews: PreviewProvider {
     static var previews: some View {
-        QGeidView()
+        QGridView()
     }
 }
