@@ -70,6 +70,9 @@
 		66CD779E2713CE0C000A1166 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD779D2713CE0C000A1166 /* GridView.swift */; };
 		66CD779F2713CE0C000A1166 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD779D2713CE0C000A1166 /* GridView.swift */; };
 		66CD77A02713CE0C000A1166 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD779D2713CE0C000A1166 /* GridView.swift */; };
+		66CD77A22713CE7D000A1166 /* QGeidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD77A12713CE7D000A1166 /* QGeidView.swift */; };
+		66CD77A32713CE7D000A1166 /* QGeidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD77A12713CE7D000A1166 /* QGeidView.swift */; };
+		66CD77A42713CE7D000A1166 /* QGeidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD77A12713CE7D000A1166 /* QGeidView.swift */; };
 		66D865FB27114E1E00023CE4 /* info_dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D865FA27114E1E00023CE4 /* info_dev.plist */; };
 		66D865FC27114E1E00023CE4 /* info_dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D865FA27114E1E00023CE4 /* info_dev.plist */; };
 		66D865FD27114E1E00023CE4 /* info_dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D865FA27114E1E00023CE4 /* info_dev.plist */; };
@@ -131,6 +134,7 @@
 		66A4A52A2708595200B8760A /* ListCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCardView.swift; sourceTree = "<group>"; };
 		66B8C385271074D7006A9EBC /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
 		66CD779D2713CE0C000A1166 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		66CD77A12713CE7D000A1166 /* QGeidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QGeidView.swift; sourceTree = "<group>"; };
 		66D865FA27114E1E00023CE4 /* info_dev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info_dev.plist; sourceTree = "<group>"; };
 		66D865FE27114E3E00023CE4 /* info_stg.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info_stg.plist; sourceTree = "<group>"; };
 		66D86602271153B100023CE4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -277,6 +281,7 @@
 			isa = PBXGroup;
 			children = (
 				66CD779D2713CE0C000A1166 /* GridView.swift */,
+				66CD77A12713CE7D000A1166 /* QGeidView.swift */,
 			);
 			path = Grid;
 			sourceTree = "<group>";
@@ -611,6 +616,7 @@
 				66CD779F2713CE0C000A1166 /* GridView.swift in Sources */,
 				661D44A227107DC80099F69E /* CheckBoxCell.swift in Sources */,
 				66D86610271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
+				66CD77A32713CE7D000A1166 /* QGeidView.swift in Sources */,
 				661D44A327107DC80099F69E /* AlertView.swift in Sources */,
 				661D44A427107DC80099F69E /* ContentView.swift in Sources */,
 				661D44A527107DC80099F69E /* ListCardView.swift in Sources */,
@@ -637,6 +643,7 @@
 				66CD77A02713CE0C000A1166 /* GridView.swift in Sources */,
 				661D44C527107DCB0099F69E /* CheckBoxCell.swift in Sources */,
 				66D86611271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
+				66CD77A42713CE7D000A1166 /* QGeidView.swift in Sources */,
 				661D44C627107DCB0099F69E /* AlertView.swift in Sources */,
 				661D44C727107DCB0099F69E /* ContentView.swift in Sources */,
 				661D44C827107DCB0099F69E /* ListCardView.swift in Sources */,
@@ -663,6 +670,7 @@
 				66CD779E2713CE0C000A1166 /* GridView.swift in Sources */,
 				66802BCF270FD28D0087B30A /* CheckBoxCell.swift in Sources */,
 				66D8660F271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
+				66CD77A22713CE7D000A1166 /* QGeidView.swift in Sources */,
 				66A4A52127084BF500B8760A /* AlertView.swift in Sources */,
 				751F2DF92707EF1F009A6ECB /* ContentView.swift in Sources */,
 				66A4A52B2708595200B8760A /* ListCardView.swift in Sources */,
