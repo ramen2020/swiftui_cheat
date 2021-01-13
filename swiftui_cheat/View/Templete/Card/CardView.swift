@@ -18,7 +18,7 @@ extension DailyScrum {
 struct CardView: View {
     let scrum = DailyScrum.data[0]
     var body: some View {
-        VStack{
+        VStack(spacing: 30) {
             VStack(alignment: .leading) {
                 Text(scrum.title)
                     .font(.headline)
@@ -38,6 +38,16 @@ struct CardView: View {
             .padding()
             .foregroundColor(scrum.color)
             .background(Color.black)
+            
+            // spacing:0で左に詰める。
+            HStack(spacing: 0) {
+                Image(systemName: "airplane.circle")
+                Text("機内モード")
+                    .font(.system(size: 12))
+            }
+            .foregroundColor(Color.red)
+            .frame(width: 200, height: 100, alignment: .leading)
+            .background(Color.black)
         }
         .navigationBarTitle("Card", displayMode:.large)
     }
@@ -51,4 +61,5 @@ struct CardView_Previews: PreviewProvider {
             .previewLayout(.fixed(width: 400, height: 60))
     }
 }
+
 
