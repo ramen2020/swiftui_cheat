@@ -17,9 +17,15 @@ struct QGridView: View {
     ]
 
     var body: some View {
-        QGrid(stubDatas, columns: 3) { data in
-            QGridCell(person: data)
+        VStack {
+            QGrid(stubDatas, columns: 3) { data in
+                QGridCell(person: data)
+            }
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .foregroundColor(Color.materialColor(colorCode: .purple))
+        .background(Color.materialColor(colorCode: .lightBlue))
+        .navigationBarTitle("QGrid", displayMode:.large)
     }
 }
 
