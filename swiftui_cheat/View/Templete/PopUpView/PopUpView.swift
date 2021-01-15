@@ -142,7 +142,7 @@ struct PopUpView: View {
     
     func createTopFloater() -> some View {
         HStack(spacing: 10) {
-            Image("transaction_coffee")
+            Image(systemName: "car")
                 .resizable()
                 .aspectRatio(contentMode: ContentMode.fill)
                 .frame(width: 20, height: 20)
