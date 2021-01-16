@@ -54,6 +54,9 @@
 		661D44E427107E710099F69E /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 661D44E327107E710099F69E /* QGrid */; };
 		661D44E727107EC70099F69E /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 661D44E627107EC70099F69E /* QGrid */; };
 		661D44E927107ECF0099F69E /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 661D44E827107ECF0099F69E /* QGrid */; };
+		664ECA982716807E00F4202A /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664ECA972716807E00F4202A /* ProgressBar.swift */; };
+		664ECA992716807E00F4202A /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664ECA972716807E00F4202A /* ProgressBar.swift */; };
+		664ECA9A2716807E00F4202A /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664ECA972716807E00F4202A /* ProgressBar.swift */; };
 		66801C43270E9256001594F7 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66801C42270E9256001594F7 /* CheckBox.swift */; };
 		66801C46270E9290001594F7 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66801C45270E9290001594F7 /* RadioButton.swift */; };
 		66802BCD270FCC4F0087B30A /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66802BCC270FCC4F0087B30A /* CheckBoxView.swift */; };
@@ -121,6 +124,7 @@
 /* Begin PBXFileReference section */
 		661D44BD27107DC80099F69E /* swiftui_cheat Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui_cheat Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		661D44E027107DCB0099F69E /* swiftui_cheat Stg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui_cheat Stg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		664ECA972716807E00F4202A /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		66801C42270E9256001594F7 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		66801C45270E9290001594F7 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		66802BCC270FCC4F0087B30A /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
@@ -215,6 +219,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		664ECA962716806100F4202A /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				664ECA972716807E00F4202A /* ProgressBar.swift */,
+			);
+			path = ProgressBar;
+			sourceTree = "<group>";
+		};
 		66801C41270E9238001594F7 /* CheckBox */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +258,7 @@
 				66801C44270E9272001594F7 /* RadioButton */,
 				66B8C384271074B6006A9EBC /* NavigationLink */,
 				66CD779C2713CDF6000A1166 /* Grid */,
+				664ECA962716806100F4202A /* ProgressBar */,
 			);
 			path = Templete;
 			sourceTree = "<group>";
@@ -626,6 +639,7 @@
 				661D44A927107DC80099F69E /* NavigationLinkView.swift in Sources */,
 				661D44AA27107DC80099F69E /* swiftui_cheatApp.swift in Sources */,
 				661D44AB27107DC80099F69E /* Page1View.swift in Sources */,
+				664ECA992716807E00F4202A /* ProgressBar.swift in Sources */,
 				661D44AC27107DC80099F69E /* CheckBoxView.swift in Sources */,
 				661D44AD27107DC80099F69E /* RadioButton.swift in Sources */,
 				661D44AE27107DC80099F69E /* LibrariesView.swift in Sources */,
@@ -653,6 +667,7 @@
 				661D44CC27107DCB0099F69E /* NavigationLinkView.swift in Sources */,
 				661D44CD27107DCB0099F69E /* swiftui_cheatApp.swift in Sources */,
 				661D44CE27107DCB0099F69E /* Page1View.swift in Sources */,
+				664ECA9A2716807E00F4202A /* ProgressBar.swift in Sources */,
 				661D44CF27107DCB0099F69E /* CheckBoxView.swift in Sources */,
 				661D44D027107DCB0099F69E /* RadioButton.swift in Sources */,
 				661D44D127107DCB0099F69E /* LibrariesView.swift in Sources */,
@@ -680,6 +695,7 @@
 				66B8C386271074D7006A9EBC /* NavigationLinkView.swift in Sources */,
 				751F2DF72707EF1F009A6ECB /* swiftui_cheatApp.swift in Sources */,
 				66A4A5242708512100B8760A /* Page1View.swift in Sources */,
+				664ECA982716807E00F4202A /* ProgressBar.swift in Sources */,
 				66802BCD270FCC4F0087B30A /* CheckBoxView.swift in Sources */,
 				66801C46270E9290001594F7 /* RadioButton.swift in Sources */,
 				66E5DC7E270AB9EB00215585 /* LibrariesView.swift in Sources */,
