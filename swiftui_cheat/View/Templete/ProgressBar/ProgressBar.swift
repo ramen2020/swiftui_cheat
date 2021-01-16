@@ -26,7 +26,6 @@ struct ProgressBarView: View {
                                                     width: geometryReader.size.width),
                                height: 7)
                         .foregroundColor(Color.red)
-                        .animation(.easeIn)
                 }
             }.offset(y:-3)
             
@@ -43,7 +42,6 @@ struct ProgressBarView: View {
                                                     width: geometryReader.size.width),
                                height: 7)
                         .foregroundColor(Color.blue)
-                        .animation(.easeIn)
                 }
             }.offset(y:-3)
         }
