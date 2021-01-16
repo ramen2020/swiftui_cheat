@@ -12,8 +12,8 @@ struct ProgressBarView: View {
 
     var body: some View {
         
-        VStack {
-            Spacer().frame(height: 50)
+        VStack(spacing: 20) {
+            // 赤 動的
             GeometryReader { geometryReader in
                 ZStack(alignment: .leading) {
                     Capsule()
@@ -26,6 +26,23 @@ struct ProgressBarView: View {
                                                     width: geometryReader.size.width),
                                height: 7)
                         .foregroundColor(Color.red)
+                        .animation(.easeIn)
+                }
+            }.offset(y:-3)
+            
+            // 青 静的
+            GeometryReader { geometryReader in
+                ZStack(alignment: .leading) {
+                    Capsule()
+                        .frame(height: 7)
+                        .foregroundColor(Color(UIColor(red: 245/255, green: 245/255, blue: 245/255, alpha: 1.0)))
+
+                    Capsule()
+                        .frame(width: self.progress(value: Double(49),
+                                                    maxValue: Double(100),
+                                                    width: geometryReader.size.width),
+                               height: 7)
+                        .foregroundColor(Color.blue)
                         .animation(.easeIn)
                 }
             }.offset(y:-3)
