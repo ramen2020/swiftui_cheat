@@ -14,6 +14,8 @@ struct ProgressBarView: View {
         
         VStack(spacing: 20) {
             // 赤 動的
+            Text("現在は、\(Int(currentValue) * 100 / Int(maxValue))% です。")
+            
             GeometryReader { geometryReader in
                 ZStack(alignment: .leading) {
                     Capsule()
