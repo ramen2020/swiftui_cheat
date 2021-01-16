@@ -29,6 +29,10 @@ struct Page1View: View {
             NavigationLink(destination: NavigationLinkView()) {
                 Text("Navigation Link")
             }
+            
+            NavigationLink(destination: ProgressBarView()) {
+                Text("ProgressBarView")
+            }
         }
         .font(.system(size: 18, weight: .bold))
         .frame(maxWidth: .infinity, maxHeight: .infinity)
