@@ -1,18 +1,32 @@
 //
-//  SlideshowView
+//  SlideShowView
 //  swiftui_cheat
 //
 
 import SwiftUI
+import SwiftUIX
 
-struct SlideshowView: View {
+struct SlideShowView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            Spacer().frame(height: 50)
+            VStack(spacing: 50) {
+                PaginationView(axis: .horizontal, transitionStyle: .scroll, showsIndicators: true, content: {
+                    ForEach(Range(0...5)) { index in
+                        Text("スライドショー No.\(index)")
+                            .font(.system(size: 30, weight: .bold))
+                    }
+                })
+                .frame(height: 200)
+                .background(Color.materialColor(colorCode: .orange))
+                .currentPageIndicatorTintColor(.primary)
+            }
+        }
     }
 }
 
-struct SlideshowView_Previews: PreviewProvider {
+struct SlideShowView_Previews: PreviewProvider {
     static var previews: some View {
-        SlideshowView()
+        SlideShowView()
     }
 }

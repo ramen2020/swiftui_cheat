@@ -96,9 +96,9 @@
 		66E5DC85270ABB4500215585 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC84270ABB4500215585 /* PopUpView.swift */; };
 		66E5DC88270ADB6300215585 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC87270ADB6300215585 /* UIColor+Extension.swift */; };
 		66E5DC8E270B02FA00215585 /* PopUpViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC8D270B02FA00215585 /* PopUpViewButton.swift */; };
-		66E638FA2716C6C800BEA137 /* SlideshowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E638F92716C6C800BEA137 /* SlideshowView.swift */; };
-		66E638FB2716C6C800BEA137 /* SlideshowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E638F92716C6C800BEA137 /* SlideshowView.swift */; };
-		66E638FC2716C6C800BEA137 /* SlideshowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E638F92716C6C800BEA137 /* SlideshowView.swift */; };
+		66E638FA2716C6C800BEA137 /* SlideShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E638F92716C6C800BEA137 /* SlideShowView.swift */; };
+		66E638FB2716C6C800BEA137 /* SlideShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E638F92716C6C800BEA137 /* SlideShowView.swift */; };
+		66E638FC2716C6C800BEA137 /* SlideShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E638F92716C6C800BEA137 /* SlideShowView.swift */; };
 		751F2DF72707EF1F009A6ECB /* swiftui_cheatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */; };
 		751F2DF92707EF1F009A6ECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF82707EF1F009A6ECB /* ContentView.swift */; };
 		751F2DFB2707EF21009A6ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F2DFA2707EF21009A6ECB /* Assets.xcassets */; };
@@ -150,7 +150,7 @@
 		66E5DC84270ABB4500215585 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		66E5DC87270ADB6300215585 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		66E5DC8D270B02FA00215585 /* PopUpViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewButton.swift; sourceTree = "<group>"; };
-		66E638F92716C6C800BEA137 /* SlideshowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowView.swift; sourceTree = "<group>"; };
+		66E638F92716C6C800BEA137 /* SlideShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowView.swift; sourceTree = "<group>"; };
 		751F2DF32707EF1F009A6ECB /* swiftui_cheat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_cheat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_cheatApp.swift; sourceTree = "<group>"; };
 		751F2DF82707EF1F009A6ECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -348,7 +348,7 @@
 		66E638F82716C6A200BEA137 /* Slideshow */ = {
 			isa = PBXGroup;
 			children = (
-				66E638F92716C6C800BEA137 /* SlideshowView.swift */,
+				66E638F92716C6C800BEA137 /* SlideShowView.swift */,
 			);
 			path = Slideshow;
 			sourceTree = "<group>";
@@ -660,7 +660,7 @@
 				661D44B027107DC80099F69E /* CardView.swift in Sources */,
 				661D44B127107DC80099F69E /* PopUpViewButton.swift in Sources */,
 				661D44B227107DC80099F69E /* UIColor+Extension.swift in Sources */,
-				66E638FB2716C6C800BEA137 /* SlideshowView.swift in Sources */,
+				66E638FB2716C6C800BEA137 /* SlideShowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,7 +689,7 @@
 				661D44D327107DCB0099F69E /* CardView.swift in Sources */,
 				661D44D427107DCB0099F69E /* PopUpViewButton.swift in Sources */,
 				661D44D527107DCB0099F69E /* UIColor+Extension.swift in Sources */,
-				66E638FC2716C6C800BEA137 /* SlideshowView.swift in Sources */,
+				66E638FC2716C6C800BEA137 /* SlideShowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,7 +718,7 @@
 				66A4A526270852D500B8760A /* CardView.swift in Sources */,
 				66E5DC8E270B02FA00215585 /* PopUpViewButton.swift in Sources */,
 				66E5DC88270ADB6300215585 /* UIColor+Extension.swift in Sources */,
-				66E638FA2716C6C800BEA137 /* SlideshowView.swift in Sources */,
+				66E638FA2716C6C800BEA137 /* SlideShowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
