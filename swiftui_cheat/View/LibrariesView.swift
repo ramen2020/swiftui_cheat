@@ -19,10 +19,10 @@ struct LibrariesView: View {
             NavigationLink(destination: QGridView()) {
                 Text("QGridView")
             }
-//
-//            NavigationLink(destination: CardView()) {
-//                Text("Card")
-//            }
+
+            NavigationLink(destination: LottiePlacticeView()) {
+                Text("LottiePlacticeView")
+            }
 
 //            NavigationLink(destination: ListView()) {
 //                Text("List")
