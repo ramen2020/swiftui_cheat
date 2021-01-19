@@ -8,9 +8,15 @@ import Lottie
 
 struct LottiePlacticeView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 30) {
             LottieView(name: "voice_wave", loopMode: .loop)
                 .frame(width: 250, height: 250)
+            
+            ZStack {
+                LottieView(name: "voice_wave", loopMode: .loop)
+                    .frame(width: 250, height: 250)
+                Image("animal_kuma")
+            }
         }
     }
 }
