@@ -102,9 +102,9 @@
 		66E638FF2716C94400BEA137 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E638FE2716C94400BEA137 /* LottieView.swift */; };
 		66E639002716C94400BEA137 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E638FE2716C94400BEA137 /* LottieView.swift */; };
 		66E639012716C94400BEA137 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E638FE2716C94400BEA137 /* LottieView.swift */; };
-		66E639032716C9EC00BEA137 /* 40439-voice.json in Resources */ = {isa = PBXBuildFile; fileRef = 66E639022716C9EC00BEA137 /* 40439-voice.json */; };
-		66E639042716C9EC00BEA137 /* 40439-voice.json in Resources */ = {isa = PBXBuildFile; fileRef = 66E639022716C9EC00BEA137 /* 40439-voice.json */; };
-		66E639052716C9EC00BEA137 /* 40439-voice.json in Resources */ = {isa = PBXBuildFile; fileRef = 66E639022716C9EC00BEA137 /* 40439-voice.json */; };
+		66E639032716C9EC00BEA137 /* voice_wave.json in Resources */ = {isa = PBXBuildFile; fileRef = 66E639022716C9EC00BEA137 /* voice_wave.json */; };
+		66E639042716C9EC00BEA137 /* voice_wave.json in Resources */ = {isa = PBXBuildFile; fileRef = 66E639022716C9EC00BEA137 /* voice_wave.json */; };
+		66E639052716C9EC00BEA137 /* voice_wave.json in Resources */ = {isa = PBXBuildFile; fileRef = 66E639022716C9EC00BEA137 /* voice_wave.json */; };
 		751F2DF72707EF1F009A6ECB /* swiftui_cheatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */; };
 		751F2DF92707EF1F009A6ECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF82707EF1F009A6ECB /* ContentView.swift */; };
 		751F2DFB2707EF21009A6ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F2DFA2707EF21009A6ECB /* Assets.xcassets */; };
@@ -158,7 +158,7 @@
 		66E5DC8D270B02FA00215585 /* PopUpViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewButton.swift; sourceTree = "<group>"; };
 		66E638F92716C6C800BEA137 /* SlideShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowView.swift; sourceTree = "<group>"; };
 		66E638FE2716C94400BEA137 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
-		66E639022716C9EC00BEA137 /* 40439-voice.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "40439-voice.json"; sourceTree = "<group>"; };
+		66E639022716C9EC00BEA137 /* voice_wave.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = voice_wave.json; sourceTree = "<group>"; };
 		751F2DF32707EF1F009A6ECB /* swiftui_cheat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_cheat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_cheatApp.swift; sourceTree = "<group>"; };
 		751F2DF82707EF1F009A6ECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -365,7 +365,7 @@
 		66E638FD2716C93000BEA137 /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
-				66E639022716C9EC00BEA137 /* 40439-voice.json */,
+				66E639022716C9EC00BEA137 /* voice_wave.json */,
 				66E638FE2716C94400BEA137 /* LottieView.swift */,
 			);
 			path = Lottie;
@@ -606,7 +606,7 @@
 				661D44B827107DC80099F69E /* TodoList.md in Resources */,
 				66D8660027114E3E00023CE4 /* info_stg.plist in Resources */,
 				66D865FC27114E1E00023CE4 /* info_dev.plist in Resources */,
-				66E639042716C9EC00BEA137 /* 40439-voice.json in Resources */,
+				66E639042716C9EC00BEA137 /* voice_wave.json in Resources */,
 				661D44B927107DC80099F69E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -620,7 +620,7 @@
 				661D44DB27107DCB0099F69E /* TodoList.md in Resources */,
 				66D8660127114E3E00023CE4 /* info_stg.plist in Resources */,
 				66D865FD27114E1E00023CE4 /* info_dev.plist in Resources */,
-				66E639052716C9EC00BEA137 /* 40439-voice.json in Resources */,
+				66E639052716C9EC00BEA137 /* voice_wave.json in Resources */,
 				661D44DC27107DCB0099F69E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -634,7 +634,7 @@
 				66A4A51F27084AFB00B8760A /* TodoList.md in Resources */,
 				66D865FF27114E3E00023CE4 /* info_stg.plist in Resources */,
 				66D865FB27114E1E00023CE4 /* info_dev.plist in Resources */,
-				66E639032716C9EC00BEA137 /* 40439-voice.json in Resources */,
+				66E639032716C9EC00BEA137 /* voice_wave.json in Resources */,
 				751F2DFB2707EF21009A6ECB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
