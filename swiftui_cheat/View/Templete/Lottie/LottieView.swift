@@ -9,8 +9,11 @@ import Lottie
 struct LottiePlacticeView: View {
     var body: some View {
         VStack(spacing: 30) {
-            LottieView(name: "voice_wave", loopMode: .loop)
-                .frame(width: 250, height: 250)
+            LottieView(name: "favorite_star", loopMode: .loop)
+                .frame(width: 150, height: 150)
+
+            LottieView(name: "successful", loopMode: .loop)
+                .frame(width: 150, height: 150)
             
             ZStack {
                 LottieView(name: "voice_wave", loopMode: .loop)

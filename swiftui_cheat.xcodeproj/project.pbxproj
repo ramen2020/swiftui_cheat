@@ -68,6 +68,12 @@
 		66A4A526270852D500B8760A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A525270852D500B8760A /* CardView.swift */; };
 		66A4A5282708582300B8760A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A5272708582300B8760A /* ListView.swift */; };
 		66A4A52B2708595200B8760A /* ListCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A52A2708595200B8760A /* ListCardView.swift */; };
+		66B409F32717BE6B00084BC5 /* favorite_star.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F22717BE6B00084BC5 /* favorite_star.json */; };
+		66B409F42717BE6B00084BC5 /* favorite_star.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F22717BE6B00084BC5 /* favorite_star.json */; };
+		66B409F52717BE6B00084BC5 /* favorite_star.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F22717BE6B00084BC5 /* favorite_star.json */; };
+		66B409F72717BEBD00084BC5 /* successful.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F62717BEBD00084BC5 /* successful.json */; };
+		66B409F82717BEBD00084BC5 /* successful.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F62717BEBD00084BC5 /* successful.json */; };
+		66B409F92717BEBD00084BC5 /* successful.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F62717BEBD00084BC5 /* successful.json */; };
 		66B8C386271074D7006A9EBC /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8C385271074D7006A9EBC /* NavigationLinkView.swift */; };
 		66BB5540270BEE5D00F4AE6D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 66BB553F270BEE5D00F4AE6D /* Lottie */; };
 		66CD779E2713CE0C000A1166 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD779D2713CE0C000A1166 /* GridView.swift */; };
@@ -145,6 +151,8 @@
 		66A4A525270852D500B8760A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		66A4A5272708582300B8760A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		66A4A52A2708595200B8760A /* ListCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCardView.swift; sourceTree = "<group>"; };
+		66B409F22717BE6B00084BC5 /* favorite_star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = favorite_star.json; sourceTree = "<group>"; };
+		66B409F62717BEBD00084BC5 /* successful.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = successful.json; sourceTree = "<group>"; };
 		66B8C385271074D7006A9EBC /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
 		66CD779D2713CE0C000A1166 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		66CD77A12713CE7D000A1166 /* QGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QGridView.swift; sourceTree = "<group>"; };
@@ -366,6 +374,8 @@
 			isa = PBXGroup;
 			children = (
 				66E639022716C9EC00BEA137 /* voice_wave.json */,
+				66B409F62717BEBD00084BC5 /* successful.json */,
+				66B409F22717BE6B00084BC5 /* favorite_star.json */,
 				66E638FE2716C94400BEA137 /* LottieView.swift */,
 			);
 			path = Lottie;
@@ -602,8 +612,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				66D86604271153B100023CE4 /* Launch Screen.storyboard in Resources */,
+				66B409F42717BE6B00084BC5 /* favorite_star.json in Resources */,
 				661D44B727107DC80099F69E /* Preview Assets.xcassets in Resources */,
 				661D44B827107DC80099F69E /* TodoList.md in Resources */,
+				66B409F82717BEBD00084BC5 /* successful.json in Resources */,
 				66D8660027114E3E00023CE4 /* info_stg.plist in Resources */,
 				66D865FC27114E1E00023CE4 /* info_dev.plist in Resources */,
 				66E639042716C9EC00BEA137 /* voice_wave.json in Resources */,
@@ -616,8 +628,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				66D86605271153B100023CE4 /* Launch Screen.storyboard in Resources */,
+				66B409F52717BE6B00084BC5 /* favorite_star.json in Resources */,
 				661D44DA27107DCB0099F69E /* Preview Assets.xcassets in Resources */,
 				661D44DB27107DCB0099F69E /* TodoList.md in Resources */,
+				66B409F92717BEBD00084BC5 /* successful.json in Resources */,
 				66D8660127114E3E00023CE4 /* info_stg.plist in Resources */,
 				66D865FD27114E1E00023CE4 /* info_dev.plist in Resources */,
 				66E639052716C9EC00BEA137 /* voice_wave.json in Resources */,
@@ -630,8 +644,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				66D86603271153B100023CE4 /* Launch Screen.storyboard in Resources */,
+				66B409F32717BE6B00084BC5 /* favorite_star.json in Resources */,
 				751F2DFE2707EF21009A6ECB /* Preview Assets.xcassets in Resources */,
 				66A4A51F27084AFB00B8760A /* TodoList.md in Resources */,
+				66B409F72717BEBD00084BC5 /* successful.json in Resources */,
 				66D865FF27114E3E00023CE4 /* info_stg.plist in Resources */,
 				66D865FB27114E1E00023CE4 /* info_dev.plist in Resources */,
 				66E639032716C9EC00BEA137 /* voice_wave.json in Resources */,
