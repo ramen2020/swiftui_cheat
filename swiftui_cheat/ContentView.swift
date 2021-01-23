@@ -38,7 +38,7 @@ struct ContentView: View {
                 
                 Spacer()
                 
-                Text("page3")
+                SwiftUITutorialView()
                     .tabItem {
                         Image(systemName: "link.circle.fill")
                         Text("Third")
