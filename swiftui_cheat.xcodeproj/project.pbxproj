@@ -79,6 +79,9 @@
 		66C08164271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C08163271906B900F7F7BC /* SwiftUITutorialView.swift */; };
 		66C08165271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C08163271906B900F7F7BC /* SwiftUITutorialView.swift */; };
 		66C08166271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C08163271906B900F7F7BC /* SwiftUITutorialView.swift */; };
+		66C08169271907A200F7F7BC /* HandlingUserInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C08168271907A200F7F7BC /* HandlingUserInputView.swift */; };
+		66C0816A271907A200F7F7BC /* HandlingUserInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C08168271907A200F7F7BC /* HandlingUserInputView.swift */; };
+		66C0816B271907A200F7F7BC /* HandlingUserInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C08168271907A200F7F7BC /* HandlingUserInputView.swift */; };
 		66CD779E2713CE0C000A1166 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD779D2713CE0C000A1166 /* GridView.swift */; };
 		66CD779F2713CE0C000A1166 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD779D2713CE0C000A1166 /* GridView.swift */; };
 		66CD77A02713CE0C000A1166 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD779D2713CE0C000A1166 /* GridView.swift */; };
@@ -158,6 +161,7 @@
 		66B409F62717BEBD00084BC5 /* successful.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = successful.json; sourceTree = "<group>"; };
 		66B8C385271074D7006A9EBC /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
 		66C08163271906B900F7F7BC /* SwiftUITutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialView.swift; sourceTree = "<group>"; };
+		66C08168271907A200F7F7BC /* HandlingUserInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlingUserInputView.swift; sourceTree = "<group>"; };
 		66CD779D2713CE0C000A1166 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		66CD77A12713CE7D000A1166 /* QGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QGridView.swift; sourceTree = "<group>"; };
 		66D865FA27114E1E00023CE4 /* info_dev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info_dev.plist; sourceTree = "<group>"; };
@@ -321,6 +325,7 @@
 			isa = PBXGroup;
 			children = (
 				66C08163271906B900F7F7BC /* SwiftUITutorialView.swift */,
+				66C08168271907A200F7F7BC /* HandlingUserInputView.swift */,
 			);
 			path = SwiftUITutorial;
 			sourceTree = "<group>";
@@ -694,6 +699,7 @@
 				66D86610271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
 				66CD77A32713CE7D000A1166 /* QGridView.swift in Sources */,
 				661D44A327107DC80099F69E /* AlertView.swift in Sources */,
+				66C0816A271907A200F7F7BC /* HandlingUserInputView.swift in Sources */,
 				661D44A427107DC80099F69E /* ContentView.swift in Sources */,
 				66C08165271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */,
 				661D44A527107DC80099F69E /* ListCardView.swift in Sources */,
@@ -725,6 +731,7 @@
 				66D86611271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
 				66CD77A42713CE7D000A1166 /* QGridView.swift in Sources */,
 				661D44C627107DCB0099F69E /* AlertView.swift in Sources */,
+				66C0816B271907A200F7F7BC /* HandlingUserInputView.swift in Sources */,
 				661D44C727107DCB0099F69E /* ContentView.swift in Sources */,
 				66C08166271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */,
 				661D44C827107DCB0099F69E /* ListCardView.swift in Sources */,
@@ -756,6 +763,7 @@
 				66D8660F271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
 				66CD77A22713CE7D000A1166 /* QGridView.swift in Sources */,
 				66A4A52127084BF500B8760A /* AlertView.swift in Sources */,
+				66C08169271907A200F7F7BC /* HandlingUserInputView.swift in Sources */,
 				751F2DF92707EF1F009A6ECB /* ContentView.swift in Sources */,
 				66C08164271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */,
 				66A4A52B2708595200B8760A /* ListCardView.swift in Sources */,
