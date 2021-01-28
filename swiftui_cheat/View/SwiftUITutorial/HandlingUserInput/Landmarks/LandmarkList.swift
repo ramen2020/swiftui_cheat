@@ -3,6 +3,8 @@ See LICENSE folder for this sample’s licensing information.
 
 Abstract:
 A view showing a list of landmarks.
+ 
+ Link: https://developer.apple.com/tutorials/swiftui/handling-user-input
 */
 
 import SwiftUI

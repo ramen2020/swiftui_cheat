@@ -3,6 +3,8 @@ See LICENSE folder for this sample’s licensing information.
 
 Abstract:
 A representation of a single landmark.
+ 
+ Link: https://developer.apple.com/tutorials/swiftui/handling-user-input
 */
 
 import Foundation

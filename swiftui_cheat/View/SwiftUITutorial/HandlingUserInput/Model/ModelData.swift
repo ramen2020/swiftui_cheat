@@ -3,6 +3,8 @@ See LICENSE folder for this sample’s licensing information.
 
 Abstract:
 Storage for model data.
+ 
+ Link: https://developer.apple.com/tutorials/swiftui/handling-user-input
 */
 
 import Foundation
