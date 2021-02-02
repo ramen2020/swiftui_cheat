@@ -41,7 +41,7 @@ struct ContentView: View {
                 SwiftUITutorialView()
                     .tabItem {
                         Image(systemName: "link.circle.fill")
-                        Text("Third")
+                        Text("Tutorial")
                     }
                     .tag(3)
                 
