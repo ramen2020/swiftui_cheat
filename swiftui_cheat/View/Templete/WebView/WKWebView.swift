@@ -4,15 +4,41 @@
 //
 
 import SwiftUI
+import WebKit
 
-struct WKWebView: View {
+struct CustomWKWebView: View {
+    
+    let urlString: String
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        MakeCustomWKWebView(urlString: urlString)
+            .navigationBarTitle(Text(urlString), displayMode: .inline)
     }
 }
 
 struct WKWebView_Previews: PreviewProvider {
     static var previews: some View {
-        WKWebView()
+        CustomWKWebView(urlString: "https://www.apple.com/jp/")
+    }
+}
+
+struct MakeCustomWKWebView: UIViewRepresentable {
+    let urlString: String
+    
+    func makeUIView(context: Context) -> WKWebView {
+        return WKWebView()
+    }
+    
+    func updateUIView(_ uiView: WKWebView, context: Context) {
+        guard let url = URL(string: urlString) else {
+            return
+        }
+        uiView.load(URLRequest(url: url))
+    }
+}
+
+struct MakeCustomWKWebView_Previews: PreviewProvider {
+    static var previews: some View {
+        MakeCustomWKWebView(urlString: "https://www.apple.com/jp/")
     }
 }
