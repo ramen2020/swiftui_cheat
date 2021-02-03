@@ -37,6 +37,10 @@ struct Page1View: View {
             NavigationLink(destination: SlideShowView()) {
                 Text("SlideShowViewView")
             }
+            
+            NavigationLink(destination: WebView()) {
+                Text("WebView")
+            }
         }
         .font(.system(size: 18, weight: .bold))
         .frame(maxWidth: .infinity, maxHeight: .infinity)
