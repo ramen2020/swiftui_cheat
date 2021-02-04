@@ -8,50 +8,23 @@ import QGrid
 
 struct QGridView: View {
     
-    // 画面で持たない方がいい？？？
-    let stubDatas: [QGridStruct] = [
-        QGridStruct(id: 1, title: "お知らせ", subTitle: "誕生日です。", imageName: "animal_arupaka"),
-        QGridStruct(id: 2, title: "イベント情報", subTitle: "半額セール！", imageName: "animal_buta"),
-        QGridStruct(id: 3, title: "キャンペーン", subTitle: "友達割引！！", imageName: "animal_neko"),
-        QGridStruct(id: 4, title: "お知らせ", subTitle: "バーゲン！", imageName: "animal_penguin")
+    let stubDatas: [GridStruct] = [
+        GridStruct(id: 1, title: "お知らせ", subTitle: "誕生日です。", imageName: "animal_arupaka"),
+        GridStruct(id: 2, title: "イベント情報", subTitle: "半額セール！", imageName: "animal_buta"),
+        GridStruct(id: 3, title: "キャンペーン", subTitle: "友達割引！！", imageName: "animal_neko"),
+        GridStruct(id: 4, title: "お知らせ", subTitle: "バーゲン！", imageName: "animal_penguin")
     ]
 
     var body: some View {
         VStack {
             QGrid(stubDatas, columns: 3) { data in
-                QGridCell(person: data)
+                GridCell(person: data)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .foregroundColor(Color.materialColor(colorCode: .purple))
         .background(Color.materialColor(colorCode: .lightBlue))
         .navigationBarTitle("QGrid", displayMode:.large)
-    }
-}
-
-struct QGridStruct: Identifiable {
-    let id: Int
-    let title: String
-    let subTitle: String
-    let imageName: String
-}
-
-struct QGridCell: View {
-    var person: QGridStruct
-    
-
-    
-    var body: some View {
-        VStack() {
-            Image(person.imageName)
-                .resizable()
-                .scaledToFit()
-                .clipShape(Circle())
-                .shadow(color: .primary, radius: 5)
-                .padding([.horizontal, .top], 7)
-            Text(person.title).lineLimit(1)
-            Text(person.subTitle).lineLimit(1)
-        }
     }
 }
 
