@@ -8,11 +8,16 @@ import SwiftUI
 struct GridView: View {
     var body: some View {
         ScrollView {
-            LazyVGridView1()
-            Divider()
-            LazyVGridView2()
-            Divider()
-            LazyHGridView()
+            Section(header: "LazyVGridView1") {
+                LazyVGridView1()
+            }
+            
+            Section(header: "LazyVGridView2") {
+                LazyVGridView2()
+            }
+            Section(header: "LazyHGridView") {
+                LazyHGridView()
+            }
         }
     }
 }
