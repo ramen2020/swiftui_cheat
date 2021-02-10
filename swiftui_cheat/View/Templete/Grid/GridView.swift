@@ -8,7 +8,9 @@ import SwiftUI
 struct GridView: View {
     var body: some View {
         ScrollView {
-            LazyVGridView()
+            LazyVGridView1()
+            Divider()
+            LazyVGridView2()
         }
     }
 }
