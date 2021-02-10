@@ -11,6 +11,8 @@ struct GridView: View {
             LazyVGridView1()
             Divider()
             LazyVGridView2()
+            Divider()
+            LazyHGridView()
         }
     }
 }
