@@ -52,9 +52,14 @@ struct CardView: View {
             }
             
             VStack(spacing: 0) {
-                ZStack {}
-                .background(Color.blue)
+                ZStack {
+                    Image(systemName: "star.fill")
+                        .resizable()
+                        .frame(width: 25, height: 25)
+                        .foregroundColor(Color.yellow)
+                }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color.blue)
 
                 VStack(spacing: 8) {
                     Text("こんにちわ")
