@@ -80,9 +80,9 @@
 		668E6C84271AD2380051993D /* CustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E6C83271AD2380051993D /* CustomNavigationBarView.swift */; };
 		668E6C85271AD2380051993D /* CustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E6C83271AD2380051993D /* CustomNavigationBarView.swift */; };
 		668E6C86271AD2380051993D /* CustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E6C83271AD2380051993D /* CustomNavigationBarView.swift */; };
-		668E6C88271AD2CF0051993D /* Page2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E6C87271AD2CF0051993D /* Page2View.swift */; };
-		668E6C89271AD2CF0051993D /* Page2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E6C87271AD2CF0051993D /* Page2View.swift */; };
-		668E6C8A271AD2CF0051993D /* Page2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E6C87271AD2CF0051993D /* Page2View.swift */; };
+		668E6C88271AD2CF0051993D /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E6C87271AD2CF0051993D /* CustomView.swift */; };
+		668E6C89271AD2CF0051993D /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E6C87271AD2CF0051993D /* CustomView.swift */; };
+		668E6C8A271AD2CF0051993D /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E6C87271AD2CF0051993D /* CustomView.swift */; };
 		66A37BF5271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A37BF4271ADC8200DB3D7E /* CustomNavigationBarImageView.swift */; };
 		66A37BF6271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A37BF4271ADC8200DB3D7E /* CustomNavigationBarImageView.swift */; };
 		66A37BF7271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A37BF4271ADC8200DB3D7E /* CustomNavigationBarImageView.swift */; };
@@ -214,7 +214,7 @@
 		668E6C7A271ACC1F0051993D /* LazyHGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridView.swift; sourceTree = "<group>"; };
 		668E6C7E271AD1030051993D /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 		668E6C83271AD2380051993D /* CustomNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarView.swift; sourceTree = "<group>"; };
-		668E6C87271AD2CF0051993D /* Page2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2View.swift; sourceTree = "<group>"; };
+		668E6C87271AD2CF0051993D /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		66A37BF4271ADC8200DB3D7E /* CustomNavigationBarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarImageView.swift; sourceTree = "<group>"; };
 		66A4A51E27084AFB00B8760A /* TodoList.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TodoList.md; sourceTree = "<group>"; };
 		66A4A52027084BF500B8760A /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
@@ -390,7 +390,7 @@
 				66C081622719068D00F7F7BC /* SwiftUITutorial */,
 				66A4A51D270846E600B8760A /* Templete */,
 				66A4A5232708512100B8760A /* Page1View.swift */,
-				668E6C87271AD2CF0051993D /* Page2View.swift */,
+				668E6C87271AD2CF0051993D /* CustomView.swift */,
 				66E5DC7D270AB9EB00215585 /* LibrariesView.swift */,
 			);
 			path = View;
@@ -877,7 +877,7 @@
 				66C0818C27190A6800F7F7BC /* MapView.swift in Sources */,
 				661D44A427107DC80099F69E /* ContentView.swift in Sources */,
 				66C08165271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */,
-				668E6C89271AD2CF0051993D /* Page2View.swift in Sources */,
+				668E6C89271AD2CF0051993D /* CustomView.swift in Sources */,
 				661D44A527107DC80099F69E /* ListCardView.swift in Sources */,
 				661D44A627107DC80099F69E /* PopUpView.swift in Sources */,
 				661D44A727107DC80099F69E /* ListView.swift in Sources */,
@@ -927,7 +927,7 @@
 				66C0818D27190A6800F7F7BC /* MapView.swift in Sources */,
 				661D44C727107DCB0099F69E /* ContentView.swift in Sources */,
 				66C08166271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */,
-				668E6C8A271AD2CF0051993D /* Page2View.swift in Sources */,
+				668E6C8A271AD2CF0051993D /* CustomView.swift in Sources */,
 				661D44C827107DCB0099F69E /* ListCardView.swift in Sources */,
 				661D44C927107DCB0099F69E /* PopUpView.swift in Sources */,
 				661D44CA27107DCB0099F69E /* ListView.swift in Sources */,
@@ -977,7 +977,7 @@
 				66C0818B27190A6800F7F7BC /* MapView.swift in Sources */,
 				751F2DF92707EF1F009A6ECB /* ContentView.swift in Sources */,
 				66C08164271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */,
-				668E6C88271AD2CF0051993D /* Page2View.swift in Sources */,
+				668E6C88271AD2CF0051993D /* CustomView.swift in Sources */,
 				66A4A52B2708595200B8760A /* ListCardView.swift in Sources */,
 				66E5DC85270ABB4500215585 /* PopUpView.swift in Sources */,
 				66A4A5282708582300B8760A /* ListView.swift in Sources */,

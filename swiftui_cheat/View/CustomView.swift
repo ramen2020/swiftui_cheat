@@ -5,7 +5,7 @@
 
 import SwiftUI
 
-struct Page2View: View {
+struct CustomView: View {
     var body: some View {
         VStack(spacing: 30) {
             NavigationLink(destination: CustomNavigationBarView()) {
@@ -23,8 +23,8 @@ struct Page2View: View {
     }
 }
 
-struct Page2View_Previews: PreviewProvider {
+struct CustomView_Previews: PreviewProvider {
     static var previews: some View {
-        Page2View()
+        CustomView()
     }
 }
