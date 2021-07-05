@@ -19,37 +19,8 @@ struct CardView: View {
     let scrum = DailyScrum.data[0]
     var body: some View {
         ScrollView {
-            VStack(spacing: 30) {
-                VStack(alignment: .leading) {
-                    Text(scrum.title)
-                        .font(.headline)
-                    Spacer()
-                    HStack {
-                        Label("\(scrum.attendees.count)", systemImage: "person.3")
-                            .accessibilityElement(children: .ignore)
-                            .accessibilityLabel(Text("Attendees"))
-                            .accessibilityValue(Text("\(scrum.attendees.count)"))
-                        Spacer()
-                        Label("\(scrum.lengthInMinutes)", systemImage: "clock")
-                            .padding(.trailing, 20)
-                    }
-                    .font(.caption)
-                }
-                .frame(width: 200, height: 100)
-                .padding()
-                .foregroundColor(scrum.color)
-                .background(Color.black)
-                
-                // spacing:0で左に詰める。
-                HStack(spacing: 0) {
-                    Image(systemName: "airplane.circle")
-                    Text("機内モード")
-                        .font(.system(size: 12))
-                }
-                .foregroundColor(Color.red)
-                .frame(width: 200, height: 100, alignment: .leading)
-                .background(Color.black)
-            }
+
+            CardTurtorial1()
             
             VStack(spacing: 0) {
                 ZStack {
@@ -87,6 +58,44 @@ struct CardView: View {
         }
         .frame(maxWidth: .infinity, alignment: .center)
         .navigationBarTitle("Card", displayMode:.large)
+    }
+}
+
+struct CardTurtorial1: View {
+    let scrum = DailyScrum.data[0]
+    var body: some View {
+//        ScrollView {
+            VStack(spacing: 30) {
+                VStack(alignment: .leading) {
+                    Text(scrum.title)
+                        .font(.headline)
+                    Spacer()
+                    HStack {
+                        Label("\(scrum.attendees.count)", systemImage: "person.3")
+                            .accessibilityElement(children: .ignore)
+                            .accessibilityLabel(Text("Attendees"))
+                            .accessibilityValue(Text("\(scrum.attendees.count)"))
+                        Spacer()
+                        Label("\(scrum.lengthInMinutes)", systemImage: "clock")
+                            .padding(.trailing, 20)
+                    }
+                    .font(.caption)
+                }
+                .frame(width: 200, height: 100)
+                .padding()
+                .foregroundColor(scrum.color)
+                .background(Color.black)
+                
+                // spacing:0で左に詰める。
+                HStack(spacing: 0) {
+                    Image(systemName: "airplane.circle")
+                    Text("機内モード")
+                        .font(.system(size: 12))
+                }
+                .foregroundColor(Color.red)
+                .frame(width: 200, height: 100, alignment: .leading)
+                .background(Color.black)
+            }
     }
 }
 
