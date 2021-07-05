@@ -16,7 +16,7 @@ extension DailyScrum {
 }
 
 struct CardView: View {
-    let scrum = DailyScrum.data[0]
+
     var body: some View {
         ScrollView {
 
