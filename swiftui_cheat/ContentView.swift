@@ -45,7 +45,7 @@ struct ContentView: View {
                     }
                     .tag(3)
                 
-                Page2View()
+                CustomView()
                     .tabItem {
                         Image(systemName: "play.rectangle.fill")
                         Text("Forth")
