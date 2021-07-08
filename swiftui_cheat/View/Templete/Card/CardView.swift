@@ -16,7 +16,7 @@ extension DailyScrum {
 }
 
 struct CardView: View {
-
+    
     var body: some View {
         ScrollView {
             CardTurtorial1()
@@ -30,48 +30,43 @@ struct CardView: View {
 struct CardTurtorial1: View {
     let scrum = DailyScrum.data[0]
     var body: some View {
-//        ScrollView {
-            VStack(spacing: 30) {
-                VStack(alignment: .leading) {
-                    Text(scrum.title)
-                        .font(.headline)
+        VStack(spacing: 30) {
+            VStack(alignment: .leading) {
+                Text(scrum.title)
+                    .font(.headline)
+                Spacer()
+                HStack {
+                    Label("\(scrum.attendees.count)", systemImage: "person.3")
+                        .accessibilityElement(children: .ignore)
+                        .accessibilityLabel(Text("Attendees"))
+                        .accessibilityValue(Text("\(scrum.attendees.count)"))
                     Spacer()
-                    HStack {
-                        Label("\(scrum.attendees.count)", systemImage: "person.3")
-                            .accessibilityElement(children: .ignore)
-                            .accessibilityLabel(Text("Attendees"))
-                            .accessibilityValue(Text("\(scrum.attendees.count)"))
-                        Spacer()
-                        Label("\(scrum.lengthInMinutes)", systemImage: "clock")
-                            .padding(.trailing, 20)
-                    }
-                    .font(.caption)
+                    Label("\(scrum.lengthInMinutes)", systemImage: "clock")
+                        .padding(.trailing, 20)
                 }
-                .frame(width: 200, height: 100)
-                .padding()
-                .foregroundColor(scrum.color)
-                .background(Color.black)
-                
-                // spacing:0で左に詰める。
-                HStack(spacing: 0) {
-                    Image(systemName: "airplane.circle")
-                    Text("機内モード")
-                        .font(.system(size: 12))
-                }
-                .foregroundColor(Color.red)
-                .frame(width: 200, height: 100, alignment: .leading)
-                .background(Color.black)
+                .font(.caption)
             }
+            .frame(width: 200, height: 100)
+            .padding()
+            .foregroundColor(scrum.color)
+            .background(Color.black)
+            
+            HStack(spacing: 0) {
+                Image(systemName: "airplane.circle")
+                Text("機内モード")
+                    .font(.system(size: 12))
+            }
+            .foregroundColor(Color.red)
+            .frame(width: 200, height: 100, alignment: .leading)
+            .background(Color.black)
+        }
     }
 }
 
 struct Card1: View {
-
+    
     var body: some View {
         ScrollView {
-
-            CardTurtorial1()
-            
             VStack(spacing: 0) {
                 ZStack {
                     Image(systemName: "star.fill")
@@ -81,12 +76,12 @@ struct Card1: View {
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.blue)
-
+                
                 VStack(spacing: 8) {
                     Text("こんにちわ")
                         .font(.system(size: 14, weight: .semibold))
                         .frame(maxWidth: .infinity, alignment: .leading)
-
+                    
                     Text("おやすみ")
                         .font(.system(size: 14, weight: .semibold))
                         .foregroundColor(Color.white)
@@ -94,7 +89,7 @@ struct Card1: View {
                         .background(Color.pink)
                         .frame(maxWidth: .infinity, alignment: .center)
                         .cornerRadius(6)
-
+                    
                 }
                 .foregroundColor(Color.black)
                 .padding(10)
