@@ -1,5 +1,17 @@
 import SwiftUI
 
+struct CardView: View {
+    
+    var body: some View {
+        ScrollView {
+            CardTurtorial1()
+            Card1()
+        }
+        .frame(maxWidth: .infinity, alignment: .center)
+        .navigationBarTitle("Card", displayMode:.large)
+    }
+}
+
 struct DailyScrum {
     var title: String
     var attendees: [String]
@@ -15,17 +27,6 @@ extension DailyScrum {
     }
 }
 
-struct CardView: View {
-    
-    var body: some View {
-        ScrollView {
-            CardTurtorial1()
-            Card1()
-        }
-        .frame(maxWidth: .infinity, alignment: .center)
-        .navigationBarTitle("Card", displayMode:.large)
-    }
-}
 
 struct CardTurtorial1: View {
     let scrum = DailyScrum.data[0]
