@@ -4,8 +4,11 @@ struct CardView: View {
     
     var body: some View {
         ScrollView {
-            CardTurtorial1()
-            Card2()
+            VStack(spacing: 30) {
+                Spacer().frame(height: 30)
+                CardTurtorial1()
+                Card2()
+            }
         }
         .frame(maxWidth: .infinity, alignment: .center)
         .navigationBarTitle("Card", displayMode: .large)
