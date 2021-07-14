@@ -55,6 +55,8 @@ struct CardTurtorial1: View {
             .padding()
             .foregroundColor(scrum.color)
             .background(Color.black)
+            .cornerRadius(6)
+            .shadow(color: Color.gray, radius: 5)
         }
     }
 }
@@ -71,6 +73,8 @@ struct CardTurtorial2: View {
             .foregroundColor(Color.red)
             .frame(width: 200, height: 100, alignment: .leading)
             .background(Color.black)
+            .cornerRadius(6)
+            .shadow(color: Color.gray, radius: 5)
         }
     }
 }
