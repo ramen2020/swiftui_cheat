@@ -7,6 +7,7 @@ struct CardView: View {
             VStack(spacing: 30) {
                 Spacer().frame(height: 30)
                 CardTurtorial1()
+                CardTurtorial2()
                 Card2()
             }
         }
@@ -54,7 +55,14 @@ struct CardTurtorial1: View {
             .padding()
             .foregroundColor(scrum.color)
             .background(Color.black)
-            
+        }
+    }
+}
+
+struct CardTurtorial2: View {
+
+    var body: some View {
+        VStack(spacing: 30) {
             HStack(spacing: 0) {
                 Image(systemName: "airplane.circle")
                 Text("機内モード")
