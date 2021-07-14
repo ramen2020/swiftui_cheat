@@ -10,6 +10,8 @@ struct CardView: View {
                 CardTurtorial2()
                 Card2()
             }
+            .frame(maxWidth: .infinity)
+
         }
         .frame(maxWidth: .infinity, alignment: .center)
         .navigationBarTitle("Card", displayMode: .large)
