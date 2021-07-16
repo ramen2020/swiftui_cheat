@@ -160,6 +160,9 @@
 		66D8660F271182AC00023CE4 /* SwiftUIXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8660E271182AC00023CE4 /* SwiftUIXView.swift */; };
 		66D86610271182AC00023CE4 /* SwiftUIXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8660E271182AC00023CE4 /* SwiftUIXView.swift */; };
 		66D86611271182AC00023CE4 /* SwiftUIXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8660E271182AC00023CE4 /* SwiftUIXView.swift */; };
+		66D8A55B2722E81800725FCC /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A55A2722E81800725FCC /* ButtonView.swift */; };
+		66D8A55C2722E81800725FCC /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A55A2722E81800725FCC /* ButtonView.swift */; };
+		66D8A55D2722E81800725FCC /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A55A2722E81800725FCC /* ButtonView.swift */; };
 		66E5DC7C270AB98700215585 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 66E5DC7B270AB98700215585 /* PopupView */; };
 		66E5DC7E270AB9EB00215585 /* LibrariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC7D270AB9EB00215585 /* LibrariesView.swift */; };
 		66E5DC85270ABB4500215585 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC84270ABB4500215585 /* PopUpView.swift */; };
@@ -244,6 +247,7 @@
 		66D865FE27114E3E00023CE4 /* info_stg.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info_stg.plist; sourceTree = "<group>"; };
 		66D86602271153B100023CE4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		66D8660E271182AC00023CE4 /* SwiftUIXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIXView.swift; sourceTree = "<group>"; };
+		66D8A55A2722E81800725FCC /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		66E5DC7D270AB9EB00215585 /* LibrariesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesView.swift; sourceTree = "<group>"; };
 		66E5DC84270ABB4500215585 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		66E5DC87270ADB6300215585 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
@@ -364,6 +368,7 @@
 			isa = PBXGroup;
 			children = (
 				66E5DC7F270ABA7000215585 /* Alert */,
+				66D8A5592722E7F900725FCC /* Button */,
 				66E5DC80270ABA7600215585 /* Card */,
 				66A4A5292708590600B8760A /* List */,
 				66E5DC81270ABAAF00215585 /* PopUpView */,
@@ -504,6 +509,14 @@
 				66D8660E271182AC00023CE4 /* SwiftUIXView.swift */,
 			);
 			path = SwiftUIX;
+			sourceTree = "<group>";
+		};
+		66D8A5592722E7F900725FCC /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				66D8A55A2722E81800725FCC /* ButtonView.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 		66E5DC7F270ABA7000215585 /* Alert */ = {
@@ -862,6 +875,7 @@
 				668E6C70271AC9790051993D /* GridCell.swift in Sources */,
 				668E6C80271AD1030051993D /* CustomNavigationBar.swift in Sources */,
 				66C0818F27190A6800F7F7BC /* CircleImage.swift in Sources */,
+				66D8A55C2722E81800725FCC /* ButtonView.swift in Sources */,
 				661D44A227107DC80099F69E /* CheckBoxCell.swift in Sources */,
 				66D86610271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
 				66A37BF6271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */,
@@ -912,6 +926,7 @@
 				668E6C71271AC9790051993D /* GridCell.swift in Sources */,
 				668E6C81271AD1030051993D /* CustomNavigationBar.swift in Sources */,
 				66C0819027190A6800F7F7BC /* CircleImage.swift in Sources */,
+				66D8A55D2722E81800725FCC /* ButtonView.swift in Sources */,
 				661D44C527107DCB0099F69E /* CheckBoxCell.swift in Sources */,
 				66D86611271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
 				66A37BF7271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */,
@@ -962,6 +977,7 @@
 				668E6C6F271AC9790051993D /* GridCell.swift in Sources */,
 				668E6C7F271AD1030051993D /* CustomNavigationBar.swift in Sources */,
 				66C0818E27190A6800F7F7BC /* CircleImage.swift in Sources */,
+				66D8A55B2722E81800725FCC /* ButtonView.swift in Sources */,
 				66802BCF270FD28D0087B30A /* CheckBoxCell.swift in Sources */,
 				66D8660F271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
 				66A37BF5271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */,
