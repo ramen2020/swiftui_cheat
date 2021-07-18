@@ -169,6 +169,9 @@
 		66D8A5632722E8D400725FCC /* CardTurtorial2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A5622722E8D400725FCC /* CardTurtorial2.swift */; };
 		66D8A5642722E8D400725FCC /* CardTurtorial2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A5622722E8D400725FCC /* CardTurtorial2.swift */; };
 		66D8A5652722E8D400725FCC /* CardTurtorial2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A5622722E8D400725FCC /* CardTurtorial2.swift */; };
+		66D8A5672722E8FE00725FCC /* Card1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A5662722E8FE00725FCC /* Card1.swift */; };
+		66D8A5682722E8FE00725FCC /* Card1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A5662722E8FE00725FCC /* Card1.swift */; };
+		66D8A5692722E8FE00725FCC /* Card1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A5662722E8FE00725FCC /* Card1.swift */; };
 		66E5DC7C270AB98700215585 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 66E5DC7B270AB98700215585 /* PopupView */; };
 		66E5DC7E270AB9EB00215585 /* LibrariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC7D270AB9EB00215585 /* LibrariesView.swift */; };
 		66E5DC85270ABB4500215585 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC84270ABB4500215585 /* PopUpView.swift */; };
@@ -256,6 +259,7 @@
 		66D8A55A2722E81800725FCC /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		66D8A55E2722E88000725FCC /* CardTurtorial1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTurtorial1.swift; sourceTree = "<group>"; };
 		66D8A5622722E8D400725FCC /* CardTurtorial2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTurtorial2.swift; sourceTree = "<group>"; };
+		66D8A5662722E8FE00725FCC /* Card1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card1.swift; sourceTree = "<group>"; };
 		66E5DC7D270AB9EB00215585 /* LibrariesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesView.swift; sourceTree = "<group>"; };
 		66E5DC84270ABB4500215585 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		66E5DC87270ADB6300215585 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
@@ -541,6 +545,7 @@
 				66A4A525270852D500B8760A /* CardView.swift */,
 				66D8A55E2722E88000725FCC /* CardTurtorial1.swift */,
 				66D8A5622722E8D400725FCC /* CardTurtorial2.swift */,
+				66D8A5662722E8FE00725FCC /* Card1.swift */,
 			);
 			path = Card;
 			sourceTree = "<group>";
@@ -886,6 +891,7 @@
 				668E6C80271AD1030051993D /* CustomNavigationBar.swift in Sources */,
 				66C0818F27190A6800F7F7BC /* CircleImage.swift in Sources */,
 				66D8A55C2722E81800725FCC /* ButtonView.swift in Sources */,
+				66D8A5682722E8FE00725FCC /* Card1.swift in Sources */,
 				661D44A227107DC80099F69E /* CheckBoxCell.swift in Sources */,
 				66D86610271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
 				66A37BF6271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */,
@@ -939,6 +945,7 @@
 				668E6C81271AD1030051993D /* CustomNavigationBar.swift in Sources */,
 				66C0819027190A6800F7F7BC /* CircleImage.swift in Sources */,
 				66D8A55D2722E81800725FCC /* ButtonView.swift in Sources */,
+				66D8A5692722E8FE00725FCC /* Card1.swift in Sources */,
 				661D44C527107DCB0099F69E /* CheckBoxCell.swift in Sources */,
 				66D86611271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
 				66A37BF7271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */,
@@ -992,6 +999,7 @@
 				668E6C7F271AD1030051993D /* CustomNavigationBar.swift in Sources */,
 				66C0818E27190A6800F7F7BC /* CircleImage.swift in Sources */,
 				66D8A55B2722E81800725FCC /* ButtonView.swift in Sources */,
+				66D8A5672722E8FE00725FCC /* Card1.swift in Sources */,
 				66802BCF270FD28D0087B30A /* CheckBoxCell.swift in Sources */,
 				66D8660F271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
 				66A37BF5271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */,
