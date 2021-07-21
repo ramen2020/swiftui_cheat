@@ -7,7 +7,16 @@ import SwiftUI
 
 struct ButtonView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack(spacing: 30) {
+                Spacer().frame(height: 30)
+                
+                Spacer().frame(height: 30)
+            }
+            .frame(maxWidth: .infinity)
+        }
+        .frame(maxWidth: .infinity, alignment: .center)
+        .navigationBarTitle("Button", displayMode: .large)
     }
 }
 
