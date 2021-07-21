@@ -8,6 +8,11 @@ import SwiftUI
 struct CustomView: View {
     var body: some View {
         VStack(spacing: 30) {
+
+            NavigationLink(destination: ButtonView()) {
+                Text("ButtonView")
+            }
+
             NavigationLink(destination: CustomNavigationBarView()) {
                 Text("CustomNavigationBarView")
             }
