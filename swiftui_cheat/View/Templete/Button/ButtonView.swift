@@ -11,6 +11,7 @@ struct ButtonView: View {
             VStack(spacing: 30) {
                 Spacer().frame(height: 30)
                 CustomButton1()
+                CustomButton2()
                 Spacer().frame(height: 30)
             }
             .frame(maxWidth: .infinity)
@@ -25,7 +26,7 @@ struct CustomButton1: View {
         Button(action: {
             
         }, label: {
-            Text("すべて")
+            Text("CustomButton1")
                 .foregroundColor(Color.white)
                 .font(.system(size: 15, weight: .semibold))
                 .padding(EdgeInsets(top: 8, leading: 15, bottom: 8, trailing: 15))
@@ -33,6 +34,24 @@ struct CustomButton1: View {
                 .cornerRadius(4)
             }
         )
+    }
+}
+
+struct CustomButton2: View {
+    var body: some View {
+        Button(action: {
+            
+        }, label: {
+            Text("CustomButton2")
+                .foregroundColor(Color.gray)
+                .font(.system(size: 15, weight: .semibold))
+                .padding(EdgeInsets(top: 8, leading: 15, bottom: 8, trailing: 15))
+                .background(Color.white)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 4)
+                        .stroke(Color.gray, lineWidth: 1)
+                )
+        })
     }
 }
 
