@@ -21,22 +21,6 @@ struct ButtonView: View {
     }
 }
 
-struct CustomButton1: View {
-    var body: some View {
-        Button(action: {
-            
-        }, label: {
-            Text("CustomButton1")
-                .foregroundColor(Color.white)
-                .font(.system(size: 15, weight: .semibold))
-                .padding(EdgeInsets(top: 8, leading: 15, bottom: 8, trailing: 15))
-                .background(Color.pink)
-                .cornerRadius(4)
-            }
-        )
-    }
-}
-
 struct CustomButton2: View {
     var body: some View {
         Button(action: {

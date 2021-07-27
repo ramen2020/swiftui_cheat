@@ -175,6 +175,9 @@
 		66D8A56B2722E92D00725FCC /* Card2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A56A2722E92D00725FCC /* Card2.swift */; };
 		66D8A56C2722E92D00725FCC /* Card2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A56A2722E92D00725FCC /* Card2.swift */; };
 		66D8A56D2722E92D00725FCC /* Card2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A56A2722E92D00725FCC /* Card2.swift */; };
+		66D8A56F2722EC4C00725FCC /* CustomButton1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A56E2722EC4C00725FCC /* CustomButton1.swift */; };
+		66D8A5702722EC4C00725FCC /* CustomButton1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A56E2722EC4C00725FCC /* CustomButton1.swift */; };
+		66D8A5712722EC4C00725FCC /* CustomButton1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8A56E2722EC4C00725FCC /* CustomButton1.swift */; };
 		66E5DC7C270AB98700215585 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 66E5DC7B270AB98700215585 /* PopupView */; };
 		66E5DC7E270AB9EB00215585 /* LibrariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC7D270AB9EB00215585 /* LibrariesView.swift */; };
 		66E5DC85270ABB4500215585 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5DC84270ABB4500215585 /* PopUpView.swift */; };
@@ -264,6 +267,7 @@
 		66D8A5622722E8D400725FCC /* CardTurtorial2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTurtorial2.swift; sourceTree = "<group>"; };
 		66D8A5662722E8FE00725FCC /* Card1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card1.swift; sourceTree = "<group>"; };
 		66D8A56A2722E92D00725FCC /* Card2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card2.swift; sourceTree = "<group>"; };
+		66D8A56E2722EC4C00725FCC /* CustomButton1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton1.swift; sourceTree = "<group>"; };
 		66E5DC7D270AB9EB00215585 /* LibrariesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesView.swift; sourceTree = "<group>"; };
 		66E5DC84270ABB4500215585 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		66E5DC87270ADB6300215585 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
@@ -531,6 +535,7 @@
 			isa = PBXGroup;
 			children = (
 				66D8A55A2722E81800725FCC /* ButtonView.swift */,
+				66D8A56E2722EC4C00725FCC /* CustomButton1.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -891,6 +896,7 @@
 			files = (
 				66D34A52271937E60089271B /* WKWebView.swift in Sources */,
 				668E6C78271AC9DC0051993D /* LazyVGridView.swift in Sources */,
+				66D8A5702722EC4C00725FCC /* CustomButton1.swift in Sources */,
 				66D8A56C2722E92D00725FCC /* Card2.swift in Sources */,
 				66CD779F2713CE0C000A1166 /* GridView.swift in Sources */,
 				668E6C70271AC9790051993D /* GridCell.swift in Sources */,
@@ -946,6 +952,7 @@
 			files = (
 				66D34A53271937E60089271B /* WKWebView.swift in Sources */,
 				668E6C79271AC9DC0051993D /* LazyVGridView.swift in Sources */,
+				66D8A5712722EC4C00725FCC /* CustomButton1.swift in Sources */,
 				66D8A56D2722E92D00725FCC /* Card2.swift in Sources */,
 				66CD77A02713CE0C000A1166 /* GridView.swift in Sources */,
 				668E6C71271AC9790051993D /* GridCell.swift in Sources */,
@@ -1001,6 +1008,7 @@
 			files = (
 				66D34A51271937E60089271B /* WKWebView.swift in Sources */,
 				668E6C77271AC9DC0051993D /* LazyVGridView.swift in Sources */,
+				66D8A56F2722EC4C00725FCC /* CustomButton1.swift in Sources */,
 				66D8A56B2722E92D00725FCC /* Card2.swift in Sources */,
 				66CD779E2713CE0C000A1166 /* GridView.swift in Sources */,
 				668E6C6F271AC9790051993D /* GridCell.swift in Sources */,
