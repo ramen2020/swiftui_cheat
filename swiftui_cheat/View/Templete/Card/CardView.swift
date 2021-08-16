@@ -10,6 +10,14 @@ struct CardView: View {
                 CardTurtorial2()
                 Card1()
                 Card2()
+                Card2()
+                    .onMask(isMask: true)
+                Card2()
+                    .padding(20)
+                Card2()
+                    .onMask(isMask: true, text: "mask")
+                        .padding(20)
+
             }
             .frame(maxWidth: .infinity)
             

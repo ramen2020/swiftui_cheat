@@ -51,7 +51,6 @@ struct Card2: View {
                 .fill(Color.white)
                 .shadow(color: Color.gray, radius: 10, x: 0, y: 0)
         )
-        .padding(20)
     }
 }
 struct Card2_Previews: PreviewProvider {
