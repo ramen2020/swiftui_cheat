@@ -9,9 +9,12 @@ struct CardView: View {
                 CardTurtorial1()
                 CardTurtorial2()
                 Card1()
-                Card2()
-                Card2()
-                    .onMask(isMask: true)
+                
+                ForEach(0..<2) { index in
+                    Card2()
+                        .onMask(isMask: (index == 1))
+                 }
+                
                 Card2()
                     .padding(20)
                 Card2()
