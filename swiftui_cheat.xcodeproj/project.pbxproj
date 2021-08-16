@@ -133,6 +133,9 @@
 		66C0819127190A6800F7F7BC /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0818A27190A6800F7F7BC /* FavoriteButton.swift */; };
 		66C0819227190A6800F7F7BC /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0818A27190A6800F7F7BC /* FavoriteButton.swift */; };
 		66C0819327190A6800F7F7BC /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0818A27190A6800F7F7BC /* FavoriteButton.swift */; };
+		66CC5EDF272FC61400AD09C0 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CC5EDE272FC61400AD09C0 /* View+Extension.swift */; };
+		66CC5EE0272FC61400AD09C0 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CC5EDE272FC61400AD09C0 /* View+Extension.swift */; };
+		66CC5EE1272FC61400AD09C0 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CC5EDE272FC61400AD09C0 /* View+Extension.swift */; };
 		66CD779E2713CE0C000A1166 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD779D2713CE0C000A1166 /* GridView.swift */; };
 		66CD779F2713CE0C000A1166 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD779D2713CE0C000A1166 /* GridView.swift */; };
 		66CD77A02713CE0C000A1166 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD779D2713CE0C000A1166 /* GridView.swift */; };
@@ -257,6 +260,7 @@
 		66C0818827190A6800F7F7BC /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		66C0818927190A6800F7F7BC /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		66C0818A27190A6800F7F7BC /* FavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		66CC5EDE272FC61400AD09C0 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		66CD779D2713CE0C000A1166 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		66CD77A12713CE7D000A1166 /* QGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QGridView.swift; sourceTree = "<group>"; };
 		66D34A4C271937390089271B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -578,6 +582,7 @@
 			isa = PBXGroup;
 			children = (
 				66E5DC87270ADB6300215585 /* UIColor+Extension.swift */,
+				66CC5EDE272FC61400AD09C0 /* View+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -936,6 +941,7 @@
 				661D44AB27107DC80099F69E /* Page1View.swift in Sources */,
 				664ECA992716807E00F4202A /* ProgressBar.swift in Sources */,
 				661D44AC27107DC80099F69E /* CheckBoxView.swift in Sources */,
+				66CC5EE0272FC61400AD09C0 /* View+Extension.swift in Sources */,
 				661D44AD27107DC80099F69E /* RadioButton.swift in Sources */,
 				66C0817E2719098500F7F7BC /* LandmarkDetail.swift in Sources */,
 				661D44AE27107DC80099F69E /* LibrariesView.swift in Sources */,
@@ -993,6 +999,7 @@
 				661D44CE27107DCB0099F69E /* Page1View.swift in Sources */,
 				664ECA9A2716807E00F4202A /* ProgressBar.swift in Sources */,
 				661D44CF27107DCB0099F69E /* CheckBoxView.swift in Sources */,
+				66CC5EE1272FC61400AD09C0 /* View+Extension.swift in Sources */,
 				661D44D027107DCB0099F69E /* RadioButton.swift in Sources */,
 				66C0817F2719098500F7F7BC /* LandmarkDetail.swift in Sources */,
 				661D44D127107DCB0099F69E /* LibrariesView.swift in Sources */,
@@ -1050,6 +1057,7 @@
 				66A4A5242708512100B8760A /* Page1View.swift in Sources */,
 				664ECA982716807E00F4202A /* ProgressBar.swift in Sources */,
 				66802BCD270FCC4F0087B30A /* CheckBoxView.swift in Sources */,
+				66CC5EDF272FC61400AD09C0 /* View+Extension.swift in Sources */,
 				66801C46270E9290001594F7 /* RadioButton.swift in Sources */,
 				66C0817D2719098500F7F7BC /* LandmarkDetail.swift in Sources */,
 				66E5DC7E270AB9EB00215585 /* LibrariesView.swift in Sources */,
