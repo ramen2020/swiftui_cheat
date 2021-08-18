@@ -49,7 +49,7 @@ struct Card1: View {
         .background(Color.white)
         .clipped()
         .cornerRadius(6)
-        .shadow(color: Color.gray, radius: 5)
+        .shadow(color: Color.gray, radius: 2)
     }
 }
 
