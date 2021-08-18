@@ -198,6 +198,9 @@
 		66E639032716C9EC00BEA137 /* voice_wave.json in Resources */ = {isa = PBXBuildFile; fileRef = 66E639022716C9EC00BEA137 /* voice_wave.json */; };
 		66E639042716C9EC00BEA137 /* voice_wave.json in Resources */ = {isa = PBXBuildFile; fileRef = 66E639022716C9EC00BEA137 /* voice_wave.json */; };
 		66E639052716C9EC00BEA137 /* voice_wave.json in Resources */ = {isa = PBXBuildFile; fileRef = 66E639022716C9EC00BEA137 /* voice_wave.json */; };
+		66FC8AF027354CFA00CDEFD7 /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC8AEF27354CFA00CDEFD7 /* SkeletonView.swift */; };
+		66FC8AF127354CFA00CDEFD7 /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC8AEF27354CFA00CDEFD7 /* SkeletonView.swift */; };
+		66FC8AF227354CFA00CDEFD7 /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC8AEF27354CFA00CDEFD7 /* SkeletonView.swift */; };
 		751F2DF72707EF1F009A6ECB /* swiftui_cheatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */; };
 		751F2DF92707EF1F009A6ECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF82707EF1F009A6ECB /* ContentView.swift */; };
 		751F2DFB2707EF21009A6ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F2DFA2707EF21009A6ECB /* Assets.xcassets */; };
@@ -283,6 +286,7 @@
 		66E638F92716C6C800BEA137 /* SlideShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowView.swift; sourceTree = "<group>"; };
 		66E638FE2716C94400BEA137 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		66E639022716C9EC00BEA137 /* voice_wave.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = voice_wave.json; sourceTree = "<group>"; };
+		66FC8AEF27354CFA00CDEFD7 /* SkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonView.swift; sourceTree = "<group>"; };
 		751F2DF32707EF1F009A6ECB /* swiftui_cheat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_cheat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_cheatApp.swift; sourceTree = "<group>"; };
 		751F2DF82707EF1F009A6ECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -413,6 +417,7 @@
 				66C0819627190CCB00F7F7BC /* FavoriteButton */,
 				66D34A4B271937220089271B /* WebView */,
 				668E6C82271AD1720051993D /* CustomNavigationBar */,
+				66FC8AEE27354CE200CDEFD7 /* Skeleton */,
 			);
 			path = Templete;
 			sourceTree = "<group>";
@@ -604,6 +609,14 @@
 				66E638FE2716C94400BEA137 /* LottieView.swift */,
 			);
 			path = Lottie;
+			sourceTree = "<group>";
+		};
+		66FC8AEE27354CE200CDEFD7 /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				66FC8AEF27354CFA00CDEFD7 /* SkeletonView.swift */,
+			);
+			path = Skeleton;
 			sourceTree = "<group>";
 		};
 		751F2DEA2707EF1F009A6ECB = {
@@ -909,6 +922,7 @@
 				668E6C78271AC9DC0051993D /* LazyVGridView.swift in Sources */,
 				66D8A5702722EC4C00725FCC /* CustomButton1.swift in Sources */,
 				66D8A56C2722E92D00725FCC /* Card2.swift in Sources */,
+				66FC8AF127354CFA00CDEFD7 /* SkeletonView.swift in Sources */,
 				66CD779F2713CE0C000A1166 /* GridView.swift in Sources */,
 				668E6C70271AC9790051993D /* GridCell.swift in Sources */,
 				668E6C80271AD1030051993D /* CustomNavigationBar.swift in Sources */,
@@ -967,6 +981,7 @@
 				668E6C79271AC9DC0051993D /* LazyVGridView.swift in Sources */,
 				66D8A5712722EC4C00725FCC /* CustomButton1.swift in Sources */,
 				66D8A56D2722E92D00725FCC /* Card2.swift in Sources */,
+				66FC8AF227354CFA00CDEFD7 /* SkeletonView.swift in Sources */,
 				66CD77A02713CE0C000A1166 /* GridView.swift in Sources */,
 				668E6C71271AC9790051993D /* GridCell.swift in Sources */,
 				668E6C81271AD1030051993D /* CustomNavigationBar.swift in Sources */,
@@ -1025,6 +1040,7 @@
 				668E6C77271AC9DC0051993D /* LazyVGridView.swift in Sources */,
 				66D8A56F2722EC4C00725FCC /* CustomButton1.swift in Sources */,
 				66D8A56B2722E92D00725FCC /* Card2.swift in Sources */,
+				66FC8AF027354CFA00CDEFD7 /* SkeletonView.swift in Sources */,
 				66CD779E2713CE0C000A1166 /* GridView.swift in Sources */,
 				668E6C6F271AC9790051993D /* GridCell.swift in Sources */,
 				668E6C7F271AD1030051993D /* CustomNavigationBar.swift in Sources */,
