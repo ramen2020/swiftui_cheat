@@ -10,7 +10,7 @@ struct CardView: View {
             
             ForEach(0..<2) { index in
                 Card1()
-                    .onBlackFilter(isFilter: (index == 1), text: "on mask")
+                    .onBlackFilter(isFilter: (index == 1), color: Color.red.opacity(0.5), text: "on mask")
                     .padding(30)
              }
         }
