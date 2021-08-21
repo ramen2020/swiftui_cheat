@@ -8,9 +8,8 @@ import SwiftUIX
 
 struct SlideShowView: View {
     var body: some View {
-        ScrollView {
-            Spacer().frame(height: 50)
-            VStack(spacing: 50) {
+        List {
+            Section(header: Text("swiftuix")) {
                 PaginationView(axis: .horizontal, transitionStyle: .scroll, showsIndicators: true, content: {
                     ForEach(Range(0...5)) { index in
                         Text("スライドショー No.\(index)")
@@ -22,10 +21,10 @@ struct SlideShowView: View {
                 .currentPageIndicatorTintColor(.primary)
             }
 
-            SlideShowImage()
-            
-            Spacer().frame(height: 50)
-        }
+            Section(header: Text("custom slide show")) {
+                SlideShowImage()
+            }
+        }.listStyle(InsetGroupedListStyle())
     }
 }
 
@@ -62,6 +61,7 @@ struct SlideShowImage: View {
                         })
                 }
             }.frame(maxWidth: .infinity, alignment: .center)
+            .offset(y: -20)
         }
     }
 }
