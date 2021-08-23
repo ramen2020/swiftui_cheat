@@ -37,10 +37,6 @@ struct Page1View: View {
             NavigationLink(destination: SlideShowView()) {
                 Text("SlideShowViewView")
             }
-            
-            NavigationLink(destination: WebView()) {
-                Text("WebView")
-            }
 
             NavigationLink(destination: GridView()) {
                 Text("GridView")

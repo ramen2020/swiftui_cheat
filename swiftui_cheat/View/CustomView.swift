@@ -13,6 +13,14 @@ struct CustomView: View {
                 Text("ButtonView")
             }
             
+            NavigationLink(destination: WebView()) {
+                Text("WebView")
+            }
+            
+            NavigationLink(destination: CustomWebView()) {
+                Text("CustomWebView")
+            }
+            
             NavigationLink(destination: CustomNavigationBarView()) {
                 Text("CustomNavigationBarView")
             }
