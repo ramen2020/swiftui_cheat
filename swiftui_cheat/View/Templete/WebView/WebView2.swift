@@ -26,7 +26,7 @@ struct CustomWebView2: View {
 
     var body: some View {
         VStack() {
-            CustomNavigationBar(title: navigationTitle, isReturn: false)
+            CustomNavigationBar(title: navigationTitle, isReturn: true)
 
             webView
 
