@@ -204,6 +204,9 @@
 		66FC8AF62735508D00CDEFD7 /* WebView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC8AF52735508D00CDEFD7 /* WebView2.swift */; };
 		66FC8AF72735508D00CDEFD7 /* WebView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC8AF52735508D00CDEFD7 /* WebView2.swift */; };
 		66FC8AF82735508D00CDEFD7 /* WebView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC8AF52735508D00CDEFD7 /* WebView2.swift */; };
+		66FC8AFA273559D800CDEFD7 /* Skelton+View+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC8AF9273559D800CDEFD7 /* Skelton+View+Extention.swift */; };
+		66FC8AFB273559D800CDEFD7 /* Skelton+View+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC8AF9273559D800CDEFD7 /* Skelton+View+Extention.swift */; };
+		66FC8AFC273559D800CDEFD7 /* Skelton+View+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC8AF9273559D800CDEFD7 /* Skelton+View+Extention.swift */; };
 		751F2DF72707EF1F009A6ECB /* swiftui_cheatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */; };
 		751F2DF92707EF1F009A6ECB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F2DF82707EF1F009A6ECB /* ContentView.swift */; };
 		751F2DFB2707EF21009A6ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F2DFA2707EF21009A6ECB /* Assets.xcassets */; };
@@ -291,6 +294,7 @@
 		66E639022716C9EC00BEA137 /* voice_wave.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = voice_wave.json; sourceTree = "<group>"; };
 		66FC8AEF27354CFA00CDEFD7 /* SkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonView.swift; sourceTree = "<group>"; };
 		66FC8AF52735508D00CDEFD7 /* WebView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView2.swift; sourceTree = "<group>"; };
+		66FC8AF9273559D800CDEFD7 /* Skelton+View+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Skelton+View+Extention.swift"; sourceTree = "<group>"; };
 		751F2DF32707EF1F009A6ECB /* swiftui_cheat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_cheat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751F2DF62707EF1F009A6ECB /* swiftui_cheatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_cheatApp.swift; sourceTree = "<group>"; };
 		751F2DF82707EF1F009A6ECB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -593,6 +597,7 @@
 			children = (
 				66E5DC87270ADB6300215585 /* UIColor+Extension.swift */,
 				66CC5EDE272FC61400AD09C0 /* View+Extension.swift */,
+				66FC8AF9273559D800CDEFD7 /* Skelton+View+Extention.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -958,6 +963,7 @@
 				661D44A827107DC80099F69E /* RadioButtonView.swift in Sources */,
 				661D44A927107DC80099F69E /* NavigationLinkView.swift in Sources */,
 				661D44AA27107DC80099F69E /* swiftui_cheatApp.swift in Sources */,
+				66FC8AFB273559D800CDEFD7 /* Skelton+View+Extention.swift in Sources */,
 				661D44AB27107DC80099F69E /* Page1View.swift in Sources */,
 				664ECA992716807E00F4202A /* ProgressBar.swift in Sources */,
 				661D44AC27107DC80099F69E /* CheckBoxView.swift in Sources */,
@@ -1018,6 +1024,7 @@
 				661D44CB27107DCB0099F69E /* RadioButtonView.swift in Sources */,
 				661D44CC27107DCB0099F69E /* NavigationLinkView.swift in Sources */,
 				661D44CD27107DCB0099F69E /* swiftui_cheatApp.swift in Sources */,
+				66FC8AFC273559D800CDEFD7 /* Skelton+View+Extention.swift in Sources */,
 				661D44CE27107DCB0099F69E /* Page1View.swift in Sources */,
 				664ECA9A2716807E00F4202A /* ProgressBar.swift in Sources */,
 				661D44CF27107DCB0099F69E /* CheckBoxView.swift in Sources */,
@@ -1078,6 +1085,7 @@
 				66802BD1270FD5620087B30A /* RadioButtonView.swift in Sources */,
 				66B8C386271074D7006A9EBC /* NavigationLinkView.swift in Sources */,
 				751F2DF72707EF1F009A6ECB /* swiftui_cheatApp.swift in Sources */,
+				66FC8AFA273559D800CDEFD7 /* Skelton+View+Extention.swift in Sources */,
 				66A4A5242708512100B8760A /* Page1View.swift in Sources */,
 				664ECA982716807E00F4202A /* ProgressBar.swift in Sources */,
 				66802BCD270FCC4F0087B30A /* CheckBoxView.swift in Sources */,
