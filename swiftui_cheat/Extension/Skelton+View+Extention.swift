@@ -12,10 +12,12 @@ extension View {
         active: Bool
     ) -> some View {
         if active {
-        self
-            .redacted(reason: active ? .placeholder : [])
-            .shimmering(active: active)
-            .disabled(active)
+            self
+                .redacted(reason: active ? .placeholder : [])
+                .shimmering(active: active)
+                .disabled(active)
+        } else {
+            self
         }
     }
 }
