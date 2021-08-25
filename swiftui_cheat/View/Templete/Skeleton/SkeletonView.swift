@@ -15,6 +15,19 @@ struct SkeletonView: View {
 
             Text("こんにちわ")
                 .onSkeleton(active: self.items.isEmpty)
+            
+            Card1()
+                .onSkeleton2(active: self.items.isEmpty, type: .blurred)
+            
+            Card1()
+                .onSkeleton2(active: self.items.isEmpty, type: .confidential)
+            
+            Card1()
+                .onSkeleton2(active: self.items.isEmpty, type: .placeholder)
+
+            VStack {
+                Card1()
+            }.onSkeleton(active: self.items.isEmpty)
         }
         .onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
