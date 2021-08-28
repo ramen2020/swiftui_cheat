@@ -53,6 +53,14 @@ struct ProgressBarView: View {
             ProgressView(value: 0.35)
                 .frame(height: 30)
                 .progressViewStyle(CircularProgressViewStyle(tint: Color.blue))
+            
+            ProgressView(value: 0.35)
+                .scaleEffect(x: 2, y: 2, anchor: .center) // indicatorの大きさ
+                .frame(width: 30, height: 30)
+                .padding(24)
+                .background(Color.gray)
+                .progressViewStyle(CircularProgressViewStyle(tint: Color.white))
+                .cornerRadius(30)
         }
         .padding(50)
         .frame(maxWidth: .infinity)
