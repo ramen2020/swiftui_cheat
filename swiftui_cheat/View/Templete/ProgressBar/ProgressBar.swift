@@ -49,6 +49,10 @@ struct ProgressBarView: View {
             
             ProgressView(value: 0.35)
                 .frame(height: 30)
+            
+            ProgressView(value: 0.35)
+                .frame(height: 30)
+                .progressViewStyle(CircularProgressViewStyle(tint: Color.blue))
         }
         .padding(50)
         .frame(maxWidth: .infinity)
