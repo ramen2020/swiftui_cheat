@@ -46,6 +46,9 @@ struct ProgressBarView: View {
                         .foregroundColor(Color.blue)
                 }
             }.offset(y:-3)
+            
+            ProgressView(value: 0.35)
+                .frame(height: 30)
         }
         .padding(50)
         .frame(maxWidth: .infinity)
