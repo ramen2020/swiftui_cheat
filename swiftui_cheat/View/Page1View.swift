@@ -31,15 +31,15 @@ struct Page1View: View {
             }
             
             NavigationLink(destination: ProgressBarView()) {
-                Text("ProgressBarView")
+                Text("Progress Bar")
             }
             
             NavigationLink(destination: SlideShowView()) {
-                Text("SlideShowViewView")
+                Text("Slide Show")
             }
 
             NavigationLink(destination: GridView()) {
-                Text("GridView")
+                Text("Grid")
             }
         }
         .font(.system(size: 18, weight: .bold))
