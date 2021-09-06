@@ -5,6 +5,7 @@
 
 import SwiftUI
 import SwiftUIX
+import Parchment
 
 struct SlideShowView: View {
     var body: some View {

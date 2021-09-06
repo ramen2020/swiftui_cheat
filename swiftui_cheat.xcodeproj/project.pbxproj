@@ -100,6 +100,9 @@
 		66B409F92717BEBD00084BC5 /* successful.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F62717BEBD00084BC5 /* successful.json */; };
 		66B8C386271074D7006A9EBC /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8C385271074D7006A9EBC /* NavigationLinkView.swift */; };
 		66BB5540270BEE5D00F4AE6D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 66BB553F270BEE5D00F4AE6D /* Lottie */; };
+		66BC75D1273DFDD700666A0F /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = 66BC75D0273DFDD700666A0F /* Parchment */; };
+		66BC75D3273DFDEE00666A0F /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = 66BC75D2273DFDEE00666A0F /* Parchment */; };
+		66BC75D5273DFDF800666A0F /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = 66BC75D4273DFDF800666A0F /* Parchment */; };
 		66C08164271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C08163271906B900F7F7BC /* SwiftUITutorialView.swift */; };
 		66C08165271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C08163271906B900F7F7BC /* SwiftUITutorialView.swift */; };
 		66C08166271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C08163271906B900F7F7BC /* SwiftUITutorialView.swift */; };
@@ -316,6 +319,7 @@
 			files = (
 				661D44E727107EC70099F69E /* QGrid in Frameworks */,
 				661D44B427107DC80099F69E /* PopupView in Frameworks */,
+				66BC75D3273DFDEE00666A0F /* Parchment in Frameworks */,
 				661D44B527107DC80099F69E /* Lottie in Frameworks */,
 				66D8660A2711823900023CE4 /* SwiftUIX in Frameworks */,
 			);
@@ -327,6 +331,7 @@
 			files = (
 				661D44E927107ECF0099F69E /* QGrid in Frameworks */,
 				661D44D727107DCB0099F69E /* PopupView in Frameworks */,
+				66BC75D5273DFDF800666A0F /* Parchment in Frameworks */,
 				661D44D827107DCB0099F69E /* Lottie in Frameworks */,
 				66D8660C2711823E00023CE4 /* SwiftUIX in Frameworks */,
 			);
@@ -338,6 +343,7 @@
 			files = (
 				661D44E427107E710099F69E /* QGrid in Frameworks */,
 				66E5DC7C270AB98700215585 /* PopupView in Frameworks */,
+				66BC75D1273DFDD700666A0F /* Parchment in Frameworks */,
 				66BB5540270BEE5D00F4AE6D /* Lottie in Frameworks */,
 				66D866082711819800023CE4 /* SwiftUIX in Frameworks */,
 			);
@@ -717,6 +723,7 @@
 				661D449F27107DC80099F69E /* Lottie */,
 				661D44E627107EC70099F69E /* QGrid */,
 				66D866092711823900023CE4 /* SwiftUIX */,
+				66BC75D2273DFDEE00666A0F /* Parchment */,
 			);
 			productName = swiftui_cheat;
 			productReference = 661D44BD27107DC80099F69E /* swiftui_cheat Dev.app */;
@@ -740,6 +747,7 @@
 				661D44C227107DCB0099F69E /* Lottie */,
 				661D44E827107ECF0099F69E /* QGrid */,
 				66D8660B2711823E00023CE4 /* SwiftUIX */,
+				66BC75D4273DFDF800666A0F /* Parchment */,
 			);
 			productName = swiftui_cheat;
 			productReference = 661D44E027107DCB0099F69E /* swiftui_cheat Stg.app */;
@@ -763,6 +771,7 @@
 				66BB553F270BEE5D00F4AE6D /* Lottie */,
 				661D44E327107E710099F69E /* QGrid */,
 				66D866072711819800023CE4 /* SwiftUIX */,
+				66BC75D0273DFDD700666A0F /* Parchment */,
 			);
 			productName = swiftui_cheat;
 			productReference = 751F2DF32707EF1F009A6ECB /* swiftui_cheat.app */;
@@ -840,6 +849,7 @@
 				66BB553E270BEE5D00F4AE6D /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				661D44E227107E710099F69E /* XCRemoteSwiftPackageReference "QGrid" */,
 				66D866062711819800023CE4 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+				66BC75CF273DFDD700666A0F /* XCRemoteSwiftPackageReference "Parchment" */,
 			);
 			productRefGroup = 751F2DF42707EF1F009A6ECB /* Products */;
 			projectDirPath = "";
@@ -1580,6 +1590,14 @@
 				minimumVersion = 3.2.3;
 			};
 		};
+		66BC75CF273DFDD700666A0F /* XCRemoteSwiftPackageReference "Parchment" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rechsteiner/Parchment";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
 		66D866062711819800023CE4 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
@@ -1638,6 +1656,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 66BB553E270BEE5D00F4AE6D /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		66BC75D0273DFDD700666A0F /* Parchment */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66BC75CF273DFDD700666A0F /* XCRemoteSwiftPackageReference "Parchment" */;
+			productName = Parchment;
+		};
+		66BC75D2273DFDEE00666A0F /* Parchment */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66BC75CF273DFDD700666A0F /* XCRemoteSwiftPackageReference "Parchment" */;
+			productName = Parchment;
+		};
+		66BC75D4273DFDF800666A0F /* Parchment */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66BC75CF273DFDD700666A0F /* XCRemoteSwiftPackageReference "Parchment" */;
+			productName = Parchment;
 		};
 		66D866072711819800023CE4 /* SwiftUIX */ = {
 			isa = XCSwiftPackageProductDependency;
