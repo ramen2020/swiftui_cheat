@@ -103,6 +103,9 @@
 		66BC75D1273DFDD700666A0F /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = 66BC75D0273DFDD700666A0F /* Parchment */; };
 		66BC75D3273DFDEE00666A0F /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = 66BC75D2273DFDEE00666A0F /* Parchment */; };
 		66BC75D5273DFDF800666A0F /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = 66BC75D4273DFDF800666A0F /* Parchment */; };
+		66BC75D7273DFE5B00666A0F /* CustomPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC75D6273DFE5B00666A0F /* CustomPageView.swift */; };
+		66BC75D8273DFE5B00666A0F /* CustomPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC75D6273DFE5B00666A0F /* CustomPageView.swift */; };
+		66BC75D9273DFE5B00666A0F /* CustomPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BC75D6273DFE5B00666A0F /* CustomPageView.swift */; };
 		66C08164271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C08163271906B900F7F7BC /* SwiftUITutorialView.swift */; };
 		66C08165271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C08163271906B900F7F7BC /* SwiftUITutorialView.swift */; };
 		66C08166271906B900F7F7BC /* SwiftUITutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C08163271906B900F7F7BC /* SwiftUITutorialView.swift */; };
@@ -261,6 +264,7 @@
 		66B409F22717BE6B00084BC5 /* favorite_star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = favorite_star.json; sourceTree = "<group>"; };
 		66B409F62717BEBD00084BC5 /* successful.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = successful.json; sourceTree = "<group>"; };
 		66B8C385271074D7006A9EBC /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
+		66BC75D6273DFE5B00666A0F /* CustomPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPageView.swift; sourceTree = "<group>"; };
 		66C08163271906B900F7F7BC /* SwiftUITutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialView.swift; sourceTree = "<group>"; };
 		66C08168271907A200F7F7BC /* HandlingUserInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlingUserInputView.swift; sourceTree = "<group>"; };
 		66C0816E2719097E00F7F7BC /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -432,6 +436,7 @@
 				66D34A4B271937220089271B /* WebView */,
 				668E6C82271AD1720051993D /* CustomNavigationBar */,
 				66FC8AEE27354CE200CDEFD7 /* Skeleton */,
+				66BC75DA273DFE6000666A0F /* Parchment */,
 			);
 			path = Templete;
 			sourceTree = "<group>";
@@ -463,6 +468,14 @@
 				66B8C385271074D7006A9EBC /* NavigationLinkView.swift */,
 			);
 			path = NavigationLink;
+			sourceTree = "<group>";
+		};
+		66BC75DA273DFE6000666A0F /* Parchment */ = {
+			isa = PBXGroup;
+			children = (
+				66BC75D6273DFE5B00666A0F /* CustomPageView.swift */,
+			);
+			path = Parchment;
 			sourceTree = "<group>";
 		};
 		66C081622719068D00F7F7BC /* SwiftUITutorial */ = {
@@ -991,6 +1004,7 @@
 				66D8A5642722E8D400725FCC /* CardTurtorial2.swift in Sources */,
 				661D44B227107DC80099F69E /* UIColor+Extension.swift in Sources */,
 				66E638FB2716C6C800BEA137 /* SlideShowView.swift in Sources */,
+				66BC75D8273DFE5B00666A0F /* CustomPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1052,6 +1066,7 @@
 				66D8A5652722E8D400725FCC /* CardTurtorial2.swift in Sources */,
 				661D44D527107DCB0099F69E /* UIColor+Extension.swift in Sources */,
 				66E638FC2716C6C800BEA137 /* SlideShowView.swift in Sources */,
+				66BC75D9273DFE5B00666A0F /* CustomPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1113,6 +1128,7 @@
 				66D8A5632722E8D400725FCC /* CardTurtorial2.swift in Sources */,
 				66E5DC88270ADB6300215585 /* UIColor+Extension.swift in Sources */,
 				66E638FA2716C6C800BEA137 /* SlideShowView.swift in Sources */,
+				66BC75D7273DFE5B00666A0F /* CustomPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
