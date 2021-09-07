@@ -12,15 +12,7 @@ struct SlideShowView: View {
     var body: some View {
         List {
             Section(header: Text("swiftuix")) {
-                PaginationView(axis: .horizontal, transitionStyle: .scroll, showsIndicators: true, content: {
-                    ForEach(Range(0...5)) { index in
-                        Text("スライドショー No.\(index)")
-                            .font(.system(size: 30, weight: .bold))
-                    }
-                })
-                .frame(height: 200)
-                .background(Color.materialColor(colorCode: .orange))
-                .currentPageIndicatorTintColor(.primary)
+                SlideShowImageSwiftUIX()
             }
 
             Section(header: Text("custom slide show")) {
@@ -31,6 +23,21 @@ struct SlideShowView: View {
                 SlideShowImage2()
             }
         }.listStyle(InsetGroupedListStyle())
+    }
+}
+
+struct SlideShowImageSwiftUIX: View {
+    
+    var body: some View {
+        PaginationView(axis: .horizontal, transitionStyle: .scroll, showsIndicators: true, content: {
+            ForEach(Range(0...5)) { index in
+                Text("スライドショー No.\(index)")
+                    .font(.system(size: 30, weight: .bold))
+            }
+        })
+        .frame(height: 200)
+        .background(Color.materialColor(colorCode: .orange))
+        .currentPageIndicatorTintColor(.primary)
     }
 }
 
