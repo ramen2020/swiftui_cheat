@@ -8,13 +8,6 @@ import SwiftUIX
 import Parchment
 
 struct SlideShowView: View {
-    
-    @State private var selectionIndex = 0
-    var tabItems = [
-        PagingIndexItem(index: 0, title: ""),
-        PagingIndexItem(index: 1, title: ""),
-        PagingIndexItem(index: 2, title: ""),
-    ]
 
     var body: some View {
         List {
@@ -35,32 +28,7 @@ struct SlideShowView: View {
             }
             
             Section(header: Text("custom slide show")) {
-                CustomPageView(items: tabItems, selectedIndex: $selectionIndex, isHiddenTabBorder: true) { item in
-                    VStack{
-                        Image("ramen1")
-                            .resizable()
-                            .scaledToFit()
-                    }
-                    .navigationTitle("")
-                    .navigationBarHidden(true)
-                }
-                .frame(width: UIScreen.main.bounds.width - 32, height: (UIScreen.main.bounds.width - 32) * 3 / 4)
-
-                HStack {
-                    ForEach(0..<tabItems.count) { num in
-                        Circle()
-                            .fill(num == selectionIndex ? Color.green : Color.gray)
-                            .frame(width: 8, height: 8)
-                            .id(num)
-                            .tag(num)
-                            .onTapGesture(perform: {
-                                withAnimation {
-                                    selectionIndex = num
-                                }
-                            })
-                    }
-                }
-                .frame(maxWidth: .infinity, alignment: .center)
+                SlideShowImage2()
             }
         }.listStyle(InsetGroupedListStyle())
     }
@@ -101,6 +69,46 @@ struct SlideShowImage: View {
             }.frame(maxWidth: .infinity, alignment: .center)
             .offset(y: -20)
         }
+    }
+}
+
+struct SlideShowImage2: View {
+    
+    @State private var selectionIndex = 0
+
+    var tabItems = [
+        PagingIndexItem(index: 0, title: ""),
+        PagingIndexItem(index: 1, title: ""),
+        PagingIndexItem(index: 2, title: ""),
+    ]
+    
+    var body: some View {
+        CustomPageView(items: tabItems, selectedIndex: $selectionIndex, isHiddenTabBorder: true) { item in
+            VStack{
+                Image("ramen1")
+                    .resizable()
+                    .scaledToFit()
+            }
+            .navigationTitle("")
+            .navigationBarHidden(true)
+        }
+        .frame(width: UIScreen.main.bounds.width - 32, height: (UIScreen.main.bounds.width - 32) * 3 / 4)
+
+        HStack {
+            ForEach(0..<tabItems.count) { num in
+                Circle()
+                    .fill(num == selectionIndex ? Color.green : Color.gray)
+                    .frame(width: 8, height: 8)
+                    .id(num)
+                    .tag(num)
+                    .onTapGesture(perform: {
+                        withAnimation {
+                            selectionIndex = num
+                        }
+                    })
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .center)
     }
 }
 
