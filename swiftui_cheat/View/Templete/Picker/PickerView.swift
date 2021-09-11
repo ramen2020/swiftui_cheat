@@ -7,6 +7,8 @@ import SwiftUI
 
 struct PickerView: View {
     @State private var selectedIndex = 0
+    private var gohans = ["ぱん","白米", "うどん", "ラーメン"]
+    
     var body: some View {
         VStack {
             Picker("あいさつはしましょう", selection: $selectedIndex, content: {
@@ -18,6 +20,17 @@ struct PickerView: View {
                     .tag(2)
             })
             Text("あいさつ: \(selectedIndex)")
+            
+            Form {
+                Section {
+                    Picker(selection: $selectedIndex, label: Text("選ばれしご飯: ")) {
+                        ForEach(0 ..< gohans.count) {
+                            Text(self.gohans[$0])
+                        }
+                    }
+                    Text("ごはん: \(gohans[selectedIndex])")
+                }
+            }
         }
     }
 }
