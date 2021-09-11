@@ -6,10 +6,10 @@
 import SwiftUI
 
 struct PickerView: View {
-    @State private var selectedColorIndex = 0
+    @State private var selectedIndex = 0
     var body: some View {
         VStack {
-            Picker("あいさつはしましょう", selection: $selectedColorIndex, content: {
+            Picker("あいさつはしましょう", selection: $selectedIndex, content: {
                 Text("おはよう")
                     .tag(0)
                 Text("こんにちわ")
@@ -17,7 +17,7 @@ struct PickerView: View {
                 Text("こんばんわ")
                     .tag(2)
             })
-            Text("Selected color: \(selectedColorIndex)")
+            Text("あいさつ: \(selectedIndex)")
         }
     }
 }
