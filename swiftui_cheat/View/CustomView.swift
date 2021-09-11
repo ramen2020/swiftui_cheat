@@ -32,6 +32,10 @@ struct CustomView: View {
             NavigationLink(destination: SkeletonView()) {
                 Text("SkeletonView")
             }
+
+            NavigationLink(destination: PickerView()) {
+                Text("PickerView")
+            }
         }
         .font(.system(size: 18, weight: .bold))
         .frame(maxWidth: .infinity, maxHeight: .infinity)
