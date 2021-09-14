@@ -10,10 +10,12 @@ struct PickerView: View {
     private var gohans = ["ぱん","白米", "うどん", "ラーメン"]
     
     var body: some View {
-        VStack(spacing: 20) {
-            NormalPickerView()
-            FormPickerView()
-            SegmentedPickerView()
+        ScrollView {
+            VStack(spacing: 20) {
+                NormalPickerView()
+                FormPickerView()
+                SegmentedPickerView()
+            }
         }
     }
 }
