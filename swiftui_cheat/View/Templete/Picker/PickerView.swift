@@ -10,12 +10,11 @@ struct PickerView: View {
     private var gohans = ["ぱん","白米", "うどん", "ラーメン"]
     
     var body: some View {
-        ScrollView {
-            VStack(spacing: 20) {
-                NormalPickerView()
-                FormPickerView()
-                SegmentedPickerView()
-            }
+        VStack(spacing: 20) {
+            NormalPickerView()
+            FormPickerView()
+            SegmentedPickerView()
+            MenuPickerView()
         }
     }
 }
@@ -68,6 +67,26 @@ struct SegmentedPickerView: View {
                     }
                 }
             .pickerStyle(SegmentedPickerStyle())
+
+                Text("ごはん: \(gohans[selectedIndex])")
+            }
+        }
+    }
+}
+
+struct MenuPickerView: View {
+    @State private var selectedIndex = 0
+    private var gohans = ["ぱん","白米", "うどん", "ラーメン"]
+    
+    var body: some View {
+        Form {
+            Section {
+                Picker(selection: $selectedIndex, label: Text("選ばれしご飯: ")) {
+                    ForEach(0 ..< gohans.count) {
+                        Text(self.gohans[$0])
+                    }
+                }
+            .pickerStyle(MenuPickerStyle())
 
                 Text("ごはん: \(gohans[selectedIndex])")
             }
