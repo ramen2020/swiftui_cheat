@@ -11,7 +11,6 @@ struct PickerView: View {
     
     var body: some View {
         VStack(spacing: 20) {
-
             NormalPickerView()
             FormPickerView()
             SegmentedPickerView()
