@@ -7,7 +7,6 @@ import SwiftUI
 
 struct PickerView: View {
     @State private var selectedIndex = 0
-    @State private var selectionDate = Date()
     private var gohans = ["ぱん","白米", "うどん", "ラーメン"]
     
     var body: some View {
@@ -16,10 +15,19 @@ struct PickerView: View {
             FormPickerView()
             SegmentedPickerView()
             MenuPickerView()
-            
-            Form {
-                DatePicker("お日付", selection: $selectionDate)
-            }
+            DatePickerView()
+        }
+    }
+}
+
+
+struct DatePickerView: View {
+
+    @State private var selectionDate = Date()
+
+    var body: some View {
+        Form {
+            DatePicker("お日付", selection: $selectionDate)
         }
     }
 }
