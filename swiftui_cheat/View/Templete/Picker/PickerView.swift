@@ -27,7 +27,7 @@ struct DatePickerView: View {
 
     var body: some View {
         Form {
-            DatePicker("お日付", selection: $selectionDate)
+            DatePicker("お日付", selection: $selectionDate, displayedComponents: .date)
         }
     }
 }
