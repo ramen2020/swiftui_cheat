@@ -157,6 +157,9 @@
 		66D34A51271937E60089271B /* WKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D34A50271937E60089271B /* WKWebView.swift */; };
 		66D34A52271937E60089271B /* WKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D34A50271937E60089271B /* WKWebView.swift */; };
 		66D34A53271937E60089271B /* WKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D34A50271937E60089271B /* WKWebView.swift */; };
+		66D5DEAD2745FA750076F2B1 /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 66D5DEAC2745FA750076F2B1 /* PartialSheet */; };
+		66D5DEAF2745FA7E0076F2B1 /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 66D5DEAE2745FA7E0076F2B1 /* PartialSheet */; };
+		66D5DEB12745FA860076F2B1 /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 66D5DEB02745FA860076F2B1 /* PartialSheet */; };
 		66D865FB27114E1E00023CE4 /* info_dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D865FA27114E1E00023CE4 /* info_dev.plist */; };
 		66D865FC27114E1E00023CE4 /* info_dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D865FA27114E1E00023CE4 /* info_dev.plist */; };
 		66D865FD27114E1E00023CE4 /* info_dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D865FA27114E1E00023CE4 /* info_dev.plist */; };
@@ -325,6 +328,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D5DEAF2745FA7E0076F2B1 /* PartialSheet in Frameworks */,
 				661D44E727107EC70099F69E /* QGrid in Frameworks */,
 				661D44B427107DC80099F69E /* PopupView in Frameworks */,
 				66BC75D3273DFDEE00666A0F /* Parchment in Frameworks */,
@@ -337,6 +341,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D5DEB12745FA860076F2B1 /* PartialSheet in Frameworks */,
 				661D44E927107ECF0099F69E /* QGrid in Frameworks */,
 				661D44D727107DCB0099F69E /* PopupView in Frameworks */,
 				66BC75D5273DFDF800666A0F /* Parchment in Frameworks */,
@@ -349,6 +354,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D5DEAD2745FA750076F2B1 /* PartialSheet in Frameworks */,
 				661D44E427107E710099F69E /* QGrid in Frameworks */,
 				66E5DC7C270AB98700215585 /* PopupView in Frameworks */,
 				66BC75D1273DFDD700666A0F /* Parchment in Frameworks */,
@@ -750,6 +756,7 @@
 				661D44E627107EC70099F69E /* QGrid */,
 				66D866092711823900023CE4 /* SwiftUIX */,
 				66BC75D2273DFDEE00666A0F /* Parchment */,
+				66D5DEAE2745FA7E0076F2B1 /* PartialSheet */,
 			);
 			productName = swiftui_cheat;
 			productReference = 661D44BD27107DC80099F69E /* swiftui_cheat Dev.app */;
@@ -774,6 +781,7 @@
 				661D44E827107ECF0099F69E /* QGrid */,
 				66D8660B2711823E00023CE4 /* SwiftUIX */,
 				66BC75D4273DFDF800666A0F /* Parchment */,
+				66D5DEB02745FA860076F2B1 /* PartialSheet */,
 			);
 			productName = swiftui_cheat;
 			productReference = 661D44E027107DCB0099F69E /* swiftui_cheat Stg.app */;
@@ -798,6 +806,7 @@
 				661D44E327107E710099F69E /* QGrid */,
 				66D866072711819800023CE4 /* SwiftUIX */,
 				66BC75D0273DFDD700666A0F /* Parchment */,
+				66D5DEAC2745FA750076F2B1 /* PartialSheet */,
 			);
 			productName = swiftui_cheat;
 			productReference = 751F2DF32707EF1F009A6ECB /* swiftui_cheat.app */;
@@ -876,6 +885,7 @@
 				661D44E227107E710099F69E /* XCRemoteSwiftPackageReference "QGrid" */,
 				66D866062711819800023CE4 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
 				66BC75CF273DFDD700666A0F /* XCRemoteSwiftPackageReference "Parchment" */,
+				66D5DEAB2745FA750076F2B1 /* XCRemoteSwiftPackageReference "PartialSheet" */,
 			);
 			productRefGroup = 751F2DF42707EF1F009A6ECB /* Products */;
 			projectDirPath = "";
@@ -1630,6 +1640,14 @@
 				minimumVersion = 3.1.0;
 			};
 		};
+		66D5DEAB2745FA750076F2B1 /* XCRemoteSwiftPackageReference "PartialSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AndreaMiotto/PartialSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.14;
+			};
+		};
 		66D866062711819800023CE4 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
@@ -1703,6 +1721,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 66BC75CF273DFDD700666A0F /* XCRemoteSwiftPackageReference "Parchment" */;
 			productName = Parchment;
+		};
+		66D5DEAC2745FA750076F2B1 /* PartialSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66D5DEAB2745FA750076F2B1 /* XCRemoteSwiftPackageReference "PartialSheet" */;
+			productName = PartialSheet;
+		};
+		66D5DEAE2745FA7E0076F2B1 /* PartialSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66D5DEAB2745FA750076F2B1 /* XCRemoteSwiftPackageReference "PartialSheet" */;
+			productName = PartialSheet;
+		};
+		66D5DEB02745FA860076F2B1 /* PartialSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66D5DEAB2745FA750076F2B1 /* XCRemoteSwiftPackageReference "PartialSheet" */;
+			productName = PartialSheet;
 		};
 		66D866072711819800023CE4 /* SwiftUIX */ = {
 			isa = XCSwiftPackageProductDependency;
