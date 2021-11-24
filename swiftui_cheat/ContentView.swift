@@ -1,5 +1,6 @@
 
 import SwiftUI
+import PartialSheet
 
 struct ContentView: View {
     
@@ -84,6 +85,18 @@ struct ContentView: View {
                     Image(systemName: "r.circle.fill")
                 })
             })
+            .addPartialSheet(style:
+                PartialSheetStyle(
+                    background: .solid(Color(UIColor.tertiarySystemBackground)),
+                    handlerBarStyle: .none,
+                    iPadCloseButtonColor: .clear,
+                    enableCover: true,
+                    coverColor: Color(red: 0, green: 0, blue: 0, opacity: 0.6),
+                    blurEffectStyle: nil, // UIBlurEffect.Style(rawValue: 2)
+                    cornerRadius: 10,
+                    minTopDistance: 300
+                )
+            )
         }
     }
 }
