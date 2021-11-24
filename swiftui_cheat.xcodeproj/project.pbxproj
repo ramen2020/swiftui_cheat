@@ -54,6 +54,9 @@
 		661D44E427107E710099F69E /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 661D44E327107E710099F69E /* QGrid */; };
 		661D44E727107EC70099F69E /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 661D44E627107EC70099F69E /* QGrid */; };
 		661D44E927107ECF0099F69E /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 661D44E827107ECF0099F69E /* QGrid */; };
+		6639CD6B274E185600F417EF /* PartialSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639CD6A274E185600F417EF /* PartialSheetView.swift */; };
+		6639CD6C274E185600F417EF /* PartialSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639CD6A274E185600F417EF /* PartialSheetView.swift */; };
+		6639CD6D274E185600F417EF /* PartialSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639CD6A274E185600F417EF /* PartialSheetView.swift */; };
 		664ECA982716807E00F4202A /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664ECA972716807E00F4202A /* ProgressBar.swift */; };
 		664ECA992716807E00F4202A /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664ECA972716807E00F4202A /* ProgressBar.swift */; };
 		664ECA9A2716807E00F4202A /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664ECA972716807E00F4202A /* ProgressBar.swift */; };
@@ -247,6 +250,7 @@
 /* Begin PBXFileReference section */
 		661D44BD27107DC80099F69E /* swiftui_cheat Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui_cheat Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		661D44E027107DCB0099F69E /* swiftui_cheat Stg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui_cheat Stg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6639CD6A274E185600F417EF /* PartialSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialSheetView.swift; sourceTree = "<group>"; };
 		664ECA972716807E00F4202A /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		66801C42270E9256001594F7 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		66801C45270E9290001594F7 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
@@ -387,6 +391,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6639CD69274E182500F417EF /* PartialSheet */ = {
+			isa = PBXGroup;
+			children = (
+				6639CD6A274E185600F417EF /* PartialSheetView.swift */,
+			);
+			path = PartialSheet;
+			sourceTree = "<group>";
+		};
 		664ECA962716806100F4202A /* ProgressBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -448,6 +460,7 @@
 				668E6C82271AD1720051993D /* CustomNavigationBar */,
 				66FC8AEE27354CE200CDEFD7 /* Skeleton */,
 				66BC75DA273DFE6000666A0F /* Parchment */,
+				6639CD69274E182500F417EF /* PartialSheet */,
 			);
 			path = Templete;
 			sourceTree = "<group>";
@@ -980,6 +993,7 @@
 				66D8A56C2722E92D00725FCC /* Card2.swift in Sources */,
 				66FC8AF127354CFA00CDEFD7 /* SkeletonView.swift in Sources */,
 				66CD779F2713CE0C000A1166 /* GridView.swift in Sources */,
+				6639CD6C274E185600F417EF /* PartialSheetView.swift in Sources */,
 				66FC8AF72735508D00CDEFD7 /* WebView2.swift in Sources */,
 				668E6C70271AC9790051993D /* GridCell.swift in Sources */,
 				668E6C80271AD1030051993D /* CustomNavigationBar.swift in Sources */,
@@ -1043,6 +1057,7 @@
 				66D8A56D2722E92D00725FCC /* Card2.swift in Sources */,
 				66FC8AF227354CFA00CDEFD7 /* SkeletonView.swift in Sources */,
 				66CD77A02713CE0C000A1166 /* GridView.swift in Sources */,
+				6639CD6D274E185600F417EF /* PartialSheetView.swift in Sources */,
 				66FC8AF82735508D00CDEFD7 /* WebView2.swift in Sources */,
 				668E6C71271AC9790051993D /* GridCell.swift in Sources */,
 				668E6C81271AD1030051993D /* CustomNavigationBar.swift in Sources */,
@@ -1106,6 +1121,7 @@
 				66D8A56B2722E92D00725FCC /* Card2.swift in Sources */,
 				66FC8AF027354CFA00CDEFD7 /* SkeletonView.swift in Sources */,
 				66CD779E2713CE0C000A1166 /* GridView.swift in Sources */,
+				6639CD6B274E185600F417EF /* PartialSheetView.swift in Sources */,
 				66FC8AF62735508D00CDEFD7 /* WebView2.swift in Sources */,
 				668E6C6F271AC9790051993D /* GridCell.swift in Sources */,
 				668E6C7F271AD1030051993D /* CustomNavigationBar.swift in Sources */,
