@@ -7,7 +7,17 @@ import SwiftUI
 
 struct MenuView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Menu {
+                ForEach(0..<5){ index in
+                    Button(action: {}) {
+                        Text("index: \(index)")
+                    }
+                }
+            } label: {
+                Image(systemName: "plus")
+            }
+        }
     }
 }
 
@@ -16,3 +26,5 @@ struct MenuView_Previews: PreviewProvider {
         MenuView()
     }
 }
+
+
