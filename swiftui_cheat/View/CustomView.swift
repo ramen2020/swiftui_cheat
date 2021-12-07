@@ -40,6 +40,10 @@ struct CustomView: View {
             NavigationLink(destination: MenuView()) {
                 Text("MenuView")
             }
+            
+            NavigationLink(destination: DragGestureView()) {
+                Text("DragGestureView")
+            }
         }
         .font(.system(size: 18, weight: .bold))
         .frame(maxWidth: .infinity, maxHeight: .infinity)
