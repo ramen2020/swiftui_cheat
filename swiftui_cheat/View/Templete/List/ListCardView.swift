@@ -2,7 +2,35 @@ import SwiftUI
 
 struct ListCardView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            HStack(spacing: 0) {
+                Image(systemName: "1.square")
+                Spacer()
+                Text("123.45")
+                Spacer()
+                Text("1229.2s")
+            }
+            .frame(maxWidth: .infinity, alignment: .trailing)
+
+            HStack(spacing: 0) {
+                Image(systemName: "1.square")
+                Spacer()
+                Text("9876.54.")
+                Spacer()
+                Text("-1229.2s")
+            }
+            .frame(maxWidth: .infinity, alignment: .trailing)
+            
+            HStack(spacing: 0) {
+                Image(systemName: "1.square")
+                Spacer()
+                Text("67.8")
+                Spacer()
+                Text("12.2s")
+            }
+            .frame(maxWidth: .infinity, alignment: .trailing)
+        }
+        .frame(width: 300)
     }
 }
 
