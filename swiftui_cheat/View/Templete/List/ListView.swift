@@ -9,14 +9,15 @@ struct ListView: View {
         
         VStack {
             // 静的に
-            List {
-                Text("item 1")
-                Text("item 2")
-                Text("item 3")
-                Text("item 4")
-                Text("item 5")
-                Text("item 6")
-            }
+            ListCardView()
+//            List {
+//                Text("item 1")
+//                Text("item 2")
+//                Text("item 3")
+//                Text("item 4")
+//                Text("item 5")
+//                Text("item 6")
+//            }
             
             // 動的に part1
             List {
