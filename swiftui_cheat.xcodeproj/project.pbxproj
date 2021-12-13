@@ -101,6 +101,9 @@
 		66AC48F3276C51BE0048E7A3 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48F2276C51BE0048E7A3 /* CustomScrollView.swift */; };
 		66AC48F4276C51BE0048E7A3 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48F2276C51BE0048E7A3 /* CustomScrollView.swift */; };
 		66AC48F5276C51BE0048E7A3 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48F2276C51BE0048E7A3 /* CustomScrollView.swift */; };
+		66AC48F7276C528F0048E7A3 /* CustomScrollView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48F6276C528F0048E7A3 /* CustomScrollView1.swift */; };
+		66AC48F8276C528F0048E7A3 /* CustomScrollView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48F6276C528F0048E7A3 /* CustomScrollView1.swift */; };
+		66AC48F9276C528F0048E7A3 /* CustomScrollView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48F6276C528F0048E7A3 /* CustomScrollView1.swift */; };
 		66B409F32717BE6B00084BC5 /* favorite_star.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F22717BE6B00084BC5 /* favorite_star.json */; };
 		66B409F42717BE6B00084BC5 /* favorite_star.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F22717BE6B00084BC5 /* favorite_star.json */; };
 		66B409F52717BE6B00084BC5 /* favorite_star.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F22717BE6B00084BC5 /* favorite_star.json */; };
@@ -288,6 +291,7 @@
 		66A4A52A2708595200B8760A /* ListCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCardView.swift; sourceTree = "<group>"; };
 		66AC48EE276C50FE0048E7A3 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		66AC48F2276C51BE0048E7A3 /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		66AC48F6276C528F0048E7A3 /* CustomScrollView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView1.swift; sourceTree = "<group>"; };
 		66B409F22717BE6B00084BC5 /* favorite_star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = favorite_star.json; sourceTree = "<group>"; };
 		66B409F62717BEBD00084BC5 /* successful.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = successful.json; sourceTree = "<group>"; };
 		66B8C385271074D7006A9EBC /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
@@ -514,6 +518,7 @@
 			children = (
 				66AC48EE276C50FE0048E7A3 /* ScrollViewController.swift */,
 				66AC48F2276C51BE0048E7A3 /* CustomScrollView.swift */,
+				66AC48F6276C528F0048E7A3 /* CustomScrollView1.swift */,
 			);
 			path = CustomScrollView;
 			sourceTree = "<group>";
@@ -1063,6 +1068,7 @@
 				661D44A227107DC80099F69E /* CheckBoxCell.swift in Sources */,
 				66D86610271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
 				66A37BF6271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */,
+				66AC48F8276C528F0048E7A3 /* CustomScrollView1.swift in Sources */,
 				66C0817B2719098500F7F7BC /* LandmarkList.swift in Sources */,
 				66D8A5602722E88000725FCC /* CardTurtorial1.swift in Sources */,
 				66AC48F0276C50FE0048E7A3 /* ScrollViewController.swift in Sources */,
@@ -1132,6 +1138,7 @@
 				661D44C527107DCB0099F69E /* CheckBoxCell.swift in Sources */,
 				66D86611271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
 				66A37BF7271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */,
+				66AC48F9276C528F0048E7A3 /* CustomScrollView1.swift in Sources */,
 				66C0817C2719098500F7F7BC /* LandmarkList.swift in Sources */,
 				66D8A5612722E88000725FCC /* CardTurtorial1.swift in Sources */,
 				66AC48F1276C50FE0048E7A3 /* ScrollViewController.swift in Sources */,
@@ -1201,6 +1208,7 @@
 				66802BCF270FD28D0087B30A /* CheckBoxCell.swift in Sources */,
 				66D8660F271182AC00023CE4 /* SwiftUIXView.swift in Sources */,
 				66A37BF5271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */,
+				66AC48F7276C528F0048E7A3 /* CustomScrollView1.swift in Sources */,
 				66C0817A2719098500F7F7BC /* LandmarkList.swift in Sources */,
 				66D8A55F2722E88000725FCC /* CardTurtorial1.swift in Sources */,
 				66AC48EF276C50FE0048E7A3 /* ScrollViewController.swift in Sources */,
