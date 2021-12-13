@@ -95,6 +95,9 @@
 		66A4A526270852D500B8760A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A525270852D500B8760A /* CardView.swift */; };
 		66A4A5282708582300B8760A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A5272708582300B8760A /* ListView.swift */; };
 		66A4A52B2708595200B8760A /* ListCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4A52A2708595200B8760A /* ListCardView.swift */; };
+		66AC48EF276C50FE0048E7A3 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48EE276C50FE0048E7A3 /* ScrollViewController.swift */; };
+		66AC48F0276C50FE0048E7A3 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48EE276C50FE0048E7A3 /* ScrollViewController.swift */; };
+		66AC48F1276C50FE0048E7A3 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48EE276C50FE0048E7A3 /* ScrollViewController.swift */; };
 		66B409F32717BE6B00084BC5 /* favorite_star.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F22717BE6B00084BC5 /* favorite_star.json */; };
 		66B409F42717BE6B00084BC5 /* favorite_star.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F22717BE6B00084BC5 /* favorite_star.json */; };
 		66B409F52717BE6B00084BC5 /* favorite_star.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F22717BE6B00084BC5 /* favorite_star.json */; };
@@ -280,6 +283,7 @@
 		66A4A525270852D500B8760A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		66A4A5272708582300B8760A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		66A4A52A2708595200B8760A /* ListCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCardView.swift; sourceTree = "<group>"; };
+		66AC48EE276C50FE0048E7A3 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		66B409F22717BE6B00084BC5 /* favorite_star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = favorite_star.json; sourceTree = "<group>"; };
 		66B409F62717BEBD00084BC5 /* successful.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = successful.json; sourceTree = "<group>"; };
 		66B8C385271074D7006A9EBC /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
@@ -451,6 +455,7 @@
 		66A4A51D270846E600B8760A /* Templete */ = {
 			isa = PBXGroup;
 			children = (
+				66AC48ED276C50E60048E7A3 /* CustomScrollView */,
 				66D6AFB327645D31005733EB /* Menu */,
 				66BC75DB273E039400666A0F /* Picker */,
 				66E5DC7F270ABA7000215585 /* Alert */,
@@ -498,6 +503,14 @@
 				66A4A52A2708595200B8760A /* ListCardView.swift */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		66AC48ED276C50E60048E7A3 /* CustomScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				66AC48EE276C50FE0048E7A3 /* ScrollViewController.swift */,
+			);
+			path = CustomScrollView;
 			sourceTree = "<group>";
 		};
 		66B8C384271074B6006A9EBC /* NavigationLink */ = {
@@ -1046,6 +1059,7 @@
 				66A37BF6271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */,
 				66C0817B2719098500F7F7BC /* LandmarkList.swift in Sources */,
 				66D8A5602722E88000725FCC /* CardTurtorial1.swift in Sources */,
+				66AC48F0276C50FE0048E7A3 /* ScrollViewController.swift in Sources */,
 				66C081712719097E00F7F7BC /* ModelData.swift in Sources */,
 				66CD77A32713CE7D000A1166 /* QGridView.swift in Sources */,
 				66C081742719097E00F7F7BC /* Landmark.swift in Sources */,
@@ -1113,6 +1127,7 @@
 				66A37BF7271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */,
 				66C0817C2719098500F7F7BC /* LandmarkList.swift in Sources */,
 				66D8A5612722E88000725FCC /* CardTurtorial1.swift in Sources */,
+				66AC48F1276C50FE0048E7A3 /* ScrollViewController.swift in Sources */,
 				66C081722719097E00F7F7BC /* ModelData.swift in Sources */,
 				66CD77A42713CE7D000A1166 /* QGridView.swift in Sources */,
 				66C081752719097E00F7F7BC /* Landmark.swift in Sources */,
@@ -1180,6 +1195,7 @@
 				66A37BF5271ADC8200DB3D7E /* CustomNavigationBarImageView.swift in Sources */,
 				66C0817A2719098500F7F7BC /* LandmarkList.swift in Sources */,
 				66D8A55F2722E88000725FCC /* CardTurtorial1.swift in Sources */,
+				66AC48EF276C50FE0048E7A3 /* ScrollViewController.swift in Sources */,
 				66C081702719097E00F7F7BC /* ModelData.swift in Sources */,
 				66CD77A22713CE7D000A1166 /* QGridView.swift in Sources */,
 				66C081732719097E00F7F7BC /* Landmark.swift in Sources */,
