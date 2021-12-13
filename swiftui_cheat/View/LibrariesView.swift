@@ -23,6 +23,10 @@ struct LibrariesView: View {
             NavigationLink(destination: LottiePlacticeView()) {
                 Text("LottiePlacticeView")
             }
+            
+            NavigationLink(destination: CustomScrollView1()) {
+                Text("CustomScrollView")
+            }
 
 //            NavigationLink(destination: ListView()) {
 //                Text("List")
