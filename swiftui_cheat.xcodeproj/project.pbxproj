@@ -98,6 +98,9 @@
 		66AC48EF276C50FE0048E7A3 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48EE276C50FE0048E7A3 /* ScrollViewController.swift */; };
 		66AC48F0276C50FE0048E7A3 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48EE276C50FE0048E7A3 /* ScrollViewController.swift */; };
 		66AC48F1276C50FE0048E7A3 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48EE276C50FE0048E7A3 /* ScrollViewController.swift */; };
+		66AC48F3276C51BE0048E7A3 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48F2276C51BE0048E7A3 /* CustomScrollView.swift */; };
+		66AC48F4276C51BE0048E7A3 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48F2276C51BE0048E7A3 /* CustomScrollView.swift */; };
+		66AC48F5276C51BE0048E7A3 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AC48F2276C51BE0048E7A3 /* CustomScrollView.swift */; };
 		66B409F32717BE6B00084BC5 /* favorite_star.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F22717BE6B00084BC5 /* favorite_star.json */; };
 		66B409F42717BE6B00084BC5 /* favorite_star.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F22717BE6B00084BC5 /* favorite_star.json */; };
 		66B409F52717BE6B00084BC5 /* favorite_star.json in Resources */ = {isa = PBXBuildFile; fileRef = 66B409F22717BE6B00084BC5 /* favorite_star.json */; };
@@ -284,6 +287,7 @@
 		66A4A5272708582300B8760A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		66A4A52A2708595200B8760A /* ListCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCardView.swift; sourceTree = "<group>"; };
 		66AC48EE276C50FE0048E7A3 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		66AC48F2276C51BE0048E7A3 /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
 		66B409F22717BE6B00084BC5 /* favorite_star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = favorite_star.json; sourceTree = "<group>"; };
 		66B409F62717BEBD00084BC5 /* successful.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = successful.json; sourceTree = "<group>"; };
 		66B8C385271074D7006A9EBC /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
@@ -509,6 +513,7 @@
 			isa = PBXGroup;
 			children = (
 				66AC48EE276C50FE0048E7A3 /* ScrollViewController.swift */,
+				66AC48F2276C51BE0048E7A3 /* CustomScrollView.swift */,
 			);
 			path = CustomScrollView;
 			sourceTree = "<group>";
@@ -1048,6 +1053,7 @@
 				66CD779F2713CE0C000A1166 /* GridView.swift in Sources */,
 				6639CD6C274E185600F417EF /* PartialSheetView.swift in Sources */,
 				66FC8AF72735508D00CDEFD7 /* WebView2.swift in Sources */,
+				66AC48F4276C51BE0048E7A3 /* CustomScrollView.swift in Sources */,
 				668E6C70271AC9790051993D /* GridCell.swift in Sources */,
 				668E6C80271AD1030051993D /* CustomNavigationBar.swift in Sources */,
 				66C0818F27190A6800F7F7BC /* CircleImage.swift in Sources */,
@@ -1116,6 +1122,7 @@
 				66CD77A02713CE0C000A1166 /* GridView.swift in Sources */,
 				6639CD6D274E185600F417EF /* PartialSheetView.swift in Sources */,
 				66FC8AF82735508D00CDEFD7 /* WebView2.swift in Sources */,
+				66AC48F5276C51BE0048E7A3 /* CustomScrollView.swift in Sources */,
 				668E6C71271AC9790051993D /* GridCell.swift in Sources */,
 				668E6C81271AD1030051993D /* CustomNavigationBar.swift in Sources */,
 				66C0819027190A6800F7F7BC /* CircleImage.swift in Sources */,
@@ -1184,6 +1191,7 @@
 				66CD779E2713CE0C000A1166 /* GridView.swift in Sources */,
 				6639CD6B274E185600F417EF /* PartialSheetView.swift in Sources */,
 				66FC8AF62735508D00CDEFD7 /* WebView2.swift in Sources */,
+				66AC48F3276C51BE0048E7A3 /* CustomScrollView.swift in Sources */,
 				668E6C6F271AC9790051993D /* GridCell.swift in Sources */,
 				668E6C7F271AD1030051993D /* CustomNavigationBar.swift in Sources */,
 				66C0818E27190A6800F7F7BC /* CircleImage.swift in Sources */,
