@@ -270,6 +270,7 @@
 		661D44E027107DCB0099F69E /* swiftui_cheat Stg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui_cheat Stg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6639CD6A274E185600F417EF /* PartialSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialSheetView.swift; sourceTree = "<group>"; };
 		664ECA972716807E00F4202A /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		6671FC0E279D434200E86BD2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		66801C42270E9256001594F7 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		66801C45270E9290001594F7 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		66802BCC270FCC4F0087B30A /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
@@ -745,6 +746,7 @@
 		751F2DEA2707EF1F009A6ECB = {
 			isa = PBXGroup;
 			children = (
+				6671FC0E279D434200E86BD2 /* README.md */,
 				751F2DF52707EF1F009A6ECB /* swiftui_cheat */,
 				751F2E072707EF21009A6ECB /* swiftui_cheatTests */,
 				751F2E122707EF21009A6ECB /* swiftui_cheatUITests */,
