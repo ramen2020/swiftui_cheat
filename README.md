@@ -11,12 +11,22 @@ I'd like to introduce you to swiftui.
 ## Environment
 iOS13~
 
-## components
+## components example...
+
+
+
+### drag gesture
+![swift_cheat_drag_gesture](https://user-images.githubusercontent.com/74945210/150670983-7f249801-23c0-4395-8397-c059f6e9813f.gif)
+
+### lottie animation
+
+![swift_cheat_lottie](https://user-images.githubusercontent.com/74945210/150670986-d2426bb9-a1e0-4467-9ffe-362d09774aca.gif)
 
 ### radio button
 ![swift_cheat_radio](https://user-images.githubusercontent.com/74945210/150670838-ee580961-75d9-411e-b2de-03c7e43ec289.gif)
 
 
-
 ### Progressbar
 ![swift_cheat_progress_bar](https://user-images.githubusercontent.com/74945210/150670856-9d41a5a2-0349-45fe-a07d-fd055ddc616e.gif)
+
+### 
