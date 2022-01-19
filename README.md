@@ -15,6 +15,14 @@ iOS13~
 
 ## components example...
 
+### pull refresh
+
+![swift_cheat_pull_refresh](https://user-images.githubusercontent.com/62822536/150671181-dbe26d5e-5c14-41c6-9cc1-337fe003bfda.gif)
+
+### skelton
+
+![swift_cheat_skelton](https://user-images.githubusercontent.com/62822536/150671176-2d4ee522-f94e-45a3-8e56-8816cee44c62.gif)
+
 ### drag gesture
 ![swift_cheat_drag_gesture](https://user-images.githubusercontent.com/74945210/150670983-7f249801-23c0-4395-8397-c059f6e9813f.gif)
 
