@@ -11,9 +11,9 @@ I'd like to introduce you to swiftui.
 ## Environment
 iOS13~
 
+---
+
 ## components example...
-
-
 
 ### drag gesture
 ![swift_cheat_drag_gesture](https://user-images.githubusercontent.com/74945210/150670983-7f249801-23c0-4395-8397-c059f6e9813f.gif)
@@ -29,4 +29,18 @@ iOS13~
 ### Progressbar
 ![swift_cheat_progress_bar](https://user-images.githubusercontent.com/74945210/150670856-9d41a5a2-0349-45fe-a07d-fd055ddc616e.gif)
 
-### 
+---
+
+## library example ...
+
+### PopUpView
+![swift_cheat_popUpView](https://user-images.githubusercontent.com/74945210/150671024-70a889c1-cad0-4f00-8d1d-8d0959a3389d.gif)
+Library for displaying popups
+
+[Here is the github](https://github.com/exyte/PopupView)
+
+### SwiftUIX
+![swift_cheat_swiftUIX](https://user-images.githubusercontent.com/74945210/150671027-3f814c49-3ed3-4232-9e24-ab26a7444743.gif)
+A library that fills in the missing parts in swiftui
+
+[Here is the github](https://github.com/SwiftUIX/SwiftUIX)
