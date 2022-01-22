@@ -11,8 +11,6 @@ I'd like to introduce you to swiftui.
 ## Environment
 iOS13~
 
----
-
 ## components example...
 
 ### pull refresh
@@ -42,8 +40,6 @@ Implemented because radio buttons are not provided.
 ### Progressbar
 ![swift_cheat_progress_bar](https://user-images.githubusercontent.com/74945210/150670856-9d41a5a2-0349-45fe-a07d-fd055ddc616e.gif)
 swiftui standard progressbar, etc.
-
----
 
 ## library example ...
 
